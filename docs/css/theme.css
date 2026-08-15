@@ -23,6 +23,22 @@
     --font-heading: 'Playfair Display', 'PT Serif', Georgia, serif;
     --font-body: 'Poppins', 'Lato', -apple-system, sans-serif;
 
+    /* Spacing System Tokens */
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+    --space-xxl: 64px;
+
+    /* Section & Container Spacing Tokens */
+    --section-padding-y: 48px;
+    --section-margin-y: 0px;
+    --container-padding-x: 24px;
+    --card-padding: 28px;
+    --heading-margin-bottom: 24px;
+    --paragraph-margin-bottom: 20px;
+
     /* Glassmorphism Accents */
     --glass-bg: rgba(255, 255, 255, 0.85);
     --glass-border: rgba(240, 230, 214, 0.7);
