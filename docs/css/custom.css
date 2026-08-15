@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - #header-wrap INSIDE .header-row Layout
+   Chinmaya Ramalaya - Exact User Requested Navbar-Header Layout
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -51,13 +51,33 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. BRANDING STYLES
+   1. EXACT USER REQUESTED NAVBAR-HEADER STYLING
    -------------------------------------------------------------------------- */
-.header-branding {
+header.navbar-header {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    position: relative;
+}
+
+/* 1. Logo */
+.logo.header-branding {
     display: flex;
     align-items: center;
     gap: 12px;
     text-decoration: none !important;
+    flex: 0 0 auto;
 }
 
 .header-logo-img {
@@ -87,72 +107,51 @@ section > *:first-child {
     font-family: 'Poppins', 'Inter', sans-serif;
 }
 
-/* --------------------------------------------------------------------------
-   2. DESKTOP SINGLE ROW HEADER (#header-wrap INSIDE .header-row) (>= 992px)
-   -------------------------------------------------------------------------- */
+/* 2. Menu Toggle Button */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: auto;
+    z-index: 1001;
+}
+
+.menu-toggle .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #222222;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle.active .bar:nth-child(1) {
+    transform: translateY(10.5px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+    transform: translateY(-10.5px) rotate(-45deg);
+}
+
+/* 3. Desktop Nav Menu (>= 992px) */
 @media (min-width: 992px) {
-    header#header {
-        position: relative;
-        background: #ffffff !important;
-        border-bottom: 1px solid #e5e5e5;
-        z-index: 100;
-        overflow: visible !important;
-    }
-
-    header#header > .container {
-        max-width: 1320px !important;
-        padding-top: 8px !important;
-        padding-bottom: 8px !important;
-        overflow: visible !important;
-    }
-
-    header#header .header-row {
+    .nav-menu {
         display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        justify-content: space-between !important;
         align-items: center !important;
-        width: 100% !important;
-        margin: 0 !important;
+        margin-left: auto !important;
         overflow: visible !important;
     }
 
-    #logo {
-        flex: 0 0 auto !important;
-        margin: 0 !important;
-        float: none !important;
-    }
-
-    /* #header-wrap inside .header-row */
-    #header-wrap {
-        display: flex !important;
-        flex: 0 1 auto !important;
-        align-items: center !important;
-        justify-content: flex-end !important;
-        background: transparent !important;
-        border-top: none !important;
-        margin: 0 0 0 auto !important;
-        padding: 0 !important;
-        overflow: visible !important;
-    }
-
-    #primary-menu-trigger {
-        display: none !important;
-    }
-
-    nav.primary-menu {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        align-items: center !important;
-        justify-content: flex-end !important;
-        width: auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow: visible !important;
-    }
-
-    nav.primary-menu ul.menu-container {
+    .nav-list {
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
@@ -160,38 +159,37 @@ section > *:first-child {
         margin: 0 !important;
         padding: 0 !important;
         list-style: none !important;
-        border: none !important;
-        gap: 2px !important;
+        gap: 4px;
         overflow: visible !important;
     }
 
-    nav.primary-menu li.menu-item {
+    .nav-list .menu-item {
         position: relative !important;
         margin: 0 !important;
-        border-bottom: none !important;
         white-space: nowrap !important;
     }
 
-    nav.primary-menu a.menu-link {
+    .nav-list .menu-link {
         display: inline-flex !important;
         align-items: center;
-        padding: 8px 10px !important;
-        font-size: 13.5px !important;
+        padding: 8px 12px !important;
+        font-size: 14px !important;
         font-weight: 600 !important;
         color: #222222 !important;
         border-radius: 8px !important;
+        text-decoration: none !important;
         white-space: nowrap !important;
         transition: all 0.2s ease !important;
     }
 
-    nav.primary-menu a.menu-link:hover,
-    nav.primary-menu li.menu-item.current > a.menu-link {
+    .nav-list .menu-link:hover,
+    .nav-list .menu-item.current > .menu-link {
         color: #8b0000 !important;
         background: #fdf6ea !important;
     }
 
-    /* Desktop Hover Dropdown Submenu Container */
-    nav.primary-menu .sub-menu-container {
+    /* Submenu Dropdown Card */
+    .nav-list .sub-menu-container {
         display: none !important;
         position: absolute !important;
         top: calc(100% + 4px) !important;
@@ -210,132 +208,60 @@ section > *:first-child {
         transition: all 0.2s ease;
     }
 
-    nav.primary-menu li.menu-item:hover > .sub-menu-container {
+    .nav-list .menu-item:hover > .sub-menu-container {
         display: block !important;
         opacity: 1 !important;
         visibility: visible !important;
     }
 
-    nav.primary-menu .sub-menu-container li.menu-item {
-        width: 100% !important;
-        margin: 2px 0 !important;
-    }
-
-    nav.primary-menu .sub-menu-container a.menu-link {
+    .nav-list .sub-menu-container .menu-link {
         display: block !important;
         padding: 9px 16px !important;
         font-size: 13.5px !important;
         font-weight: 500 !important;
         color: #444444 !important;
         border-radius: 8px !important;
-        text-align: left !important;
-        white-space: nowrap !important;
-        transition: all 0.2s ease !important;
     }
 
-    nav.primary-menu .sub-menu-container a.menu-link:hover {
+    .nav-list .sub-menu-container .menu-link:hover {
         color: #8b0000 !important;
         background: #fdf6ea !important;
         padding-left: 20px !important;
     }
 }
 
-/* --------------------------------------------------------------------------
-   3. MOBILE NAVIGATION (Logo Left + Auto Height, Hamburger Symbol Right) (< 992px)
-   -------------------------------------------------------------------------- */
+/* 4. Mobile Nav Menu (< 992px) */
 @media (max-width: 991px) {
-    header#header {
-        position: relative;
-        background: #ffffff !important;
-        border-bottom: 1px solid #e5e5e5;
-        padding: 8px 15px !important;
-    }
-
-    header#header .header-row {
+    .menu-toggle {
         display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        align-items: center !important;
-        justify-content: space-between !important;
-        width: 100% !important;
-        margin: 0 !important;
-    }
-
-    /* Logo Image Auto Height & Left Aligned */
-    .header-branding {
-        display: flex !important;
-        align-items: center !important;
-        justify-content: flex-start !important;
-        gap: 10px !important;
     }
 
     .header-logo-img {
         height: auto !important;
-        max-height: 52px !important;
+        max-height: 48px !important;
         width: auto !important;
-        object-fit: contain;
     }
 
-    .header-title-org {
-        font-size: 10px !important;
-    }
-
-    .header-title-center {
-        font-size: 17px !important;
-    }
-
-    #header-wrap {
-        display: flex !important;
-        align-items: center !important;
-        justify-content: flex-end !important;
-        margin-left: auto !important;
-    }
-
-    /* Mobile Hamburger Trigger Symbol Pushed to Right */
-    #primary-menu-trigger {
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        background: #ffffff !important;
-        color: #222222 !important;
-        border: 1px solid #d0d0d0 !important;
-        border-radius: 10px;
-        width: 42px;
-        height: 42px;
-        padding: 8px;
-        margin-left: auto !important;
-        margin-right: 0 !important;
-        cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-        transition: all 0.2s ease;
-    }
-
-    #primary-menu-trigger:hover {
-        background: #f8f9fa !important;
-        border-color: #bbbbbb !important;
-    }
-
-    /* Mobile Slide-over Card Drawer Overlay */
-    nav.primary-menu {
+    .nav-menu {
         display: none;
         position: absolute;
         top: calc(100% + 8px);
-        left: 12px;
-        right: 12px;
-        width: calc(100% - 24px);
+        left: 15px;
+        right: 15px;
+        width: calc(100% - 30px);
         background: #ffffff !important;
         border: 1px solid #e0e0e0 !important;
-        border-radius: 18px !important;
+        border-radius: 16px !important;
         box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15) !important;
-        padding: 18px !important;
+        padding: 16px !important;
         z-index: 9999;
     }
 
-    nav.primary-menu.active {
+    .nav-menu.active {
         display: block !important;
     }
 
-    nav.primary-menu ul.menu-container {
+    .nav-list {
         display: flex !important;
         flex-direction: column !important;
         margin: 0 !important;
@@ -344,31 +270,29 @@ section > *:first-child {
         gap: 4px;
     }
 
-    nav.primary-menu li.menu-item {
+    .nav-list .menu-item {
         margin: 0 !important;
         border: none !important;
     }
 
-    nav.primary-menu a.menu-link {
+    .nav-list .menu-link {
         display: flex !important;
         align-items: center;
         justify-content: space-between;
-        padding: 12px 18px !important;
+        padding: 12px 16px !important;
         color: #222222 !important;
         font-size: 15px !important;
         font-weight: 600 !important;
-        border-radius: 12px !important;
-        transition: background 0.2s ease, color 0.2s ease !important;
+        border-radius: 10px !important;
     }
 
-    nav.primary-menu li.menu-item.current > a.menu-link,
-    nav.primary-menu a.menu-link:hover {
+    .nav-list .menu-item.current > .menu-link,
+    .nav-list .menu-link:hover {
         color: #8b0000 !important;
         background: #fdf6ea !important;
     }
 
-    /* Accordion Submenu Card inside Mobile Drawer */
-    nav.primary-menu .sub-menu-container {
+    .nav-list .sub-menu-container {
         display: none;
         background: #fcf9f2 !important;
         border-radius: 12px !important;
@@ -378,26 +302,21 @@ section > *:first-child {
         border: 1px solid #f0e6d6;
     }
 
-    nav.primary-menu .sub-menu-container.open {
+    .nav-list .sub-menu-container.open {
         display: block !important;
     }
 
-    nav.primary-menu .sub-menu-container a.menu-link {
+    .nav-list .sub-menu-container .menu-link {
         padding: 10px 16px !important;
         font-size: 14px !important;
         color: #444444 !important;
         font-weight: 500 !important;
         border-radius: 8px !important;
     }
-
-    nav.primary-menu .sub-menu-container a.menu-link:hover {
-        color: #8b0000 !important;
-        background: #ffffff !important;
-    }
 }
 
 /* --------------------------------------------------------------------------
-   4. MODERN 2-COLUMN HERO SECTION
+   5. MODERN 2-COLUMN HERO SECTION
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
@@ -518,7 +437,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   5. BACK TO TOP BUTTON (Perfect Center Alignment)
+   6. BACK TO TOP BUTTON (Perfect Center Alignment)
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -565,7 +484,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   6. FACEBOOK BRAND BUTTON
+   7. FACEBOOK BRAND BUTTON
    -------------------------------------------------------------------------- */
 .facebook-brand-btn {
     display: inline-flex;
@@ -589,7 +508,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   7. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
+   8. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
    -------------------------------------------------------------------------- */
 .announcements-box {
     background: #ffffff;
@@ -654,7 +573,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   8. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   9. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
