@@ -164,9 +164,8 @@
 						<span>Serving the Harleysville &amp; Greater Philadelphia Community through Vedantic Wisdom, Bala Vihar, &amp; Devotion</span>
 					</div>
 
-					<!-- Hero Banner Image -->
 					<div class="entry-image text-center mb-5">
-						<img alt="Chinmaya Ramalaya Shrine &amp; Altar" class="img-fluid rounded shadow-sm" src="images/blog/standard/aboutus.jpg" style="max-width:850px; width:100%; height:auto; display:block; margin:0 auto;"/>
+						<img alt="Sri Krishna Giving Bhagavad Gita Upadesha to Arjuna" class="img-fluid rounded shadow-sm" src="images/events/srikrishna-parijatham.jpeg" style="max-width:750px; width:100%; height:auto; display:block; margin:0 auto;"/>
 					</div>
 
 					<!-- Mission Motto Highlight Box -->
@@ -341,7 +340,7 @@
 	</div><!-- #wrapper end -->
 
 	<!-- Go To Top Button -->
-	<div class="icon-angle-up show" id="gotoTop" title="Back to top" aria-label="Back to top">
+	<div class="icon-angle-up" id="gotoTop" title="Back to top" aria-label="Back to top">
 		<svg viewBox="0 0 24 24">
 			<path d="M12 4l-8 8h5v8h6v-8h5z"></path>
 		</svg>
@@ -385,6 +384,20 @@
 					};
 				}
 			});
+		}
+
+		var gotoTop = document.getElementById('gotoTop');
+		if (gotoTop) {
+			window.addEventListener('scroll', function() {
+				if (window.scrollY > 300) {
+					gotoTop.classList.add('show');
+				} else {
+					gotoTop.classList.remove('show');
+				}
+			});
+			gotoTop.onclick = function() {
+				window.scrollTo({ top: 0, behavior: 'smooth' });
+			};
 		}
 
 		if (document.readyState === 'loading') {
