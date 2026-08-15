@@ -108,7 +108,7 @@ class RamalayaAudioAgent {
         this.recognition = new SpeechRecognition();
         this.recognition.continuous = false;
         this.recognition.interimResults = true;
-        this.recognition.lang = 'en-US';
+        this.recognition.lang = 'en-IN';
 
         this.recognition.onstart = () => {
             this.isListening = true;
@@ -281,6 +281,7 @@ class RamalayaAudioAgent {
             .replace(/\bPA\b/g, 'Pennsylvania');
 
         const utterance = new SpeechSynthesisUtterance(spokenText);
+        utterance.lang = 'en-IN'; // Force Indian English accent
         utterance.rate = 1.0; // Natural conversational tempo
         utterance.pitch = 1.0; // Natural voice pitch
 
@@ -293,12 +294,13 @@ class RamalayaAudioAgent {
             voice = voices.find(v => {
                 const lang = (v.lang || '').toLowerCase();
                 const name = (v.name || '').toLowerCase();
-                return lang.startsWith('en') && (lang.includes('en-in') || name.includes('india') || name.includes('rishi'));
-            }) || voices.find(v => v.lang.toLowerCase().startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural')));
+                return lang.includes('en-in') || name.includes('india') || name.includes('rishi') || name.includes('veena') || name.includes('heera');
+            }) || voices.find(v => v.lang.toLowerCase().startsWith('en'));
         }
 
         if (voice) {
             utterance.voice = voice;
+            if (voice.lang) utterance.lang = voice.lang;
         }
 
         utterance.onstart = () => {
