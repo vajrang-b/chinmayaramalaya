@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Custom Fixes & Responsive Polish
+   Chinmaya Ramalaya - Custom Fixes (Original Theme Preserved)
    ========================================================================== */
 
 /* Stop margin collapse */
@@ -23,23 +23,23 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. GO TO TOP BUTTON - Smooth Scroll & Theme Fit
+   1. GO TO TOP BUTTON - Original Theme Match (#8b0000 maroon & #c89b3c gold)
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
     bottom: 30px;
     right: 30px;
     z-index: 9999;
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
     background-color: #8b0000;
     color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 4px 18px rgba(139, 0, 0, 0.35);
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25);
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
@@ -54,8 +54,8 @@ section > *:first-child {
 #gotoTop:hover {
     background-color: #c89b3c;
     color: #ffffff;
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 8px 22px rgba(200, 155, 60, 0.5);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(200, 155, 60, 0.4);
 }
 
 #gotoTop svg {
@@ -65,28 +65,28 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. SINGLE MOBILE NAVIGATION BUTTON & DRAWER (Mobile <= 991px)
+   2. MOBILE NAVIGATION - ORIGINAL THEME MATCH (Light #ffffff / Maroon / Gold)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
-    /* Hide extra created trigger if any to ensure EXACTLY ONE button */
+    /* Hide secondary extra trigger if present */
     .mobile-nav-toggle {
         display: none !important;
     }
 
-    /* Style the single primary-menu-trigger */
+    /* Style primary-menu-trigger in original maroon theme */
     #primary-menu-trigger {
         display: flex !important;
         align-items: center;
         justify-content: center;
         background: #8b0000;
         color: #ffffff;
-        border-radius: 8px;
-        width: 44px;
-        height: 44px;
+        border-radius: 6px;
+        width: 42px;
+        height: 42px;
         padding: 8px;
         margin: 5px auto;
         cursor: pointer;
-        box-shadow: 0 4px 12px rgba(139, 0, 0, 0.25);
+        box-shadow: 0 3px 10px rgba(139, 0, 0, 0.2);
         transition: background 0.2s ease;
     }
 
@@ -95,20 +95,21 @@ section > *:first-child {
     }
 
     #primary-menu-trigger svg {
-        width: 24px;
-        height: 24px;
+        width: 22px;
+        height: 22px;
         fill: #ffffff;
     }
 
+    /* Mobile Drawer in Original Theme (#ffffff background, dark text, maroon accent) */
     nav.primary-menu {
         display: none;
         width: 100%;
-        background: #1e1b18;
-        border-top: 3px solid #c89b3c;
-        border-radius: 0 0 12px 12px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        background: #ffffff;
+        border-top: 3px solid #8b0000;
+        border-bottom: 1px solid #eeeeee;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         margin-top: 8px;
-        padding: 10px 0;
+        padding: 8px 0;
     }
 
     nav.primary-menu.active {
@@ -125,7 +126,7 @@ section > *:first-child {
 
     nav.primary-menu li.menu-item {
         margin: 0 !important;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        border-bottom: 1px solid #f5f5f5;
     }
 
     nav.primary-menu a.menu-link {
@@ -133,22 +134,24 @@ section > *:first-child {
         align-items: center;
         justify-content: space-between;
         padding: 12px 20px !important;
-        color: #f0f0f0 !important;
+        color: #333333 !important;
         font-size: 15px !important;
-        font-weight: 500 !important;
+        font-weight: 600 !important;
         text-decoration: none !important;
+        transition: background 0.2s ease, color 0.2s ease !important;
     }
 
     nav.primary-menu li.menu-item.current > a.menu-link,
     nav.primary-menu a.menu-link:hover {
-        color: #c89b3c !important;
-        background: rgba(200, 155, 60, 0.1) !important;
+        color: #8b0000 !important;
+        background: #fff8ef !important;
     }
 
+    /* Submenu Accordion on Mobile (Original light palette) */
     nav.primary-menu .sub-menu-container {
         display: none;
-        background: #141210;
-        padding: 5px 0;
+        background: #fafafa;
+        padding: 4px 0;
         margin: 0;
         list-style: none;
         border-left: 3px solid #c89b3c;
@@ -161,7 +164,13 @@ section > *:first-child {
     nav.primary-menu .sub-menu-container a.menu-link {
         padding: 10px 20px 10px 35px !important;
         font-size: 14px !important;
-        color: #d0d0d0 !important;
+        color: #555555 !important;
+        font-weight: 500 !important;
+    }
+
+    nav.primary-menu .sub-menu-container a.menu-link:hover {
+        color: #8b0000 !important;
+        background: #fff0e0 !important;
     }
 }
 
