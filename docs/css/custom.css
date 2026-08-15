@@ -23,20 +23,24 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. DROPDOWN ARROW INDICATORS FOR SUBMENU ITEMS
+   1. INLINE DROPDOWN CHEVRON ARROWS (Side-by-side with text, zero wrapping)
    -------------------------------------------------------------------------- */
-.menu-arrow {
-    display: inline-block;
-    margin-left: 6px;
-    font-size: 11px;
-    opacity: 0.75;
-    transition: transform 0.25s ease, opacity 0.2s ease;
+nav.primary-menu a.menu-link > div {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    white-space: nowrap !important;
 }
 
-li.menu-item:hover > a.menu-link .menu-arrow,
-nav.primary-menu .sub-menu-container.open ~ a.menu-link .menu-arrow {
-    transform: rotate(180deg);
-    opacity: 1;
+nav.primary-menu a.menu-link i.icon-angle-down {
+    margin-left: 5px !important;
+    font-size: 11px !important;
+    display: inline-block !important;
+    transition: transform 0.25s ease !important;
+}
+
+nav.primary-menu li.menu-item:hover > a.menu-link i.icon-angle-down {
+    transform: rotate(180deg) !important;
 }
 
 /* --------------------------------------------------------------------------
