@@ -1,0 +1,392 @@
+/* ==========================================================================
+   CHINMAYA RAMALAYA - AUDIO AI AGENT DESIGN SYSTEM
+   Theme: Warm Sandalwood & Creamy Ivory Devotional Neumorphism
+   ========================================================================== */
+
+:root {
+    --neu-bg: #f4efe8;
+    --neu-card-bg: #fcf9f5;
+    --primary-maroon: #700000;
+    --primary-maroon-hover: #500000;
+    --saffron-gold: #b37e14;
+    --saffron-light-bg: #fdf6ea;
+    --text-dark: #1a1918;
+    --text-muted: #4a453f;
+    --neu-raised: 8px 8px 20px rgba(185, 172, 155, 0.45), -8px -8px 20px rgba(255, 255, 255, 0.95);
+    --neu-pressed: inset 4px 4px 10px rgba(185, 172, 155, 0.5), inset -4px -4px 10px rgba(255, 255, 255, 0.9);
+    --neu-glow: 0 0 25px rgba(179, 126, 20, 0.35);
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+body.audio-agent-body {
+    background-color: var(--neu-bg);
+    color: var(--text-dark);
+    font-family: var(--font-body);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container */
+.audio-agent-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+}
+
+/* Header */
+.audio-agent-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.audio-agent-header h1 {
+    font-family: var(--font-heading);
+    color: var(--primary-maroon);
+    font-size: 2.4rem;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.audio-agent-header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Neumorphic Main Card */
+.audio-agent-card {
+    background: var(--neu-card-bg);
+    border-radius: 24px;
+    box-shadow: var(--neu-raised);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 36px 28px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Mic Circle Control */
+.mic-wrapper {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin: 20px auto 30px;
+}
+
+.mic-btn {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: var(--neu-bg);
+    box-shadow: var(--neu-raised);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    z-index: 2;
+}
+
+.mic-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 12px 12px 28px rgba(185, 172, 155, 0.5), -12px -12px 28px rgba(255, 255, 255, 1);
+}
+
+.mic-btn:active, .mic-btn.listening {
+    box-shadow: var(--neu-pressed);
+    transform: translateY(0);
+}
+
+.mic-icon {
+    width: 52px;
+    height: 52px;
+    fill: var(--primary-maroon);
+    transition: fill 0.3s ease;
+}
+
+.mic-btn.listening .mic-icon {
+    fill: var(--saffron-gold);
+}
+
+/* Glowing Pulsing Ring when Listening */
+.pulse-ring {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    border: 2px solid var(--saffron-gold);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.mic-btn.listening + .pulse-ring {
+    animation: pulse-wave 2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@keyframes pulse-wave {
+    0% {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.25);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
+
+/* Audio Visualizer Canvas */
+.visualizer-canvas {
+    width: 100%;
+    height: 80px;
+    margin: 15px 0;
+    background: transparent;
+}
+
+/* Status Badge */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    background: var(--saffron-light-bg);
+    border: 1px solid rgba(179, 126, 20, 0.3);
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--primary-maroon);
+    margin-bottom: 20px;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--saffron-gold);
+}
+
+.status-dot.active {
+    background-color: #2e7d32;
+    animation: blink-dot 1.2s infinite ease-in-out;
+}
+
+@keyframes blink-dot {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* Transcript Box */
+.transcript-box {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0e6d6;
+    padding: 20px;
+    min-height: 100px;
+    max-height: 250px;
+    overflow-y: auto;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.transcript-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--saffron-gold);
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.transcript-text {
+    font-size: 1.05rem;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.response-text {
+    font-size: 1.1rem;
+    color: var(--primary-maroon);
+    font-weight: 500;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed #e8ded1;
+}
+
+/* Quick Question Chips */
+.quick-prompts-title {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.prompt-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.chip-btn {
+    background: var(--neu-bg);
+    box-shadow: 4px 4px 10px rgba(185, 172, 155, 0.35), -4px -4px 10px rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.chip-btn:hover {
+    color: var(--primary-maroon);
+    border-color: var(--saffron-gold);
+    box-shadow: 6px 6px 14px rgba(185, 172, 155, 0.45), -6px -6px 14px rgba(255, 255, 255, 1);
+}
+
+.chip-btn:active {
+    box-shadow: var(--neu-pressed);
+}
+
+/* Action Controls (Voice Select, Mute, Text Input) */
+.controls-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.input-text-neu {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #f0e6d6;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    outline: none;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.input-text-neu:focus {
+    border-color: var(--saffron-gold);
+}
+
+.btn-neu-send {
+    background: var(--primary-maroon);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn-neu-send:hover {
+    background: var(--primary-maroon-hover);
+}
+
+/* Stothras Accordion */
+.stothras-section {
+    margin-top: 40px;
+}
+
+.stothras-card {
+    background: var(--neu-card-bg);
+    border-radius: 20px;
+    box-shadow: var(--neu-raised);
+    padding: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.stothras-card h3 {
+    font-family: var(--font-heading);
+    color: var(--primary-maroon);
+    margin-top: 0;
+}
+
+.stothra-item {
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #f0e6d6;
+    padding: 18px;
+    margin-bottom: 15px;
+}
+
+.stothra-title {
+    font-weight: 700;
+    color: var(--saffron-gold);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stothra-sanskrit {
+    font-family: Georgia, serif;
+    font-size: 1.05rem;
+    color: var(--primary-maroon);
+    white-space: pre-line;
+    margin-bottom: 10px;
+}
+
+.stothra-translation {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.btn-listen-sloka {
+    background: var(--saffron-light-bg);
+    color: var(--primary-maroon);
+    border: 1px solid var(--saffron-gold);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-listen-sloka:hover {
+    background: var(--saffron-gold);
+    color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .audio-agent-header h1 {
+        font-size: 1.8rem;
+    }
+    .mic-wrapper, .mic-btn {
+        width: 110px;
+        height: 110px;
+    }
+    .mic-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .controls-row {
+        flex-direction: column;
+    }
+    .btn-neu-send {
+        width: 100%;
+    }
+}

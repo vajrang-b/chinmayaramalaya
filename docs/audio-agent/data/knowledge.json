@@ -1,0 +1,52 @@
+{
+  "temple": {
+    "name": "Chinmaya Ramalaya",
+    "organization": "Chinmaya Mission Harleysville",
+    "motto": "To give maximum happiness to the maximum number for the maximum time",
+    "address": "991 Lucon Road, Harleysville, PA 19438",
+    "email": "bvadmin@chinmayaramalaya.org",
+    "facebook": "https://www.facebook.com/ChinmayaMissionHarleysville"
+  },
+  "timings": {
+    "sunday_session_1": "9:00 AM - 10:30 AM",
+    "sunday_session_2": "11:00 AM - 12:30 PM",
+    "description": "Bala Vihar, Satsang, and Adult Vedanta classes take place every Sunday in two convenient sessions."
+  },
+  "qa_pairs": [
+    {
+      "keywords": ["timing", "schedule", "open", "time", "sunday", "session", "hours", "when"],
+      "question": "What are the temple timings and Sunday session schedules?",
+      "answer": "Chinmaya Ramalaya conducts Sunday sessions in two timings: Session 1 from 9:00 AM to 10:30 AM, and Session 2 from 11:00 AM to 12:30 PM. Each session includes Bala Vihar classes for children and Adult Vedanta Satsang."
+    },
+    {
+      "keywords": ["location", "address", "where", "map", "direction", "harleysville"],
+      "question": "Where is Chinmaya Ramalaya located?",
+      "answer": "Chinmaya Ramalaya is located at 991 Lucon Road, Harleysville, Pennsylvania 19438. We welcome all devotees and families to visit."
+    },
+    {
+      "keywords": ["balavihar", "bala vihar", "children", "kids", "classes", "shishuvihar", "curriculum", "registration"],
+      "question": "Tell me about Bala Vihar programs and registration.",
+      "answer": "Bala Vihar offers spiritual, cultural, and moral education for children from Pre-K through High School. Classes take place on Sundays during Session 1 at 9:00 AM and Session 2 at 11:00 AM. You can register directly on our website."
+    },
+    {
+      "keywords": ["yoga", "stretch", "wellness", "health", "exercise"],
+      "question": "Are there Yoga classes at Chinmaya Ramalaya?",
+      "answer": "Yes! We offer holistic Yoga classes for physical well-being, mindfulness, and inner peace. Registration is open for all skill levels on our Yoga Registration page."
+    },
+    {
+      "keywords": ["donate", "donation", "contribute", "paypal", "guru dakshina", "puja", "construction", "building", "fund"],
+      "question": "How can I make a donation to Chinmaya Ramalaya?",
+      "answer": "You can support our mission by making a donation towards the Temple Construction Fund, Guru Dakshina, or Puja Services. We accept secure donations online via PayPal and major credit cards."
+    },
+    {
+      "keywords": ["picnic", "summer", "event", "july", "2026", "activity"],
+      "question": "What upcoming special events are planned?",
+      "answer": "We have exciting community events planned including the Chinmaya Ramalaya Summer Picnic 2026 and special cultural celebrations in July 2026. Check our Events section for details."
+    },
+    {
+      "keywords": ["contact", "email", "phone", "reach", "question"],
+      "question": "How can I contact the temple administration?",
+      "answer": "You can email our team at bvadmin@chinmayaramalaya.org or fill out the contact form on our Contact Us page. We are happy to assist you."
+    }
+  ]
+}

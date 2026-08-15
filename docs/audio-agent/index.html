@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmaya Ramalaya - Devotional Audio AI Agent</title>
+    <meta name="description" content="Interactive Voice Guide and Audio Assistant for Chinmaya Ramalaya Harleysville PA. Ask questions, hear Bala Vihar timings, stothras, and temple information.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Neumorphic Stylesheet -->
+    <link rel="stylesheet" href="css/audio-agent.css">
+</head>
+<body class="audio-agent-body">
+
+    <div class="audio-agent-container">
+        
+        <!-- Header -->
+        <header class="audio-agent-header">
+            <div style="margin-bottom: 16px; display: flex; align-items: center; justify-content: center; gap: 14px;">
+                <a href="../index.html" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px;">
+                    <img src="images/chinmaya-mission-logo.png" alt="Chinmaya Mission Logo" style="height: 70px; width: auto; object-fit: contain; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.08));">
+                </a>
+            </div>
+            <h1>Chinmaya Ramalaya Audio Agent</h1>
+            <p>Your interactive voice guide for temple timings, Bala Vihar, yoga registration, puja services, and community announcements.</p>
+        </header>
+
+        <!-- Main Audio Card -->
+        <main class="audio-agent-card">
+            
+            <!-- Status Badge -->
+            <div class="status-badge">
+                <span class="status-dot" id="statusDot"></span>
+                <span id="statusText">Tap microphone to speak or type a question below.</span>
+            </div>
+
+            <!-- Mic Control Button -->
+            <div class="mic-wrapper">
+                <button id="micBtn" class="mic-btn" title="Tap to start voice interaction" aria-label="Microphone Button">
+                    <svg class="mic-icon" viewBox="0 0 24 24">
+                        <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/>
+                        <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/>
+                    </svg>
+                </button>
+                <div class="pulse-ring"></div>
+            </div>
+
+            <!-- Audio Waveform Visualizer -->
+            <canvas id="visualizerCanvas" class="visualizer-canvas"></canvas>
+
+            <!-- Live Transcript Box -->
+            <div class="transcript-box">
+                <span class="transcript-label">🎤 Your Question:</span>
+                <p id="userQuery" class="transcript-text">"What time are Sunday classes?"</p>
+                
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                    <span class="transcript-label" style="margin: 0;">🔊 Ramalaya Voice Response:</span>
+                    <button id="replayBtn" class="btn-listen-sloka" style="margin: 0; padding: 4px 12px; font-size: 0.8rem; border-radius: 20px; cursor: pointer;">🔊 Listen Audio</button>
+                </div>
+                <p id="agentResponse" class="response-text" style="margin-top: 8px;">Chinmaya Ramalaya conducts Sunday sessions in two timings: Session 1 from 9:00 AM to 10:30 AM, and Session 2 from 11:00 AM to 12:30 PM. Each session includes Bala Vihar classes for children and Adult Vedanta Satsang.</p>
+            </div>
+
+            <!-- Voice Selection Bar -->
+            <div class="voice-selection-bar" style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;">
+                <label for="voiceSelect" style="font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">🗣️ Select Voice Engine:</label>
+                <select id="voiceSelect" class="voice-select-neu" style="background: #ffffff; border: 1px solid #f0e6d6; border-radius: 20px; padding: 6px 14px; font-size: 0.9rem; color: var(--text-dark); outline: none; cursor: pointer;">
+                    <option value="">Default Natural Voice</option>
+                </select>
+            </div>
+
+            <!-- Quick Questions Prompt Chips -->
+            <div class="quick-prompts-title">💡 Quick Voice Prompts:</div>
+            <div class="prompt-chips">
+                <button class="chip-btn" data-query="What are the Sunday session timings?">⏰ Sunday Timings</button>
+                <button class="chip-btn" data-query="Tell me about Bala Vihar registration">📚 Bala Vihar Classes</button>
+                <button class="chip-btn" data-query="Where is Chinmaya Ramalaya located?">📍 Temple Address</button>
+                <button class="chip-btn" data-query="How can I make a donation?">🙏 Make a Donation</button>
+                <button class="chip-btn" data-query="Are there Yoga classes available?">🧘 Yoga Classes</button>
+            </div>
+
+            <!-- Text Input Fallback -->
+            <div class="controls-row">
+                <input type="text" id="textInput" class="input-text-neu" placeholder="Or type your question here (e.g. Yoga registration, Puja services)...">
+                <button id="sendBtn" class="btn-neu-send">Ask Assistant</button>
+            </div>
+
+        </main>
+
+        <!-- Footer link back -->
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="../index.html" style="color: #700000; font-weight: 600; text-decoration: none;">
+                « Return to Main Chinmaya Ramalaya Website
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Core Script -->
+    <script src="js/audio-agent.js"></script>
+</body>
+</html>
