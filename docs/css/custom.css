@@ -881,3 +881,87 @@ button[type="submit"]:hover,
     height: auto;
     object-fit: cover;
 }
+
+/* --------------------------------------------------------------------------
+   12. FOOTER HIGH-CONTRAST COLOR SCHEME & TYPOGRAPHY
+   -------------------------------------------------------------------------- */
+footer.dark,
+#footer {
+    background-color: #1a1918 !important;
+    color: #e0d8cc !important;
+    border-top: 3px solid var(--saffron-gold) !important;
+    font-size: 14.5px !important;
+    line-height: 1.7 !important;
+}
+
+#footer h1, #footer h2, #footer h3, #footer h4,
+#footer .widget h3, #footer .widget h4,
+#footer .widget_links h3 {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    border-bottom: 2px solid var(--saffron-gold) !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 18px !important;
+}
+
+#footer p,
+#footer address,
+#footer .widget p,
+#footer .widget address {
+    color: #cccccc !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+}
+
+#footer strong,
+#footer b,
+#footer abbr {
+    color: #ffffff !important;
+}
+
+/* High Contrast Footer Navigation Links */
+#footer a,
+#footer .widget_links a {
+    color: #e0d8cc !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease, padding-left 0.2s ease !important;
+}
+
+#footer a:hover,
+#footer .widget_links a:hover {
+    color: #f7ca65 !important;
+    text-decoration: underline !important;
+}
+
+#footer .widget_links ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#footer .widget_links ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    padding: 6px 0 !important;
+}
+
+/* High Contrast Copyright Bar */
+#copyrights {
+    background-color: #111111 !important;
+    color: #aaaaaa !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+    padding: 20px 0 !important;
+    font-size: 13px !important;
+}
+
+#copyrights a,
+.copyright-links a {
+    color: #f7ca65 !important;
+    text-decoration: none !important;
+}
+
+#copyrights a:hover,
+.copyright-links a:hover {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+}
