@@ -1,0 +1,190 @@
+/* ==========================================================================
+   Chinmaya Ramalaya - Editorial Minimalist & Glassmorphism Theme System
+   ========================================================================== */
+
+/* Google Fonts Import (Playfair Display for Editorial Serif Headings) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Brand Color Palette */
+    --primary-maroon: #8b0000;
+    --primary-maroon-hover: #6d0000;
+    --saffron-gold: #c89b3c;
+    --saffron-gold-hover: #b0852e;
+    --saffron-light-bg: #fdf6ea;
+    --text-dark: #222222;
+    --text-muted: #555555;
+    --bg-page: #ffffff;
+    --bg-card: #ffffff;
+    --border-subtle: #e5e5e5;
+    --border-accent: #f0e6d6;
+
+    /* Typography */
+    --font-heading: 'Playfair Display', 'PT Serif', Georgia, serif;
+    --font-body: 'Poppins', 'Lato', -apple-system, sans-serif;
+
+    /* Glassmorphism Accents */
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(240, 230, 214, 0.7);
+    --glass-blur: blur(12px);
+
+    /* Material Design Shadows */
+    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
+    --shadow-hover: 0 10px 30px rgba(139, 0, 0, 0.08);
+}
+
+/* 1. Global Reset & Base Typography */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body) !important;
+    color: var(--text-dark);
+    line-height: 1.8;
+    background-color: var(--bg-page);
+}
+
+/* 2. Editorial Serif Headings */
+h1, h2, h3,
+.heading-block h1,
+.heading-block h2,
+.hero-main-title {
+    font-family: var(--font-heading) !important;
+    color: var(--primary-maroon) !important;
+    letter-spacing: -0.5px;
+}
+
+.heading-block h1,
+.heading-block h2 {
+    font-size: 2.3rem !important;
+    font-weight: 800 !important;
+    line-height: 1.25 !important;
+    margin-bottom: 10px !important;
+}
+
+.heading-block h3,
+.heading-block h4,
+.fancy-title h3 {
+    font-family: var(--font-body) !important;
+    font-size: 1.35rem !important;
+    font-weight: 700 !important;
+    color: var(--saffron-gold) !important;
+}
+
+.heading-block span {
+    font-family: var(--font-body) !important;
+    font-size: 1rem !important;
+    color: var(--text-muted) !important;
+    font-weight: 500 !important;
+}
+
+/* 3. Glassmorphism Accent Containers */
+.glass-card,
+.glass-panel,
+.guru-tribute-box {
+    background: var(--glass-bg) !important;
+    backdrop-filter: var(--glass-blur) !important;
+    -webkit-backdrop-filter: var(--glass-blur) !important;
+    border: 1px solid var(--glass-border) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 4. Material Design Cards & Containers */
+.entry,
+.grid-inner,
+.form-widget,
+.announcements-box,
+.donation-card,
+.highlight-card,
+.material-card {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border-accent) !important;
+    border-radius: 16px !important;
+    padding: 28px !important;
+    box-shadow: var(--shadow-card) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.entry:hover,
+.grid-inner:hover,
+.donation-card:hover,
+.highlight-card:hover,
+.material-card:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: var(--shadow-hover) !important;
+}
+
+/* 5. Editorial Paragraph & Spacing */
+#content p,
+.entry-content p,
+.content-wrap p {
+    font-size: 15.5px !important;
+    line-height: 1.85 !important;
+    color: var(--text-dark) !important;
+    margin-bottom: 22px !important;
+}
+
+/* 6. Form Controls & Buttons */
+.sm-form-control,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+textarea,
+select {
+    border-radius: 8px !important;
+    border: 1px solid #cccccc !important;
+    padding: 10px 14px !important;
+    font-size: 14.5px !important;
+    color: var(--text-dark) !important;
+    background-color: #ffffff !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.sm-form-control:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--primary-maroon) !important;
+    box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.12) !important;
+    outline: none !important;
+}
+
+.btn-gold {
+    background: var(--saffron-gold) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    padding: 12px 24px !important;
+    border: none !important;
+    transition: all 0.25s ease !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 12px rgba(200, 155, 60, 0.25) !important;
+}
+
+.btn-gold:hover {
+    background: var(--saffron-gold-hover) !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+}
+
+.btn-maroon {
+    background: var(--primary-maroon) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    padding: 12px 24px !important;
+    border: none !important;
+    transition: all 0.25s ease !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.25) !important;
+}
+
+.btn-maroon:hover {
+    background: var(--primary-maroon-hover) !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+}
