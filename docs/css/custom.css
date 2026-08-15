@@ -23,7 +23,24 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. GO TO TOP BUTTON
+   1. DROPDOWN ARROW INDICATORS FOR SUBMENU ITEMS
+   -------------------------------------------------------------------------- */
+.menu-arrow {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 11px;
+    opacity: 0.75;
+    transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+li.menu-item:hover > a.menu-link .menu-arrow,
+nav.primary-menu .sub-menu-container.open ~ a.menu-link .menu-arrow {
+    transform: rotate(180deg);
+    opacity: 1;
+}
+
+/* --------------------------------------------------------------------------
+   2. GO TO TOP BUTTON
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -64,7 +81,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
+   3. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     /* Hide secondary extra trigger if present */
@@ -72,7 +89,7 @@ section > *:first-child {
         display: none !important;
     }
 
-    /* Style primary-menu-trigger in clean neutral theme (No red) */
+    /* Style primary-menu-trigger in clean neutral theme */
     #primary-menu-trigger {
         display: flex !important;
         align-items: center;
@@ -176,7 +193,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. HERO BUILDING LAYOUT IMAGE MOBILE FIT (max-width: 767px)
+   4. HERO BUILDING LAYOUT IMAGE MOBILE FIT (max-width: 767px)
    -------------------------------------------------------------------------- */
 @media (max-width: 767px) {
     .crowdfund-hero {
