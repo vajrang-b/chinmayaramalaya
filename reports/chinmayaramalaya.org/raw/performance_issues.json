@@ -1,0 +1,1037 @@
+[
+  {
+    "url": "https://www.chinmayaramalaya.org/",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 5581KB (5.4MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "info",
+        "message": "6 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: building-layout.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img class=\"hero-img\" src=\"images/donate/building-layout.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: balavihar-2026-27.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Bala Vihar Flyer\" class=\"flyer-thumb\" src=\"/images/landing/balavihar-2026-27.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinamaya-kids-hero.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img class=\"hero-img\" src=\"images/donate/chinamaya-kids-hero.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "critical",
+        "message": "jQuery loaded 2 times! This wastes bandwidth and can cause conflicts. Sources: jquery-3.6.0.min.js, jquery.js"
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      },
+      {
+        "severity": "warning",
+        "message": "5 images without lazy loading. Add loading='lazy' to below-the-fold images to improve initial page load."
+      }
+    ],
+    "score": 27,
+    "metrics": {
+      "load_time_ms": 1221,
+      "ttfb_ms": 192,
+      "dom_content_loaded_ms": 882,
+      "total_resources": 31,
+      "total_bytes": 5714616,
+      "total_kb": 5580.7
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/aboutus.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Page total size is 2411KB. Consider optimizing."
+      },
+      {
+        "severity": "info",
+        "message": "4 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: aboutus.jpg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Sunday Classes\" class=\"w-auto mx-auto\" src=\"images/blog/standard/aboutus.jpg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 57,
+    "metrics": {
+      "load_time_ms": 122,
+      "ttfb_ms": 55,
+      "dom_content_loaded_ms": 88,
+      "total_resources": 28,
+      "total_bytes": 2469075,
+      "total_kb": 2411.2
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/registration.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 4690KB (4.6MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 61 resources. Consider reducing to under 50 by combining/minifying CSS and JS files."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 54,
+    "metrics": {
+      "load_time_ms": 716,
+      "ttfb_ms": 55,
+      "dom_content_loaded_ms": 107,
+      "total_resources": 61,
+      "total_bytes": 4802105,
+      "total_kb": 4689.6
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Page total size is 2425KB. Consider optimizing."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 64,
+    "metrics": {
+      "load_time_ms": 88,
+      "ttfb_ms": 58,
+      "dom_content_loaded_ms": 79,
+      "total_resources": 28,
+      "total_bytes": 2483707,
+      "total_kb": 2425.5
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Page total size is 2425KB. Consider optimizing."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 64,
+    "metrics": {
+      "load_time_ms": 102,
+      "ttfb_ms": 58,
+      "dom_content_loaded_ms": 89,
+      "total_resources": 28,
+      "total_bytes": 2483707,
+      "total_kb": 2425.5
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/donate.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 3143KB (3.1MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 59,
+    "metrics": {
+      "load_time_ms": 430,
+      "ttfb_ms": 68,
+      "dom_content_loaded_ms": 88,
+      "total_resources": 45,
+      "total_bytes": 3218585,
+      "total_kb": 3143.1
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 3324KB (3.2MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "info",
+        "message": "4 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 57,
+    "metrics": {
+      "load_time_ms": 372,
+      "ttfb_ms": 60,
+      "dom_content_loaded_ms": 82,
+      "total_resources": 48,
+      "total_bytes": 3404258,
+      "total_kb": 3324.5
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/contactus.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 3915KB (3.8MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: recaptcha__en.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: api.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 55,
+    "metrics": {
+      "load_time_ms": 301,
+      "ttfb_ms": 47,
+      "dom_content_loaded_ms": 68,
+      "total_resources": 42,
+      "total_bytes": 4008629,
+      "total_kb": 3914.7
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Page total size is 2629KB. Consider optimizing."
+      },
+      {
+        "severity": "info",
+        "message": "4 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 62,
+    "metrics": {
+      "load_time_ms": 157,
+      "ttfb_ms": 68,
+      "dom_content_loaded_ms": 106,
+      "total_resources": 30,
+      "total_bytes": 2691952,
+      "total_kb": 2628.9
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/gallery.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Page total size is 2436KB. Consider optimizing."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 64,
+    "metrics": {
+      "load_time_ms": 90,
+      "ttfb_ms": 51,
+      "dom_content_loaded_ms": 80,
+      "total_resources": 29,
+      "total_bytes": 2494249,
+      "total_kb": 2435.8
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/downloads.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Page total size is 2436KB. Consider optimizing."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 64,
+    "metrics": {
+      "load_time_ms": 88,
+      "ttfb_ms": 55,
+      "dom_content_loaded_ms": 81,
+      "total_resources": 29,
+      "total_bytes": 2494249,
+      "total_kb": 2435.8
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/index.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 5624KB (5.5MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "info",
+        "message": "6 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: building-layout.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img class=\"hero-img\" src=\"images/donate/building-layout.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: balavihar-2026-27.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Bala Vihar Flyer\" class=\"flyer-thumb\" src=\"/images/landing/balavihar-2026-27.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinamaya-kids-hero.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img class=\"hero-img\" src=\"images/donate/chinamaya-kids-hero.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "critical",
+        "message": "jQuery loaded 2 times! This wastes bandwidth and can cause conflicts. Sources: jquery-3.6.0.min.js, jquery.js"
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      },
+      {
+        "severity": "warning",
+        "message": "5 images without lazy loading. Add loading='lazy' to below-the-fold images to improve initial page load."
+      }
+    ],
+    "score": 27,
+    "metrics": {
+      "load_time_ms": 86,
+      "ttfb_ms": 51,
+      "dom_content_loaded_ms": 77,
+      "total_resources": 33,
+      "total_bytes": 5758697,
+      "total_kb": 5623.7
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 8020KB (7.8MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "info",
+        "message": "10 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: building-layout.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img class=\"hero-img\" src=\"images/donate/building-layout.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: rama-parivar.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Shri Sita Rama Parivar\" class=\"deity-img\" src=\"images/donate/rama-parivar.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: hanuman.jpg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Shri Hanuman\" class=\"deity-img\" src=\"images/donate/hanuman.jpg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: ganesha.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Shri Ganesha\" class=\"deity-img\" src=\"images/donate/ganesha.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: siva-parvathi.jpg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Shiva &amp; Parvati\" class=\"deity-img\" src=\"images/donate/siva-parvathi.jpg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: balaji.jpg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Shiva &amp; Parvati\" class=\"deity-img\" src=\"images/donate/balaji.jpg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: Bhagavan-vahanas.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Shiva &amp; Parvati\" class=\"deity-img\" src=\"images/donate/Bhagavan-vahanas.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      },
+      {
+        "severity": "warning",
+        "message": "9 images without lazy loading. Add loading='lazy' to below-the-fold images to improve initial page load."
+      }
+    ],
+    "score": 17,
+    "metrics": {
+      "load_time_ms": 439,
+      "ttfb_ms": 61,
+      "dom_content_loaded_ms": 89,
+      "total_resources": 48,
+      "total_bytes": 8212869,
+      "total_kb": 8020.4
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/activities.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Page total size is 2872KB. Consider optimizing."
+      },
+      {
+        "severity": "info",
+        "message": "5 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: Balvihar-sunday-classes-2024.jpg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Sunday Classes\" class=\"w-auto mx-auto\" src=\"images/blog/standard/Balvihar-sunday-classes-2024.jpg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: Chinmaya-Harleysville-Jan-2025.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ram Navami\" class=\"w-auto mx-auto\" src=\"images/blog/standard/Chinmaya-Harleysville-Jan-2025.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      },
+      {
+        "severity": "warning",
+        "message": "4 images without lazy loading. Add loading='lazy' to below-the-fold images to improve initial page load."
+      }
+    ],
+    "score": 47,
+    "metrics": {
+      "load_time_ms": 142,
+      "ttfb_ms": 49,
+      "dom_content_loaded_ms": 92,
+      "total_resources": 31,
+      "total_bytes": 2940908,
+      "total_kb": 2872.0
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/specialeventjuly2026.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 3453KB (3.4MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "info",
+        "message": "4 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      }
+    ],
+    "score": 57,
+    "metrics": {
+      "load_time_ms": 398,
+      "ttfb_ms": 71,
+      "dom_content_loaded_ms": 114,
+      "total_resources": 47,
+      "total_bytes": 3535401,
+      "total_kb": 3452.5
+    }
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/balavihar.html",
+    "category": "performance",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Page total size is 4248KB (4.1MB). Target under 3000KB for good performance."
+      },
+      {
+        "severity": "info",
+        "message": "6 images use traditional formats (JPEG/PNG). Consider converting to WebP for 25-35% smaller file sizes."
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: logo.jpeg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Ramalaya Logo\" src=\"images/logo.jpeg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: Balavihar.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"balavihar\" class=\"w-auto mx-auto\" src=\"images/blog/standard/Balavihar.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: balvihar-flyer-2025.jpg. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"balavihar\" class=\"w-auto mx-auto\" src=\"images/blog/standard/balvihar-flyer-2025.jpg\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: Shishuvihar-2025.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"balavihar\" class=\"w-auto mx-auto\" src=\"images/blog/standard/Shishuvihar-2025.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: chinmaya-mission-logo.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img alt=\"Image\" class=\"footer-logo\" src=\"images/chinmaya-mission-logo.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Image without width/height: payment_methods.png. Set dimensions to prevent Cumulative Layout Shift (CLS).",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Page loads 9 CSS files. Consider combining into fewer files to reduce HTTP requests."
+      },
+      {
+        "severity": "info",
+        "message": "Potentially unminified JS: functions.js. Consider minifying for production."
+      },
+      {
+        "severity": "info",
+        "message": "Missing preconnect for Google Fonts. Add <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> for faster font loading."
+      },
+      {
+        "severity": "warning",
+        "message": "No Cache-Control or Expires header set. Configure caching to improve repeat visit performance."
+      },
+      {
+        "severity": "info",
+        "message": "8 render-blocking CSS files in <head>. Consider inlining critical CSS and loading the rest asynchronously."
+      },
+      {
+        "severity": "warning",
+        "message": "5 images without lazy loading. Add loading='lazy' to below-the-fold images to improve initial page load."
+      }
+    ],
+    "score": 37,
+    "metrics": {
+      "load_time_ms": 201,
+      "ttfb_ms": 51,
+      "dom_content_loaded_ms": 80,
+      "total_resources": 32,
+      "total_bytes": 4350282,
+      "total_kb": 4248.3
+    }
+  }
+]

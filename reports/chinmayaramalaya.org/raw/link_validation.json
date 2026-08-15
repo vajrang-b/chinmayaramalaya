@@ -1,0 +1,140 @@
+{
+  "category": "links",
+  "issues": [
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 404): https://photos.app.goo.gl/avnWKbcJEGZm9QUY8 [Link text: \"Sankranti Celebrations\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 404): https://drive.google.com/file/d/1hi9REpxhl90P25EuM1Qh3qwu_jJKYF-4/view?usp=sharing [Link text: \"Balavihar Annual Day Video\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 404): https://goo.gl/Eaa7FY [Link text: \"Chinmaya Mission Harleysville Annual Day\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 404): https://picasaweb.google.com/100878188146255945434/SwamiTejomayanandaSVisitMay192012?authkey=Gv1sRgCJ3ug7u2uYHCzAE [Link text: \"Swami Tejomayananda Visit - May 19, 2012\"]"
+    },
+    {
+      "severity": "warning",
+      "message": "Cannot connect to external link: https://chinmaya-ramalaya.org/sites/default/files/downloads/audio/CMH-Bagvatgita13-guru-shantananda.MP3"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 404): https://picasaweb.google.com/lh/sredir?uname=100878188146255945434&target=ALBUM&id=5749792266796404257&authkey=Gv1sRgCKXm7_6GlNDY_AE [Link text: \"Mother's day celebration on May 13, 2012\"]"
+    },
+    {
+      "severity": "warning",
+      "message": "Cannot connect to external link: https://chinmaya-ramalaya.org/sites/default/files/downloads/audio/CMH-Tejomayananda-talk.MP3"
+    },
+    {
+      "severity": "warning",
+      "message": "Cannot connect to external link: https://chinmaya-ramalaya.org/sites/default/files/downloads/audio/CMH-Swami-Paramapananda-speach.MP3"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 404): https://picasaweb.google.com/niranjany/ChinmayaMissionFundraisingEventNovember13th2011?feat=email [Link text: \"2011 Fundraising event\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/Aarti.pdf [Link text: \"Aarti\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/108NamesofLordSriRama.pdf [Link text: \"Names of Lord Sri Rama\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/ChinmayaMissionAarti.pdf [Link text: \"Chinmaya Mission Aarti\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/ConcludingPrayers.pdf [Link text: \"Concluding Prayers\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/GangaStotram.pdf [Link text: \"Ganga Stotram\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/MAATRUSTAVANAM.pdf [Link text: \"MAATRUSTAVANAM\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/GuruPadukaStotram.pdf [Link text: \"Guru Paduka Stotram\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/Lingashtakam.pdf [Link text: \"Lingashtakam\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/GayatriMantra.pdf [Link text: \"Gayatri Mantra\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/Madhurashtakam.pdf [Link text: \"Madhurashtakam\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/PeaceInvocations.pdf [Link text: \"Peace Invocations\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/Nirvanashatkam.pdf [Link text: \"Nirvanashatkam\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/ShantiMantra.pdf [Link text: \"Shanti Mantra\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Stotram/ShreeGuruStotram.pdf [Link text: \"Shree Guru Stotram\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Bhajans/Bhajans.pdf [Link text: \"Bhajans\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Bhagavad%20Gita%20Chapter%20XIV.pdf [Link text: \"BhagavadGita Ch 14\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Invocation/Invocation_2011.pdf [Link text: \"Invocation\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/BhagavadGitaCh12.pdf [Link text: \"BhagavadGita Ch 12\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/GitaCh15English.pdf [Link text: \"BhagavadGita Ch 15 English\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/GitaChantingGuide_Generic_Ver5.pdf [Link text: \"GitaChantingGuide_Generic_Ver5\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/GitaChapter15Vocabulary_Ver1.pdf [Link text: \"GitaChapter15Vocabulary_Ver1\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Participants_ScoreGuide_GeetaChanting_Ch16.pdf [Link text: \"BhagavadGita Ch 16 English\"]"
+    },
+    {
+      "severity": "critical",
+      "message": "Broken external link (HTTP 500): http://www.chinmayakedar.org/kedar/media/documents/Global%20Geeta%20Chanting_Flyer-Shlokas.pdf [Link text: \"Global Geeta Chanting_Flyer-Shlokas\"]"
+    }
+  ],
+  "score": 0,
+  "summary": {
+    "total_internal_links": 36,
+    "total_external_links": 72,
+    "total_placeholder_links": 0,
+    "total_pages": 16
+  }
+}

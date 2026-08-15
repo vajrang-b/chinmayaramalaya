@@ -1,0 +1,729 @@
+{
+  "url": "https://www.chinmayaramalaya.org/gallery.html",
+  "status_code": 200,
+  "title": "Chinmaya Ramalaya - Harleysville, PA",
+  "load_time_ms": 90,
+  "ttfb_ms": 51,
+  "dom_content_loaded_ms": 80,
+  "resource_count": 29,
+  "total_bytes": 2494249,
+  "resources": [
+    {
+      "url": "https://www.chinmayaramalaya.org/gallery.html",
+      "status": 200,
+      "content_type": "text/html",
+      "size": 0
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 190406
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/style.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 340195
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 13680
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/dark.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 50039
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 123131
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/animate.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 89705
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 7332
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/custom.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 464
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/sdk.js",
+      "status": 200,
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 5032
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 50833
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 5857
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 2197
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 89476
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 677350
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/functions.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 75112
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 33539
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wWw.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 30418
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 29896
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10542
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10630
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10455
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/fonts/font-icons.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 559660
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/world-map.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 7639
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/bundle/sdk.js/",
+      "status": 200,
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 80200
+    },
+    {
+      "url": "https://www.facebook.com/v16.0/plugins/like.php?action=&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df84c2cc7743e658b5%26domain%3Dwww.chinmayaramalaya.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.chinmayaramalaya.org%252Ffd9445400fa415cb4%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fwww.facebook.com%2FChinmayaMissionHarleysville&layout=&locale=en_US&sdk=joey&share=true&size=&width=",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "size": 0
+    },
+    {
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v5/yQ/l/0,cross/TBAmH8s46M1.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 189
+    },
+    {
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v5/y9/l/0,cross/GsVO4I5Yi7Y.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 272
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "Home",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/aboutus.html",
+      "text": "About Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "text": "Family Registration",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+      "text": "Yoga Registration",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+      "text": "Summer Picnic",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+      "text": "Youth Actvities",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/gallery.html",
+      "text": "Gallery",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/downloads.html",
+      "text": "Downloads",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+      "text": "Sthothraanjali Audio Files",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+      "text": "Temple Construction Fund",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "Guru Dhakshina",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "General Donation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "Puja Services",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/contactus.html",
+      "text": "Contact Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/gallery.html",
+      "text": "Terms of Use",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/gallery.html",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://photos.app.goo.gl/rZKwBwE6Kft3Lg9v6",
+      "text": "SriKrishna Parijatham Kuchipudi Dance",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/5gTrGwbdCUpozX3FA",
+      "text": "Sankranti Celebrations 2026",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/YSqMDZqc2kdFRtBC8",
+      "text": "Ayyappa Swami Pooja @ Ramalaya Jan 3, 2026",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/ALG2YnjPq6cWmKhJ7",
+      "text": "Hanuman-Homam-2026, 2026",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/Q4qj96tMVkN91kaB6",
+      "text": "Balavihar Annual celebrations",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/B3PEz9wiVqbfWnMg6",
+      "text": "Sudarshana & Sarva Devata Homa Oct 11, 2025",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.facebook.com/reel/2281791748930120",
+      "text": "Purnahuthi in Sudarshana Homam",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/zEQ8gzCBDxBcF2wL6",
+      "text": "Sankranti Celebrations 2025",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/oTkuBM6NsrLRh32U9",
+      "text": "Ayyappa Swami Pooja @ Ramalaya Jan 4, 2025",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/XFqFeyCVT35BhesQ7",
+      "text": "Balavihar Annual celebrations",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/QMAvfVexrKP15P217",
+      "text": "Diwali Pictures Oct 2024",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/Q2YdcuCtcurVhCWr6",
+      "text": "Swami Ramakrishananda ji Visit Oct. 20, 2024",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/jN2PYYxHG3qFGzYY9",
+      "text": "Shri Ganesh Pooja Celebration Sep. 2024",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/FfJe3kLngVhsLw2f6",
+      "text": "Annual Day 2023-24 Pictures",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://flic.kr/s/aHBqjAGwEH",
+      "text": "Chinmaya Bala Vihar Graduation Program June 4, 2023",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/jiDysdPrmr5fa4hp9",
+      "text": "Monthly ShriRama Parivar Abhisheka at Ramalaya",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/SDoJ1TBPW7UabmUQ8",
+      "text": "ShriRama Navami Celebrations April 10, 2022",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1TLrRwBUGa3GiYCqTGsx2cujKmoNlvDqi",
+      "text": "Chinmaya Tarang Jan 2022 Program Videos",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1hi9REpxhl90P25EuM1Qh3qwu_jJKYF-4/view?usp=sharing",
+      "text": "Balavihar Annual Day Video",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/avnWKbcJEGZm9QUY8",
+      "text": "Sankranti Celebrations",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://goo.gl/photos/mXAibJvoFQvA9pg17",
+      "text": "CMH Annual Day May 2016",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.dropbox.com/sh/fu7akqx1gz06t73/AADwL8ODj66iJtb49RkVt5E2a?dl=0",
+      "text": "2016 International Yoga Day Prayers",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://youtu.be/ZOBCkmOP3fg",
+      "text": "Sagar Manthan May 2016",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://goo.gl/photos/iZb43RaPTYYHhaWZ6",
+      "text": "Sankranti 2016 Pictures",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://goo.gl/photos/cRkzTJ3tuJ6bBL9j6",
+      "text": "Chinmaya Tarang Pictures",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.facebook.com/media/set/?set=a.833824210038654.1073741842.426645630756516&type=1",
+      "text": "Chinmaya Mission Harleysville 2015 Annual Day",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://goo.gl/Eaa7FY",
+      "text": "Chinmaya Mission Harleysville Annual Day 2014",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://plus.google.com/photos/110677926856723512647/albums/6001839755637723281?authkey=CLaa2d2qh-PphQE",
+      "text": "Chinmaya Fund Raising Event April 12, 2014",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://photos.app.goo.gl/hiLa9S5Q1wHj2CpL2",
+      "text": "Satsang with Pujya Swami Chidatmanandaji on July 16th, 2017",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://picasaweb.google.com/100878188146255945434/SwamiTejomayanandaSVisitMay192012?authkey=Gv1sRgCJ3ug7u2uYHCzAE",
+      "text": "Swami Tejomayananda Visit - May 19, 2012",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://picasaweb.google.com/lh/sredir?uname=100878188146255945434&target=ALBUM&id=5749792266796404257&authkey=Gv1sRgCKXm7_6GlNDY_AE",
+      "text": "Mother's day celebration on May 13, 2012",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://picasaweb.google.com/niranjany/ChinmayaMissionFundraisingEventNovember13th2011?feat=email",
+      "text": "2011 Fundraising event",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://chinmaya-ramalaya.org/sites/default/files/downloads/audio/CMH-Bagvatgita13-guru-shantananda.MP3",
+      "text": "Swami Shantananda Speech at CMH - Bhagavad Gita Chapter 13",
+      "rel": "noopener noreferrer",
+      "target": "_blank",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://chinmaya-ramalaya.org/sites/default/files/downloads/audio/CMH-Tejomayananda-talk.MP3",
+      "text": "Swami Tejomayananda Speech at CMH",
+      "rel": "noopener noreferrer",
+      "target": "_blank",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://chinmaya-ramalaya.org/sites/default/files/downloads/audio/CMH-Swami-Paramapananda-speach.MP3",
+      "text": "Swami Paramapananda Speech at CMH",
+      "rel": "noopener noreferrer",
+      "target": "_blank",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "http://chinmayamission.com/",
+      "text": "Chinmaya Mission Worldwide",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "http://sandeepany.chinmayamission.com/",
+      "text": "Vedanta Course",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "http://chinfo.org/",
+      "text": "International Foundation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "http://chinmayakids.org/",
+      "text": "Chinmaya Kids",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "http://chinmayaswaranjali.org/",
+      "text": "Chinmaya Swaranjali",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "http://www.chykwest.com/",
+      "text": "CHYK West",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "http://chinmayapublications.org/",
+      "text": "Chinmaya Publications",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY",
+      "text": "Make a Donation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    },
+    {
+      "url": "https://www.facebook.com/ChinmayaMissionHarleysville",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/gallery.html"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "alt": "Ramalaya Logo",
+      "width": 860,
+      "height": 452,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "alt": "Image",
+      "width": 86,
+      "height": 81,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "alt": "",
+      "width": 139,
+      "height": 27,
+      "loading": "",
+      "has_alt": false
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://connect.facebook.net/en_US/bundle/sdk.js/",
+      "async": true,
+      "defer": false
+    },
+    {
+      "src": "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0",
+      "async": true,
+      "defer": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/functions.js",
+      "async": false,
+      "defer": false
+    }
+  ],
+  "stylesheets": [
+    {
+      "href": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/style.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/dark.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/animate.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/custom.css",
+      "media": "all"
+    }
+  ],
+  "screenshot_desktop": "reports/chinmayaramalaya.org/screenshots/gallery-html-desktop.png",
+  "screenshot_mobile": "reports/chinmayaramalaya.org/screenshots/gallery-html-mobile.png",
+  "errors": [],
+  "console_errors": [
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'."
+    }
+  ],
+  "response_headers": {
+    "content-encoding": "gzip",
+    "content-type": "text/html",
+    "date": "Sat, 15 Aug 2026 06:05:29 GMT",
+    "etag": "W/\"4029-656e89e082800\"",
+    "last-modified": "Sat, 18 Jul 2026 20:35:44 GMT",
+    "server": "Apache",
+    "x-ws-origin": "available",
+    "x-ws-ratelimit-limit": "1000",
+    "x-ws-ratelimit-remaining": "999"
+  },
+  "html_length": 23745
+}

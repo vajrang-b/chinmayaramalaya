@@ -1,0 +1,2382 @@
+[
+  {
+    "url": "https://www.chinmayaramalaya.org/",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Invalid child <h3> inside <ul>. Only <li> elements should be direct children of <ul>.",
+        "element": "<ul>...<h3>...</ul>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 24 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      },
+      {
+        "severity": "warning",
+        "message": "Render-blocking script in <head>: https://connect.facebook.net/en_US/bundle/sdk.js/. Add 'async' or 'defer' attribute, or move to bottom of <body>.",
+        "element": "<script async=\"\" crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/bundle/sdk.js/\"></script>"
+      },
+      {
+        "severity": "warning",
+        "message": "Render-blocking script in <head>: https://code.jquery.com/jquery-3.6.0.min.js. Add 'async' or 'defer' attribute, or move to bottom of <body>.",
+        "element": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>"
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/aboutus.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 21 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/registration.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"entry col-12\">\n\t\t\t\t\t\t\t<!--<div class=\"grid-inner\">\n\t\t\t\t\t\t\t\t<div><span><h3>Balavihar Sunday Classes.</h3></span></div>\n\t\t\t\t\t\t\t\t<div class=\""
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 21 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 21 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h3> found inside inline element <span>. This is invalid HTML nesting.",
+        "element": "<span>...<h3>...</h3>...</span>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h3> found inside inline element <span>. This is invalid HTML nesting.",
+        "element": "<span>...<h3>...</h3>...</span>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 21 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/donate.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 22 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"entry col-12\">\n\t\t\t\t\t\t\t<!--<div class=\"grid-inner\">\n\t\t\t\t\t\t\t\t<div><span><h3>Balavihar Sunday Classes.</h3></span></div>\n\t\t\t\t\t\t\t\t<div class=\""
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 23 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/contactus.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"form-result\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"css3-spinner-scaler\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"w-100\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"w-100\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div style=\"width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;\""
+      },
+      {
+        "severity": "warning",
+        "message": "Found 28 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      },
+      {
+        "severity": "warning",
+        "message": "Form input <input type='text'> missing associated <label>.",
+        "element": "<input class=\"sm-form-control\" id=\"template-contactform-botcheck\" name=\"template-contactform-botcheck\" type=\"text\" value=\"\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Form input <textarea type='text'> missing associated <label>.",
+        "element": "<textarea class=\"g-recaptcha-response\" id=\"g-recaptcha-response\" name=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb("
+      },
+      {
+        "severity": "info",
+        "message": "Potential unclosed <div> elements: 109 opening vs 110 closing tags."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 22 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/gallery.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Invalid child <br> inside <ul>. Only <li> elements should be direct children of <ul>.",
+        "element": "<ul>...<br>...</ul>"
+      },
+      {
+        "severity": "warning",
+        "message": "Invalid child <h2> inside <ul>. Only <li> elements should be direct children of <ul>.",
+        "element": "<ul>...<h2>...</ul>"
+      },
+      {
+        "severity": "warning",
+        "message": "Invalid child <ul> inside <ul>. Only <li> elements should be direct children of <ul>.",
+        "element": "<ul>...<ul>...</ul>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 21 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/downloads.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 21 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/index.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Invalid child <h3> inside <ul>. Only <li> elements should be direct children of <ul>.",
+        "element": "<ul>...<h3>...</ul>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 24 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      },
+      {
+        "severity": "warning",
+        "message": "Render-blocking script in <head>: https://connect.facebook.net/en_US/bundle/sdk.js/. Add 'async' or 'defer' attribute, or move to bottom of <body>.",
+        "element": "<script async=\"\" crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/bundle/sdk.js/\"></script>"
+      },
+      {
+        "severity": "warning",
+        "message": "Render-blocking script in <head>: https://code.jquery.com/jquery-3.6.0.min.js. Add 'async' or 'defer' attribute, or move to bottom of <body>.",
+        "element": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>"
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "critical",
+        "message": "Duplicate ID 'donate-now' found. IDs must be unique within a page.",
+        "element": "<section id=\"donate-now\">"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div id=\"fb-root\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"progress-fill\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"fb-like\" data-action=\"\" data-href=\"https://www.facebook.com/ChinmayaMissionHarleysville\" data-layout=\"\" data-share=\"true\" data-size=\"\" dat"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 50 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/activities.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h3> found inside inline element <span>. This is invalid HTML nesting.",
+        "element": "<span>...<h3>...</h3>...</span>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Deprecated tag <center> found 1 time(s). Use CSS instead.",
+        "element": "<center>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 18 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/specialeventjuly2026.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 25 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/balavihar.html",
+    "category": "html",
+    "issues": [
+      {
+        "severity": "info",
+        "message": "Using http-equiv for charset. Consider using <meta charset='utf-8'> instead.",
+        "element": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <div> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<div>...</div>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Block element <h4> found inside inline element <a>. This is invalid HTML nesting.",
+        "element": "<a>...<h4>...</h4>...</a>"
+      },
+      {
+        "severity": "warning",
+        "message": "Deprecated tag <center> found 1 time(s). Use CSS instead.",
+        "element": "<center>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-misc\">\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"header-wrap-clone\"></div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"posts-sm row col-mb-30\" id=\"post-list-footer\">\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "severity": "info",
+        "message": "Empty <div> element found. Consider removing or adding content.",
+        "element": "<div class=\"icon-angle-up\" id=\"gotoTop\"></div>"
+      },
+      {
+        "severity": "warning",
+        "message": "Found 18 elements with inline styles. Consider moving styles to an external stylesheet for better maintainability."
+      }
+    ],
+    "score": 0
+  }
+]

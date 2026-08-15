@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Chinmaya Ramalaya in Harleysville, PA offers Bala Vihar, Gita study groups, Yoga, community service, and cultural programs rooted in Vedanta.">
+	<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+	<link rel="canonical" href="https://www.chinmayaramalaya.org/index.html">
+
+	<!-- Document Title
+	============================================= -->
+	<title>Chinmaya Ramalaya - Harleysville, PA | Spiritual & Cultural Center</title>
+  <!-- jQuery loaded at body bottom -->
+  <style>
+    #quote-container {
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      line-height: 1.5;
+      color: #333;
+      background-color: #f7f7f7;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    blockquote {
+      display: none;
+      margin: 0;
+      padding: 0;
+    }
+    footer {
+      text-align: right;
+      margin-top: 20px;
+    }
+    button {
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      line-height: 0.5;
+      color: #fff;
+      background-color: #333;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #666;
+    }
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+	.crowdfund-hero{
+		/*background: url('images/donate/building-layout.jpeg') center/cover no-repeat;*/
+		background-size: cover;     /* THIS is the wrap behavior */
+		background-position: center 20%;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: auto;
+		min-height: 60vh; 
+		position:relative;
+		padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+	}
+	.hero-img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center top; /* control cropping */
+	}	
+	.overlay{
+		height:100%;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+		color:white;
+		padding:20px;
+	}
+
+	.hero-overlay{
+		position: absolute;
+		inset: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: white;
+		padding: 0px;
+	}
+	.donation-section{
+		display:grid;
+		grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+		gap:30px;
+		padding:10px 10%;
+		background:#fff8ef;
+	}
+
+	.donation-card{
+		background:white;
+		border-radius:18px;
+		padding:35px;
+		box-shadow:0 5px 18px rgba(0,0,0,0.1);
+		transition:0.3s;
+		text-align:center;
+	}
+
+	.donation-card:hover{
+		transform:translateY(-8px);
+	}
+
+	.donation-card h2{
+		color:#8b1e1e;
+		margin-bottom:15px;
+	}
+
+	.donation-card p{
+		margin-bottom:20px;
+		color:#555;
+		line-height:1.6;
+	}
+
+	.donation-card a{
+		display:inline-block;
+		background:#d89b2b;
+		color:white;
+		padding:12px 24px;
+		border-radius:8px;
+		text-decoration:none;
+	}
+
+
+	.mission-banner {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.mission-banner h2 {
+		color: #8b0000;
+		font-size: 2.2rem;
+		margin-bottom: 8px;
+	}
+
+	.tagline {
+		font-size: 1.1rem;
+		color: #8c6a00;
+		font-style: italic;
+	}
+
+	.mission-intro {
+		max-width: 900px;
+		margin: auto;
+		text-align: center;
+		line-height: 1.8;
+		color: #444;
+	}
+
+	.highlights-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+		gap: 20px;
+		margin: 40px 0;
+	}
+
+	.highlight-card {
+		background: white;
+		padding: 24px;
+		border-radius: 16px;
+		text-align: center;
+		box-shadow: 0 4px 15px rgba(0,0,0,.06);
+		transition: transform .3s ease;
+	}
+
+	.highlight-card:hover {
+		transform: translateY(-5px);
+	}
+
+	.icon {
+		font-size: 2rem;
+		margin-bottom: 12px;
+	}
+
+	.highlight-card h3 {
+		color: #8b0000;
+		margin-bottom: 10px;
+	}
+
+	.stats-section {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		flex-wrap: wrap;
+		margin: 40px 0;
+		text-align: center;
+	}
+
+	.number {
+		display: block;
+		font-size: 2.2rem;
+		font-weight: bold;
+		color: #8b0000;
+	}
+
+	.label {
+		color: #666;
+	}
+
+	.leadership-section {
+		background: rgba(255,255,255,.7);
+		padding: 25px;
+		border-left: 5px solid #c89b3c;
+		border-radius: 12px;
+		margin-top: 20px;
+	}
+
+	.leadership-section h3 {
+		color: #8b0000;
+		margin-bottom: 10px;
+	}
+
+	.cta-section {
+		text-align: center;
+		margin-top: 35px;
+	}
+
+	.mission-btn {
+		display: inline-block;
+		background: #8b0000;
+		color: white;
+		text-decoration: none;
+		padding: 14px 30px;
+		border-radius: 50px;
+		font-weight: 600;
+	}
+
+	.mission-btn:hover {
+		background: #a50000;
+	}
+	.announcements-box {
+		background: #fff;
+		border-radius: 12px;
+		padding: 20px;
+		margin: 20px 0;
+		box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+	}
+
+	.announcements-box h3 {
+		color: #8B4513;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.announcements-box ul {
+		margin: 0;
+		padding-left: 20px;
+	}
+
+	.announcements-box li {
+		margin-bottom: 10px;
+		line-height: 1.5;
+	}
+
+	.announcements-box a {
+		color: #c65d00;
+		text-decoration: none;
+	}
+
+	.announcements-box a:hover {
+		text-decoration: underline;
+	}
+
+	.announcements-box p {
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 0;
+	}
+	.custom-underline {
+		text-decoration: underline;
+	}	
+	.pdf-container {
+		width: 100%;
+		margin: 20px 0;
+	}
+	.flyer-thumb{
+		width:100%;
+		border-radius:12px;
+		box-shadow:0 4px 12px rgba(0,0,0,.15);
+	}	
+  </style>
+</head>
+<body class="stretched">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0" nonce="i60b3BIh"></script>
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="header-size-sm">
+			<div class="container">
+				<div class="header-row">
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo" class="mx-auto">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.jpeg" alt="Ramalaya Logo"></a>
+					</div><!-- #logo end -->
+				</div>
+			</div>
+
+			<div id="header-wrap" class="border-top border-f5">
+				<div class="container">
+					<div class="header-row justify-content-center">
+						<div class="header-misc">
+						</div>
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+				<!--<div id="logo" class="mx-auto">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.jpeg" alt="Ramalaya Logo"></a>
+					</div>-->
+							
+							<ul class="menu-container">
+								<li class="menu-item current">
+									<a class="menu-link" href="index.html"><div>Home</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="aboutus.html"><div>About Us</div></a>
+								</li>																							
+								<li class="menu-item">
+									<a class="menu-link"><div>Bala Vihar</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="registration.html"><div>Family Registration</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="yoga-registration.html"><div>Yoga Registration</div></a>
+										</li>											
+									</ul>
+								</li>	
+								<li class="menu-item">
+									<a class="menu-link"><div>Events</div></a>
+									<ul class="sub-menu-container">
+										<!--<li class="menu-item">
+											<a class="menu-link" href="calendar.html"><div>Calendar</div></a>
+										</li>-->
+										<li class="menu-item">
+											<a class="menu-link" href="summerpicnic2026.html"><div>Summer Picnic</div></a>
+										</li>
+									</ul>
+								</li>																
+								<li class="menu-item">
+									<a class="menu-link"><div>Activities</div></a>
+									<ul class="sub-menu-container">
+										<!--<li class="menu-item">
+											<a class="menu-link" href="calendar.html"><div>Calendar</div></a>
+										</li>-->
+										<li class="menu-item">
+											<a class="menu-link" href="youth-activities.html"><div>Youth Activities</div></a>
+										</li>
+									</ul>
+								</li>								
+								<li class="menu-item">
+									<a class="menu-link" href="gallery.html"><div>Gallery</div></a>
+								</li>								
+								<li class="menu-item">
+									<a class="menu-link"><div>Resources</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="downloads.html"><div>Downloads</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="Sthothraanjali.html"><div>Sthothraanjali Audio Files</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link"><div>Donations</div></a>
+									<ul class="sub-menu-container">
+										<!--<li class="menu-item">
+											<a class="menu-link" href="calendar.html"><div>Calendar</div></a>
+										</li>-->
+										<li class="menu-item">
+											<a class="menu-link" href="crowdfund.html"><div>Temple Construction Fund</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="donate.html"><div>Guru Dhakshina</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="donate.html"><div>General Donation</div></a>
+										</li>	
+										<li class="menu-item">
+											<a class="menu-link" href="donate.html"><div>Puja Services</div></a>
+										</li>										
+									</ul>
+								</li>								
+								<li class="menu-item">
+									<a class="menu-link" href="contactus.html"><div>Contact Us</div></a>
+								</li>
+							</ul>		
+						</nav><!-- #primary-menu end -->
+					</div>
+
+				</div>
+			</div>
+		</header><!-- #header end -->
+		<section class="crowdfund-hero">
+			<img src="images/donate/building-layout.jpeg" class="hero-img" alt="Chinmaya Ramalaya Temple Building Layout">
+		</section>
+		
+		<section id="first-section-cards" class="donation-section">
+			<div id="posts" class="donation-card">
+			<h2>What is Chinmaya Mission?</h2>
+			   <div class="mission-intro">
+					<p>
+						Founded by <strong>Swami Chinmayananda</strong>, Chinmaya Mission is a global spiritual movement rooted in the timeless wisdom of the
+						<strong>Bhagavad Gita</strong> and <strong>Upanishads</strong>.
+						For over seven decades, the Mission has inspired individuals and families to live with purpose, values, and compassion.
+					</p>
+				</div>
+
+				<div class="highlights-grid">
+
+					<div class="highlight-card">
+						<div class="icon">ð</div>
+						<h3>Global Presence</h3>
+						<p>
+							350+ Centers serving communities across the world in 30 countries through education,
+							culture, spirituality, and service.
+						</p>
+					</div>
+
+					<div class="highlight-card">
+						<div class="icon">ð¨âð©âð§âð¦</div>
+						<h3>Bala Vihar</h3>
+						<p>
+							Nurturing young minds with values, character, confidence, and
+							spiritual wisdom rooted in Sanatana Dharma.
+						</p>
+					</div>
+
+					<div class="highlight-card">
+						<div class="icon">ð§</div>
+						<h3>Yoga & Meditation</h3>
+						<p>
+							Practical techniques for inner peace, mindfulness, and holistic well-being.
+						</p>
+					</div>
+
+					<div class="highlight-card">
+						<div class="icon">ð¤</div>
+						<h3>Seva & Leadership</h3>
+						<p>
+							Opportunities for community service, youth empowerment,
+							and leadership development.
+						</p>
+					</div>
+
+				</div>
+				<div class="leadership-section">
+					<h3>ð Continuing Gurudev's Vision</h3>
+
+					<p>
+						Following Swami Chinmayananda's Mahasamadhi in 1993,
+						Chinmaya Mission continues to flourish under the guidance of
+						<strong>Swami Swaroopananda</strong>,
+						supported by <strong>Swami Tejomayananda</strong>
+						and dedicated spiritual teachers serving across the globe.
+					</p>
+				</div>
+			</div><!-- #posts end -->	
+	
+			<div class="announcements-box">
+				<h2>ð¢ Community Updates</h2>
+				<ul>
+					<li>
+						<a href="registration.html" target="_blank" rel="noopener noreferrer">
+							Register for Bala Vihar Session 2026â27
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY" target="_blank" rel="noopener noreferrer">
+							Donate for Ramalaya
+						</a>
+					</li>
+				</ul>
+
+				<h3  style="text-decoration: underline;">Upcoming Programs</h3>
+				<ul>
+					<li>
+						<a href="summerpicnic2026.html" target="_blank" rel="noopener noreferrer">
+							Summer Picnic
+						</a>
+					</li>
+					<li>
+						<a href="https://msc2026.chinmayavrindavan.org" target="_blank" rel="noopener noreferrer">
+							Mahasamadhi 2026 Camp
+						</a>
+					</li>					
+				</ul>
+				<h3  style="text-decoration: underline;">Recent Programs</h3>
+				
+					<li>
+						<a href="https://photos.app.goo.gl/rZKwBwE6Kft3Lg9v6" target="_blank" rel="noopener noreferrer">
+							SriKrishna Parijatham Kuchipudi Dance
+						</a>
+					</li>
+					<li>
+						<a href="https://photos.app.goo.gl/Q4qj96tMVkN91kaB6" target="_blank" rel="noopener noreferrer">
+							Bala Vihar Annual Day Photos
+						</a>
+					</li>
+
+					<li>
+						Bhagavad Gita State Competition â Congratulations to
+						Shreya, Sritaja, Veenakruti, Vishvapragnya & Aadhira.
+						<p><strong>â¤ï¸ Krishna Loves You â¤ï¸</strong></p>
+					</li>
+
+					<li>
+						<a href="https://photos.app.goo.gl/ALG2YnjPq6cWmKhJ7" target="_blank" rel="noopener noreferrer">
+							Shri Hanuman Chalisa Havan Photos
+						</a>
+					</li>
+				</ul>
+				
+				<a href="pdfs/Ramalaya Bala Vihar flyer 2026-27-1.pdf" target="_blank" rel="noopener noreferrer">
+					<img src="/images/landing/balavihar-2026-27.png"
+						 alt="Bala Vihar Flyer"
+						 class="flyer-thumb">
+				</a>
+				
+			</div>
+		</section>
+		<!-- Content
+		============================================= -->
+			<!--start quotes-->
+					<div id="quote-container">
+						<blockquote>
+						"Don't just invest on the child, also invest in the child. 'Investment on' gives outer prosperity. 'Investment in' ensures inner unfoldment and lasting prosperity. True education is 'investment on' the child complemented with 'investment in' the child." 
+							<cite>~ Swami Chinmayananda</cite>
+						</blockquote>
+						<blockquote>
+						"Growing youth determined to reach their goal, sure of their dignity, consistent in their endeavors, proud of their cultural background â can alone bestow upon a growing country the status of a Nation." 
+								<cite>~ Swami Chinmayananda</cite>
+						</blockquote>
+						<blockquote>
+						  "Bhakti is the attitude of the mind, and jnana is the attitude of the intellect; both flow towards the Lord." 
+								<cite>~ Swami Chinmayananda</cite>
+						</blockquote>
+						<blockquote>
+						  "Without devotion, knowledge is tasteless. Without knowledge, devotion is mere empty idol worship." 
+								<cite>~ Swami Chinmayananda</cite>
+						</blockquote>
+						<blockquote>
+						  "Daily prayer and meditation are all wonderful therapeutic agencies in building up peace and happiness within an individual." 
+								<cite>~ Swami Chinmayananda</cite>
+						</blockquote>
+				  </div>
+
+				  <!--<div id="controls">
+					<button id="prev-btn" disabled>&laquo; Previous</button>
+					<button id="next-btn">Next &raquo;</button>
+				  </div>-->
+				  
+				<script>
+				   $(document).ready(function() {
+				  var quotes = $('#quote-container blockquote');
+				  var quoteIndex = -1;
+
+				  function showNextQuote() {
+					++quoteIndex;
+					quotes.eq(quoteIndex % quotes.length)
+					  .fadeIn(1000)
+					  .delay(5000)
+					  .fadeOut(1000, showNextQuote);
+				  }
+
+				  showNextQuote();
+				});			  
+			  </script>
+		<!--end quotes-->
+		<section class="crowdfund-hero">
+			<a href="https://www.chinmayakids.org/" target="_blank" rel="noopener noreferrer">
+				<img src="images/donate/chinamaya-kids-hero.png" class="hero-img" alt="Chinmaya Kids Banner">
+			</a>
+
+			
+		</section>
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+						<div class="col-lg-8">
+
+							<div class="row col-mb-50">
+								<div class="col-md-4">
+
+									<div class="widget clearfix">
+
+										<img src="images/chinmaya-mission-logo.png" alt="Image" class="footer-logo">
+
+										<p>"To give maximum happiness to the maximum number for the maximum time"</p>
+
+										<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+											<address>
+												<strong>Address</strong><br>
+												991 Lucon Road<br>
+												Harleysville, PA 19438<br>
+											</address>
+											<!--<abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
+											<abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>-->
+											<abbr title="Email Address"><strong>Email:</strong></abbr> bvadmin@chinmayaramalaya.org
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4">
+
+									<div class="widget widget_links clearfix">
+
+										<h4>Chinmaya Links</h4>
+
+										<ul>
+											<li><a href="http://chinmayamission.com">Chinmaya Mission Worldwide</a></li>
+											<li><a href="http://sandeepany.chinmayamission.com">Vedanta Course</a></li>
+											<li><a href="http://chinfo.org">International Foundation</a></li>
+											<li><a href="http://chinmayakids.org">Chinmaya Kids</a></li>
+											<li><a href="http://chinmayaswaranjali.org">Chinmaya Swaranjali</a></li>
+											<li><a href="http://www.chykwest.com">CHYK West</a></li>
+											<li><a href="http://chinmayapublications.org">Chinmaya Publications</a></li>											
+										</ul>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4">
+
+									<div class="widget clearfix">
+										<a href="https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY"><h4>Make a Donation</h4></a>
+										<img src="images/payment_methods.png" alt="Accepted Payment Methods">
+
+										<div class="posts-sm row col-mb-30" id="post-list-footer">
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+											
+						<div class="col-lg-4">
+
+							<div class="row col-mb-50">
+								<div class="col-md-4 col-lg-12">
+									<div class="widget clearfix" style="margin-bottom: -20px;">
+									<h4>Follow Us</h4>
+										<div class="row">
+											<div class="fb-like" data-href="https://www.facebook.com/ChinmayaMissionHarleysville" data-width="" data-layout="" data-action="" data-size="" data-share="true">
+											</div>
+											<div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
+												<a href="https://www.facebook.com/ChinmayaMissionHarleysville" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row col-mb-30">
+
+						<div class="col-md-6 text-center text-md-left">
+							Copyrights &copy; 2020 All Rights Reserved by Chinmaya Mission.<br>
+							<div class="copyright-links"><a href="terms.html">Terms of Use</a> / <a href="privacy.html">Privacy Policy</a></div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+</body>
+</html>

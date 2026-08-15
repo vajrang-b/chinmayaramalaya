@@ -1,0 +1,859 @@
+[
+  {
+    "url": "https://www.chinmayaramalaya.org/",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: building-layout.jpeg",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img class=\"hero-img\" src=\"images/donate/building-layout.jpeg\"/>"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: chinamaya-kids-hero.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img class=\"hero-img\" src=\"images/donate/chinamaya-kids-hero.png\"/>"
+      },
+      {
+        "severity": "critical",
+        "message": "Linked image without alt text or link text: chinamaya-kids-hero.png. Screen readers cannot determine the link purpose.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Register for Bala Vihar Session 2026\u201327",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Donate for Ramalaya",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Summer Picnic",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Mahasamadhi 2026 Camp",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: SriKrishna Parijatham Kuchipudi Dance",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Bala Vihar Annual Day Photos",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Shri Hanuman Chalisa Havan Photos",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: pdfs/Ramalaya Bala Vihar flyer 2026-27-1",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: https://www.chinmayakids.org/",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "critical",
+        "message": "2 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 0,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/aboutus.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/registration.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/donate.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/contactus.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "2 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Form control <input type='text'> without label. Add <label for='id'> or aria-label.",
+        "wcag": "3.3.2 Labels or Instructions (Level A)",
+        "element": "<input class=\"sm-form-control\" id=\"template-contactform-botcheck\" name=\"template-contactform-botcheck\" type=\"text\" value=\"\"/>"
+      },
+      {
+        "severity": "critical",
+        "message": "Form control <textarea type='text'> without label. Add <label for='id'> or aria-label.",
+        "wcag": "3.3.2 Labels or Instructions (Level A)",
+        "element": "<textarea class=\"g-recaptcha-response\" id=\"g-recaptcha-response\" name=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb("
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      },
+      {
+        "severity": "warning",
+        "message": "Positive tabindex=5 on <button>. Avoid positive tabindex values as they disrupt natural tab order.",
+        "wcag": "2.4.3 Focus Order (Level A)",
+        "element": "<button class=\"button button-3d m-0\" id=\"submit-button\" name=\"submit\" tabindex=\"5\" type=\"submit\" value=\"Submit\">Submit Comment</button>"
+      }
+    ],
+    "score": 33,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/gallery.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/downloads.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "4 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/index.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: building-layout.jpeg",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img class=\"hero-img\" src=\"images/donate/building-layout.jpeg\"/>"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: chinamaya-kids-hero.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img class=\"hero-img\" src=\"images/donate/chinamaya-kids-hero.png\"/>"
+      },
+      {
+        "severity": "critical",
+        "message": "Linked image without alt text or link text: chinamaya-kids-hero.png. Screen readers cannot determine the link purpose.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Register for Bala Vihar Session 2026\u201327",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Donate for Ramalaya",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Summer Picnic",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Mahasamadhi 2026 Camp",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: SriKrishna Parijatham Kuchipudi Dance",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Bala Vihar Annual Day Photos",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: Shri Hanuman Chalisa Havan Photos",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: pdfs/Ramalaya Bala Vihar flyer 2026-27-1",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "warning",
+        "message": "Link opens in new window without noopener: https://www.chinmayakids.org/",
+        "wcag": "3.2.5 Change on Request"
+      },
+      {
+        "severity": "critical",
+        "message": "2 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 0,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: building-layout.jpeg",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img class=\"hero-img\" src=\"images/donate/building-layout.jpeg\"/>"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 48,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/activities.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/specialeventjuly2026.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 58,
+    "wcag_level": "AA"
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/balavihar.html",
+    "category": "accessibility",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "No <main> landmark found. Use <main> element or role='main' to identify the primary content area.",
+        "wcag": "1.3.1 Info and Relationships (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "No skip navigation link found. Add a 'Skip to main content' link as the first focusable element for keyboard users.",
+        "wcag": "2.4.1 Bypass Blocks (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "Image missing alt attribute: payment_methods.png",
+        "wcag": "1.1.1 Non-text Content (Level A)",
+        "element": "<img src=\"images/payment_methods.png\"/>"
+      },
+      {
+        "severity": "warning",
+        "message": "SVG without accessible name. Add <title> inside SVG, aria-label, or aria-hidden='true' if decorative.",
+        "wcag": "1.1.1 Non-text Content (Level A)"
+      },
+      {
+        "severity": "critical",
+        "message": "1 link(s) without accessible text. All links must have descriptive text or aria-label.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "5 <a> element(s) without href attribute. Links without href are not keyboard accessible.",
+        "wcag": "2.1.1 Keyboard (Level A)"
+      },
+      {
+        "severity": "warning",
+        "message": "3 link(s) with generic text (e.g., 'click here', 'read more'). Use descriptive link text that explains the destination.",
+        "wcag": "2.4.4 Link Purpose (Level A)"
+      },
+      {
+        "severity": "info",
+        "message": "Manual color contrast check recommended. Use a tool like WebAIM Contrast Checker to verify all text meets WCAG AA ratio (4.5:1 for normal text).",
+        "wcag": "1.4.3 Contrast (Minimum) (Level AA)"
+      }
+    ],
+    "score": 53,
+    "wcag_level": "AA"
+  }
+]

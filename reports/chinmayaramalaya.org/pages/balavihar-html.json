@@ -1,0 +1,540 @@
+{
+  "url": "https://www.chinmayaramalaya.org/balavihar.html",
+  "status_code": 200,
+  "title": "Chinmaya Ramalaya - Harleysville, PA",
+  "load_time_ms": 201,
+  "ttfb_ms": 51,
+  "dom_content_loaded_ms": 80,
+  "resource_count": 32,
+  "total_bytes": 4350282,
+  "resources": [
+    {
+      "url": "https://www.chinmayaramalaya.org/balavihar.html",
+      "status": 200,
+      "content_type": "text/html",
+      "size": 0
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 190406
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/style.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 340195
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 13680
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/dark.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 50039
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 123131
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/animate.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 89705
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 7332
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/custom.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 464
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/sdk.js",
+      "status": 200,
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 5032
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 50833
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 5857
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 2197
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 89476
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 677350
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/functions.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 75112
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 33539
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wWw.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 30418
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 29896
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10542
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10630
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10455
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/fonts/font-icons.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 559660
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/world-map.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 7639
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/bundle/sdk.js/",
+      "status": 200,
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 80200
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/blog/standard/Balavihar.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 1261316
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/blog/standard/balvihar-flyer-2025.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 166985
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/blog/standard/Shishuvihar-2025.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 427732
+    },
+    {
+      "url": "https://www.facebook.com/v16.0/plugins/like.php?action=&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df883be93db2218b26%26domain%3Dwww.chinmayaramalaya.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.chinmayaramalaya.org%252Ff9c2b51d668217ec1%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fwww.facebook.com%2FChinmayaMissionHarleysville&layout=&locale=en_US&sdk=joey&share=true&size=&width=",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "size": 0
+    },
+    {
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v5/yQ/l/0,cross/TBAmH8s46M1.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 189
+    },
+    {
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v5/y9/l/0,cross/GsVO4I5Yi7Y.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 272
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "Home",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/aboutus.html",
+      "text": "About Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "text": "Family",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+      "text": "Yoga",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/balavihar.html",
+      "text": "Balavihar",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/specialeventjuly2026.html",
+      "text": "Srikrishna Parijatham",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+      "text": "Youth Actvities",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/gallery.html",
+      "text": "Gallery",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/downloads.html",
+      "text": "Downloads",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+      "text": "Sthothraanjali Audio Files",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+      "text": "Temple Construction Fund",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/contactus.html",
+      "text": "Contact Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/pdfs/BV-Trifold-information-2025.pdf",
+      "text": "Click Here",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/pdfs/BV-Trifold-information-2025.pdf",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/pdfs/BV-Curriculum.pdf",
+      "text": "Click Here",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/balavihar.html",
+      "text": "Terms of Use",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/balavihar.html",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://photos.app.goo.gl/zEQ8gzCBDxBcF2wL6",
+      "text": "Click Here",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "http://chinmayamission.com/",
+      "text": "Chinmaya Mission Worldwide",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "http://sandeepany.chinmayamission.com/",
+      "text": "Vedanta Course",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "http://chinfo.org/",
+      "text": "International Foundation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "http://chinmayakids.org/",
+      "text": "Chinmaya Kids",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "http://chinmayaswaranjali.org/",
+      "text": "Chinmaya Swaranjali",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "http://www.chykwest.com/",
+      "text": "CHYK West",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "http://chinmayapublications.org/",
+      "text": "Chinmaya Publications",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY",
+      "text": "Make a Donation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    },
+    {
+      "url": "https://www.facebook.com/ChinmayaMissionHarleysville",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/balavihar.html"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "alt": "Ramalaya Logo",
+      "width": 860,
+      "height": 452,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/blog/standard/Balavihar.png",
+      "alt": "balavihar",
+      "width": 731,
+      "height": 938,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/blog/standard/balvihar-flyer-2025.jpg",
+      "alt": "balavihar",
+      "width": 481,
+      "height": 760,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/blog/standard/Shishuvihar-2025.png",
+      "alt": "balavihar",
+      "width": 707,
+      "height": 584,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "alt": "Image",
+      "width": 86,
+      "height": 81,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "alt": "",
+      "width": 139,
+      "height": 27,
+      "loading": "",
+      "has_alt": false
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://connect.facebook.net/en_US/bundle/sdk.js/",
+      "async": true,
+      "defer": false
+    },
+    {
+      "src": "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0",
+      "async": true,
+      "defer": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/functions.js",
+      "async": false,
+      "defer": false
+    }
+  ],
+  "stylesheets": [
+    {
+      "href": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/style.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/dark.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/animate.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/custom.css",
+      "media": "all"
+    }
+  ],
+  "screenshot_desktop": "reports/chinmayaramalaya.org/screenshots/balavihar-html-desktop.png",
+  "screenshot_mobile": "reports/chinmayaramalaya.org/screenshots/balavihar-html-mobile.png",
+  "errors": [],
+  "console_errors": [
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'."
+    }
+  ],
+  "response_headers": {
+    "content-encoding": "gzip",
+    "content-type": "text/html",
+    "date": "Sat, 15 Aug 2026 06:05:43 GMT",
+    "etag": "W/\"2e00-65181bcb6edc0\"",
+    "last-modified": "Mon, 11 May 2026 02:45:19 GMT",
+    "server": "Apache",
+    "x-ws-origin": "available",
+    "x-ws-ratelimit-limit": "1000",
+    "x-ws-ratelimit-remaining": "999"
+  },
+  "html_length": 19184
+}

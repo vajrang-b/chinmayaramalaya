@@ -1,0 +1,687 @@
+{
+  "url": "https://www.chinmayaramalaya.org/registration.html",
+  "status_code": 200,
+  "title": "Chinmaya Ramalaya - Harleysville, PA",
+  "load_time_ms": 716,
+  "ttfb_ms": 55,
+  "dom_content_loaded_ms": 107,
+  "resource_count": 61,
+  "total_bytes": 4802105,
+  "resources": [
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "status": 200,
+      "content_type": "text/html",
+      "size": 0
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 190406
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/style.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 340195
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 13680
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/dark.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 50039
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 123131
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/animate.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 89705
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 7332
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/custom.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 464
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/sdk.js",
+      "status": 200,
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 5032
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 50833
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 5857
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 2197
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 89476
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 677350
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/functions.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 75112
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wWw.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 30418
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 29896
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10630
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10455
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/fonts/font-icons.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 559660
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/world-map.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 7639
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/bundle/sdk.js/",
+      "status": 200,
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 80200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 33539
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/templates/protostar/css/template.css?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 164388
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/css/ba-style.css?2.0.6",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 129910
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/icons/material/material.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 70634
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/jquery-noconflict.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 21
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/jquery-migrate.min.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 10056
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/system/js/caption.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 491
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/jquery.min.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 97646
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/bootstrap.min.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 29126
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/templates/protostar/js/template.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 2050
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/js/ba-form.js?2.0.6",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 128102
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/images/flags.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 49186
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 23582
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/libraries/countries/countries.json",
+      "status": 200,
+      "content_type": "application/json",
+      "size": 19954
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/fonts/IcoMoon.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 25424
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/icons/ba-icons/ba-icons.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 3136
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/icons/material/material.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 50312
+    },
+    {
+      "url": "https://www.facebook.com/v16.0/plugins/like.php?action=&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff05a1c29bb47cfe7%26domain%3Dwww.chinmayaramalaya.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.chinmayaramalaya.org%252Ff3c8a32bb4fdc4f6b%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fwww.facebook.com%2FChinmayaMissionHarleysville&layout=&locale=en_US&sdk=joey&share=true&size=&width=",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "size": 0
+    },
+    {
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v5/yQ/l/0,cross/TBAmH8s46M1.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 189
+    },
+    {
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v5/y9/l/0,cross/GsVO4I5Yi7Y.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 272
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/index.php?option=com_baforms&task=form.getFormsLanguage",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "size": 0
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/index.php?option=com_baforms&task=form.getRecaptchaData",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.google.com/recaptcha/api.js?onload=formsRecaptchaOnload&render=explicit",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 343725
+    },
+    {
+      "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ld2dMwbAAAAACENDBUrvMpgdGVFFYyf-VhjQffT&co=aHR0cHM6Ly9kZXYxLmNoaW5tYXlhcmFtYWxheWEub3JnOjQ0Mw..&hl=en&v=XOqlk8PL_yVx6IdpLbpXdiLy&theme=light&size=normal&anchor-ms=20000&execute-ms=30000&cb=mo3b0atdvaw4",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 343725
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/styles__ltr.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 42353
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 2228
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 26273
+    },
+    {
+      "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=XOqlk8PL_yVx6IdpLbpXdiLy",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 343725
+    },
+    {
+      "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=XOqlk8PL_yVx6IdpLbpXdiLy&k=6Ld2dMwbAAAAACENDBUrvMpgdGVFFYyf-VhjQffT&bft=0dAFcWeA6Yta8wfVgWFWvEHSLKLm8i3ZEAZ8NrSFiQk5Y8zTKFZTM_dkb61StOwOUolWbs-KKjM-l5TB9fvyVaOGB5PMG5NQd3NQ",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/styles__ltr.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 42353
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 343725
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 26273
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "Home",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/aboutus.html",
+      "text": "About Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "text": "Family Registration",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+      "text": "Yoga Registration",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+      "text": "Summer Picnic",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+      "text": "Youth Actvities",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/gallery.html",
+      "text": "Gallery",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/downloads.html",
+      "text": "Downloads",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+      "text": "Sthothraanjali Audio Files",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+      "text": "Temple Construction Fund",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "Guru Dhakshina",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "General Donation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "Puja Services",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/contactus.html",
+      "text": "Contact Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "text": "Chinmaya Ramalaya Registration",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "text": "Terms of Use",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    }
+  ],
+  "external_links": [
+    {
+      "url": "http://chinmayamission.com/",
+      "text": "Chinmaya Mission Worldwide",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "http://sandeepany.chinmayamission.com/",
+      "text": "Vedanta Course",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "http://chinfo.org/",
+      "text": "International Foundation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "http://chinmayakids.org/",
+      "text": "Chinmaya Kids",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "http://chinmayaswaranjali.org/",
+      "text": "Chinmaya Swaranjali",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "http://www.chykwest.com/",
+      "text": "CHYK West",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "http://chinmayapublications.org/",
+      "text": "Chinmaya Publications",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY",
+      "text": "Make a Donation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    },
+    {
+      "url": "https://www.facebook.com/ChinmayaMissionHarleysville",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/registration.html"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "alt": "Ramalaya Logo",
+      "width": 860,
+      "height": 452,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "alt": "Image",
+      "width": 86,
+      "height": 81,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "alt": "",
+      "width": 139,
+      "height": 27,
+      "loading": "",
+      "has_alt": false
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://connect.facebook.net/en_US/bundle/sdk.js/",
+      "async": true,
+      "defer": false
+    },
+    {
+      "src": "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0",
+      "async": true,
+      "defer": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/functions.js",
+      "async": false,
+      "defer": false
+    }
+  ],
+  "stylesheets": [
+    {
+      "href": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/style.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/dark.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/animate.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/custom.css",
+      "media": "all"
+    }
+  ],
+  "screenshot_desktop": "reports/chinmayaramalaya.org/screenshots/registration-html-desktop.png",
+  "screenshot_mobile": "reports/chinmayaramalaya.org/screenshots/registration-html-mobile.png",
+  "errors": [],
+  "console_errors": [
+    {
+      "type": "warning",
+      "text": "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'."
+    },
+    {
+      "type": "error",
+      "text": "requestStorageAccess: Permission denied."
+    }
+  ],
+  "response_headers": {
+    "content-encoding": "gzip",
+    "content-type": "text/html",
+    "date": "Sat, 15 Aug 2026 06:05:12 GMT",
+    "etag": "W/\"2dd4-656e868fbd580\"",
+    "last-modified": "Sat, 18 Jul 2026 20:20:54 GMT",
+    "server": "Apache",
+    "x-ws-origin": "available",
+    "x-ws-ratelimit-limit": "1000",
+    "x-ws-ratelimit-remaining": "999"
+  },
+  "html_length": 19163
+}

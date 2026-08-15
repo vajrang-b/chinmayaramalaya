@@ -1,0 +1,22 @@
+/* stop margin collapse completely */
+section {
+    padding: 60px 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* remove top margin from first element inside any section */
+section > *:first-child {
+    margin-top: 0 !important;
+}
+
+/* remove bottom margin from hero to section transition */
+.hero {
+    margin-bottom: 0 !important;
+    padding-bottom: 80px;
+}
+
+/* kill container top spacing issues */
+.container {
+    margin-top: 0 !important;
+}

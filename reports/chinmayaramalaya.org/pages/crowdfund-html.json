@@ -1,0 +1,709 @@
+{
+  "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+  "status_code": 200,
+  "title": "Chinmaya Ramalaya | Temple Construction Fund",
+  "load_time_ms": 439,
+  "ttfb_ms": 61,
+  "dom_content_loaded_ms": 89,
+  "resource_count": 48,
+  "total_bytes": 8212869,
+  "resources": [
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+      "status": 200,
+      "content_type": "text/html",
+      "size": 0
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 190406
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/style.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 340195
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 13680
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/dark.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 50039
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 123131
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/animate.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 89705
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 7332
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/custom.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 464
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 50833
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/donate/building-layout.jpeg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 75329
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 5857
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 2197
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 89476
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 677350
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/js/functions.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 75112
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 33539
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wWw.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 30418
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPHA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 29896
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10542
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10630
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 10455
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/css/fonts/font-icons.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 559660
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/world-map.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 7639
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/donate/rama-parivar.jpeg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 639490
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/donate/hanuman.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 762244
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/donate/ganesha.jpeg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 235805
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/donate/siva-parvathi.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 37662
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/donate/balaji.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": 812257
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/images/donate/Bhagavan-vahanas.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size": 2506648
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/index.php?option=com_content&view=article&layout=edit&id=30",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/templates/protostar/css/template.css?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 164388
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "size": 0
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/jquery.min.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 97646
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/jquery-noconflict.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 21
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/jquery-migrate.min.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 10056
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/system/js/caption.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 491
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/js/bootstrap.min.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 29126
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/templates/protostar/js/template.js?2be4adf0f177526837b7231e001df168",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 2050
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/css/ba-style.css?2.0.6",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 129910
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/icons/material/material.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 70634
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/js/ba-form.js?2.0.6",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 128102
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/media/jui/fonts/IcoMoon.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 25424
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "size": 23582
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/icons/ba-icons/ba-icons.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 3136
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/components/com_baforms/assets/icons/material/material.woff",
+      "status": 200,
+      "content_type": "application/font-woff",
+      "size": 50312
+    },
+    {
+      "url": "https://dev1.chinmayaramalaya.org/index.php?option=com_baforms&task=form.getFormsLanguage",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "size": 0
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/index.html",
+      "text": "Home",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/aboutus.html",
+      "text": "About Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/registration.html",
+      "text": "Family Registration",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+      "text": "Yoga Registration",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+      "text": "Summer Picnic",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+      "text": "Youth Actvities",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/gallery.html",
+      "text": "Gallery",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/downloads.html",
+      "text": "Downloads",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+      "text": "Sthothraanjali Audio Files",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+      "text": "Temple Construction Fund",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "Guru Dhakshina",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "General Donation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/donate.html",
+      "text": "Puja Services",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/contactus.html",
+      "text": "Contact Us",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "1 Sq Ft - $201",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "5 Sq Ft - $1005",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "10 Sq Ft - $2,010",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "Custom",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "Sponsor",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "Sponsor",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "Sponsor",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "Sponsor",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "Sponsor",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html#donate-now",
+      "text": "Sponsor",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+      "text": "Terms of Use",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    }
+  ],
+  "external_links": [
+    {
+      "url": "http://chinmayamission.com/",
+      "text": "Chinmaya Mission Worldwide",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "http://sandeepany.chinmayamission.com/",
+      "text": "Vedanta Course",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "http://chinfo.org/",
+      "text": "International Foundation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "http://chinmayakids.org/",
+      "text": "Chinmaya Kids",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "http://chinmayaswaranjali.org/",
+      "text": "Chinmaya Swaranjali",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "http://www.chykwest.com/",
+      "text": "CHYK West",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "http://chinmayapublications.org/",
+      "text": "Chinmaya Publications",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY",
+      "text": "Make a Donation",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    },
+    {
+      "url": "https://www.facebook.com/ChinmayaMissionHarleysville",
+      "text": "",
+      "rel": "",
+      "target": "",
+      "source_page": "https://www.chinmayaramalaya.org/crowdfund.html"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.chinmayaramalaya.org/images/logo.jpeg",
+      "alt": "Ramalaya Logo",
+      "width": 860,
+      "height": 452,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/donate/building-layout.jpeg",
+      "alt": "",
+      "width": 1026,
+      "height": 255,
+      "loading": "",
+      "has_alt": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/donate/rama-parivar.jpeg",
+      "alt": "Shri Sita Rama Parivar",
+      "width": 1461,
+      "height": 1117,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/donate/hanuman.jpg",
+      "alt": "Shri Hanuman",
+      "width": 3274,
+      "height": 5410,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/donate/ganesha.jpeg",
+      "alt": "Shri Ganesha",
+      "width": 706,
+      "height": 1092,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/donate/siva-parvathi.jpg",
+      "alt": "Shiva & Parvati",
+      "width": 281,
+      "height": 374,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/donate/balaji.jpg",
+      "alt": "Shiva & Parvati",
+      "width": 1261,
+      "height": 2203,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/donate/Bhagavan-vahanas.png",
+      "alt": "Shiva & Parvati",
+      "width": 1536,
+      "height": 1024,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/chinmaya-mission-logo.png",
+      "alt": "Image",
+      "width": 86,
+      "height": 81,
+      "loading": "",
+      "has_alt": true
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/images/payment_methods.png",
+      "alt": "",
+      "width": 139,
+      "height": 27,
+      "loading": "",
+      "has_alt": false
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://www.chinmayaramalaya.org/js/jquery.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/plugins.min.js",
+      "async": false,
+      "defer": false
+    },
+    {
+      "src": "https://www.chinmayaramalaya.org/js/functions.js",
+      "async": false,
+      "defer": false
+    }
+  ],
+  "stylesheets": [
+    {
+      "href": "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/bootstrap.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/style.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/swiper.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/dark.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/font-icons.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/animate.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/magnific-popup.css",
+      "media": "all"
+    },
+    {
+      "href": "https://www.chinmayaramalaya.org/css/custom.css",
+      "media": "all"
+    }
+  ],
+  "screenshot_desktop": "reports/chinmayaramalaya.org/screenshots/crowdfund-html-desktop.png",
+  "screenshot_mobile": "reports/chinmayaramalaya.org/screenshots/crowdfund-html-mobile.png",
+  "errors": [],
+  "console_errors": [],
+  "response_headers": {
+    "content-encoding": "gzip",
+    "content-type": "text/html",
+    "date": "Sat, 15 Aug 2026 06:05:35 GMT",
+    "etag": "W/\"65dd-656e87a265d80\"",
+    "last-modified": "Sat, 18 Jul 2026 20:25:42 GMT",
+    "server": "Apache",
+    "x-ws-origin": "available",
+    "x-ws-ratelimit-limit": "1000",
+    "x-ws-ratelimit-remaining": "999"
+  },
+  "html_length": 25908
+}

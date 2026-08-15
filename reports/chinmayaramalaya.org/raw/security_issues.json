@@ -1,0 +1,840 @@
+[
+  {
+    "url": "https://www.chinmayaramalaya.org/",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "warning",
+        "message": "6 external link(s) with target='_blank' missing rel='noopener noreferrer'. This can expose your site to reverse tabnabbing attacks. Examples: Donate for Ramalaya, Mahasamadhi 2026 Camp, SriKrishna Parijatham Kuchipudi Dance"
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: jquery-3.6.0.min.js. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>"
+      }
+    ],
+    "score": 44,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/aboutus.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/registration.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/donate.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/contactus.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "HTML comment contains 'temp': '<div class=\"col-md-4 form-group\">\n\t\t\t\t\t\t\t\t\t\t\t<label for=\"template-contactform-se...'. Remove development comments before production."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 50,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/gallery.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/downloads.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/index.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "warning",
+        "message": "6 external link(s) with target='_blank' missing rel='noopener noreferrer'. This can expose your site to reverse tabnabbing attacks. Examples: Donate for Ramalaya, Mahasamadhi 2026 Camp, SriKrishna Parijatham Kuchipudi Dance"
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: jquery-3.6.0.min.js. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>"
+      }
+    ],
+    "score": 44,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/activities.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/specialeventjuly2026.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/balavihar.html",
+    "category": "security",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing Strict-Transport-Security (HSTS) header. Enforces HTTPS connections. Add: Strict-Transport-Security: max-age=31536000; includeSubDomains"
+      },
+      {
+        "severity": "critical",
+        "message": "Missing X-Content-Type-Options header. Prevents MIME type sniffing. Add: X-Content-Type-Options: nosniff"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing X-Frame-Options header. Prevents clickjacking attacks. Add: X-Frame-Options: DENY or SAMEORIGIN"
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Content-Security-Policy (CSP) header. Mitigates XSS and injection attacks. Configure a CSP header appropriate for your site."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Referrer-Policy header. Controls referrer information. Add: Referrer-Policy: strict-origin-when-cross-origin"
+      },
+      {
+        "severity": "info",
+        "message": "Missing Permissions-Policy header. Controls browser features. Add: Permissions-Policy: camera=(), microphone=(), geolocation=()"
+      },
+      {
+        "severity": "warning",
+        "message": "HTTP does not redirect to HTTPS (got HTTP 200). Configure a 301 redirect from HTTP to HTTPS."
+      },
+      {
+        "severity": "info",
+        "message": "CDN resource without SRI hash: css?family=Lato:300,400,400i,700|Poppins:300,400,5. Add integrity='sha384-...' to protect against CDN compromise.",
+        "element": "<link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap\" rel=\"stylesheet\" type=\"text/css\"/>"
+      }
+    ],
+    "score": 52,
+    "headers_present": [
+      "content-encoding",
+      "content-type",
+      "date",
+      "etag",
+      "last-modified",
+      "server",
+      "x-ws-origin",
+      "x-ws-ratelimit-limit",
+      "x-ws-ratelimit-remaining"
+    ]
+  }
+]
