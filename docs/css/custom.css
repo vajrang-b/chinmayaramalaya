@@ -32,22 +32,23 @@ body {
 
 /* Stop margin collapse & fix section padding */
 section {
-    padding: 35px 0 !important;
-    margin: 0;
+    padding: 40px 0 !important;
+    margin: 0 !important;
     overflow: hidden;
 }
 
-section > *:first-child {
+section > *:first-child,
+.container > *:first-child {
     margin-top: 0 !important;
 }
 
-.hero {
-    margin-bottom: 0 !important;
-    padding-bottom: 40px;
+.content-wrap {
+    padding: 40px 0 !important;
 }
 
 .container {
     margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 /* --------------------------------------------------------------------------
