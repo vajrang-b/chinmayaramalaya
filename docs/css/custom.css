@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Custom Fixes (Original Theme Preserved)
+   Chinmaya Ramalaya - Custom Fixes (Original Site Theme Match)
    ========================================================================== */
 
 /* Stop margin collapse */
@@ -23,7 +23,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. GO TO TOP BUTTON - Original Theme Match (#8b0000 maroon & #c89b3c gold)
+   1. GO TO TOP BUTTON
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -33,17 +33,17 @@ section > *:first-child {
     width: 44px;
     height: 44px;
     border-radius: 6px;
-    background-color: #8b0000;
+    background-color: #333333;
     color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
 }
 
 #gotoTop.show {
@@ -52,10 +52,9 @@ section > *:first-child {
 }
 
 #gotoTop:hover {
-    background-color: #c89b3c;
+    background-color: #666666;
     color: #ffffff;
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(200, 155, 60, 0.4);
 }
 
 #gotoTop svg {
@@ -65,7 +64,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. MOBILE NAVIGATION - ORIGINAL THEME MATCH (Light #ffffff / Maroon / Gold)
+   2. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     /* Hide secondary extra trigger if present */
@@ -73,41 +72,43 @@ section > *:first-child {
         display: none !important;
     }
 
-    /* Style primary-menu-trigger in original maroon theme */
+    /* Style primary-menu-trigger in clean neutral theme (No red) */
     #primary-menu-trigger {
         display: flex !important;
         align-items: center;
         justify-content: center;
-        background: #8b0000;
-        color: #ffffff;
+        background: #ffffff !important;
+        color: #333333 !important;
+        border: 1px solid #dddddd !important;
         border-radius: 6px;
         width: 42px;
         height: 42px;
         padding: 8px;
         margin: 5px auto;
         cursor: pointer;
-        box-shadow: 0 3px 10px rgba(139, 0, 0, 0.2);
-        transition: background 0.2s ease;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        transition: all 0.2s ease;
     }
 
     #primary-menu-trigger:hover {
-        background: #c89b3c;
+        background: #f5f5f5 !important;
+        border-color: #cccccc !important;
     }
 
     #primary-menu-trigger svg {
         width: 22px;
         height: 22px;
-        fill: #ffffff;
+        fill: #333333 !important;
     }
 
-    /* Mobile Drawer in Original Theme (#ffffff background, dark text, maroon accent) */
+    /* Mobile Drawer in Original Neutral White Theme */
     nav.primary-menu {
         display: none;
         width: 100%;
-        background: #ffffff;
-        border-top: 3px solid #8b0000;
-        border-bottom: 1px solid #eeeeee;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        background: #ffffff !important;
+        border-top: 2px solid #e5e5e5 !important;
+        border-bottom: 1px solid #e5e5e5 !important;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
         margin-top: 8px;
         padding: 8px 0;
     }
@@ -126,7 +127,7 @@ section > *:first-child {
 
     nav.primary-menu li.menu-item {
         margin: 0 !important;
-        border-bottom: 1px solid #f5f5f5;
+        border-bottom: 1px solid #f0f0f0;
     }
 
     nav.primary-menu a.menu-link {
@@ -143,18 +144,18 @@ section > *:first-child {
 
     nav.primary-menu li.menu-item.current > a.menu-link,
     nav.primary-menu a.menu-link:hover {
-        color: #8b0000 !important;
-        background: #fff8ef !important;
+        color: #111111 !important;
+        background: #f9f9f9 !important;
     }
 
-    /* Submenu Accordion on Mobile (Original light palette) */
+    /* Submenu Accordion on Mobile (Clean neutral palette) */
     nav.primary-menu .sub-menu-container {
         display: none;
         background: #fafafa;
         padding: 4px 0;
         margin: 0;
         list-style: none;
-        border-left: 3px solid #c89b3c;
+        border-left: 3px solid #dddddd;
     }
 
     nav.primary-menu .sub-menu-container.open {
@@ -169,8 +170,8 @@ section > *:first-child {
     }
 
     nav.primary-menu .sub-menu-container a.menu-link:hover {
-        color: #8b0000 !important;
-        background: #fff0e0 !important;
+        color: #111111 !important;
+        background: #f0f0f0 !important;
     }
 }
 
