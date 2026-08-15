@@ -81,35 +81,6 @@ header.navbar-header,
     justify-content: space-between !important;
 }
 
-/* Override .header-row 100% width so #header-wrap can sit right next to logo */
-.header-row {
-    width: auto !important;
-    max-width: none !important;
-    flex: 0 0 auto !important;
-    margin: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-}
-
-#logo {
-    width: auto !important;
-    flex: 0 0 auto !important;
-    margin: 0 !important;
-    float: none !important;
-}
-
-#header-wrap {
-    width: auto !important;
-    flex: 1 1 auto !important;
-    margin: 0 0 0 auto !important; /* PUSHES NAV MENU TO RIGHT OF LOGO ON SAME LINE */
-    display: flex !important;
-    align-items: center !important;
-    justify-content: flex-end !important;
-    background: transparent !important;
-    border-top: none !important;
-    padding: 0 !important;
-}
-
 /* Logo */
 .logo.header-branding {
     display: flex;
@@ -150,17 +121,19 @@ header.navbar-header,
 .menu-toggle {
     display: none;
     flex-direction: column;
-    gap: 5px;
-    background: none;
+    justify-content: space-between;
+    width: 32px;
+    height: 24px;
+    background: transparent;
     border: none;
     cursor: pointer;
     margin-left: auto;
-    z-index: 1001;
-    padding: 4px;
+    z-index: 10001;
+    padding: 0;
 }
 
 .menu-toggle .bar {
-    width: 25px;
+    width: 100%;
     height: 3px;
     background-color: #222222;
     border-radius: 2px;
@@ -168,7 +141,7 @@ header.navbar-header,
 }
 
 .menu-toggle.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(10.5px) rotate(45deg);
 }
 
 .menu-toggle.active .bar:nth-child(2) {
@@ -176,12 +149,13 @@ header.navbar-header,
 }
 
 .menu-toggle.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-10.5px) rotate(-45deg);
 }
 
 /* 3. DESKTOP NAVIGATION (>= 992px) */
 @media (min-width: 992px) {
-    .nav-menu {
+    .nav-menu,
+    nav.primary-menu {
         display: flex !important;
         align-items: center !important;
         margin-left: auto !important;
@@ -285,22 +259,26 @@ header.navbar-header,
         font-size: 17px !important;
     }
 
-    /* Slide-in from left: -100% to left: 0 */
-    .nav-menu {
+    /* Slide-in Mobile Drawer Overlay */
+    .nav-menu,
+    nav.primary-menu {
+        display: none !important;
         position: fixed !important;
         top: 65px !important;
         left: -100% !important;
         width: 100% !important;
         height: calc(100vh - 65px) !important;
         background-color: #ffffff !important;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
         transition: left 0.3s ease-in-out !important;
         padding: 20px !important;
         overflow-y: auto !important;
-        z-index: 9999 !important;
+        z-index: 99999 !important;
     }
 
-    .nav-menu.active {
+    .nav-menu.active,
+    nav.primary-menu.active {
+        display: block !important;
         left: 0 !important;
     }
 
@@ -342,7 +320,7 @@ header.navbar-header,
     }
 
     .nav-list .sub-menu-container {
-        display: none;
+        display: none !important;
         background: #fcf9f2 !important;
         border-radius: 10px !important;
         padding: 6px 12px !important;

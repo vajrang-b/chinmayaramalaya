@@ -289,4 +289,45 @@
 
 	<script src="js/custom.js"></script>
 
+<script>
+(function() {
+    function initMobileMenu() {
+        var menuToggle = document.getElementById('mobile-menu');
+        var navMenu = document.querySelector('.nav-menu') || document.querySelector('.primary-menu');
+        
+        if (menuToggle && navMenu) {
+            menuToggle.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                menuToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            };
+        }
+
+        var parentMenuItems = document.querySelectorAll('.nav-list > .menu-item');
+        parentMenuItems.forEach(function(item) {
+            var link = item.querySelector('.menu-link');
+            var subMenu = item.querySelector('.sub-menu-container');
+            if (subMenu && link) {
+                link.onclick = function(e) {
+                    if (window.innerWidth < 992) {
+                        e.preventDefault();
+                        subMenu.classList.toggle('open');
+                        var arrow = link.querySelector('.mobile-submenu-arrow');
+                        if (arrow) {
+                            arrow.style.transform = subMenu.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0deg)';
+                        }
+                    }
+                };
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    } else {
+        initMobileMenu();
+    }
+})();
+</script>
 </body></html>
