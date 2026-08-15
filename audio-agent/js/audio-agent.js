@@ -49,12 +49,10 @@ class RamalayaAudioAgent {
     setupVoices() {
         if (!this.synth) return;
 
-        const isIndianVoice = (v) => {
+        const isEnglishIndianVoice = (v) => {
             const lang = (v.lang || '').toLowerCase();
             const name = (v.name || '').toLowerCase();
-            return lang.includes('en-in') || lang.includes('hi-in') || lang.includes('ta-in') || lang.includes('te-in') || 
-                   name.includes('india') || name.includes('indian') || name.includes('rishi') || name.includes('heera') || 
-                   name.includes('prabhat') || name.includes('neerja') || name.includes('veena') || name.includes('kavya');
+            return lang.startsWith('en') && (lang.includes('en-in') || name.includes('india') || name.includes('rishi') || name.includes('veena'));
         };
 
         const populate = () => {
@@ -63,10 +61,13 @@ class RamalayaAudioAgent {
 
             this.voiceSelect.innerHTML = '';
 
-            // Sort voices: Indian accent voices first, then high-quality natural voices, then standard English
-            const sortedVoices = [...this.voices].sort((a, b) => {
-                let scoreA = isIndianVoice(a) ? 100 : ((a.name.includes('Google') || a.name.includes('Natural')) ? 50 : 10);
-                let scoreB = isIndianVoice(b) ? 100 : ((b.name.includes('Google') || b.name.includes('Natural')) ? 50 : 10);
+            // Filter ONLY English voices (en-US, en-IN, en-GB, etc.)
+            const englishVoices = this.voices.filter(v => (v.lang || '').toLowerCase().startsWith('en'));
+
+            // Sort voices: Indian English voices (en-IN) first, then Natural/Google English voices
+            const sortedVoices = [...englishVoices].sort((a, b) => {
+                let scoreA = isEnglishIndianVoice(a) ? 100 : ((a.name.includes('Google') || a.name.includes('Natural')) ? 50 : 10);
+                let scoreB = isEnglishIndianVoice(b) ? 100 : ((b.name.includes('Google') || b.name.includes('Natural')) ? 50 : 10);
                 return scoreB - scoreA;
             });
 
@@ -74,7 +75,7 @@ class RamalayaAudioAgent {
             sortedVoices.forEach((voice, index) => {
                 const option = document.createElement('option');
                 option.value = voice.name;
-                const isIndian = isIndianVoice(voice);
+                const isIndian = isEnglishIndianVoice(voice);
                 option.textContent = `${isIndian ? '🇮🇳 ' : ''}${voice.name} (${voice.lang})`;
 
                 if (isIndian && defaultIdx === 0) {
@@ -292,8 +293,8 @@ class RamalayaAudioAgent {
             voice = voices.find(v => {
                 const lang = (v.lang || '').toLowerCase();
                 const name = (v.name || '').toLowerCase();
-                return lang.includes('en-in') || lang.includes('hi-in') || name.includes('india') || name.includes('rishi');
-            }) || voices.find(v => v.name.includes('Google') || v.name.includes('Natural'));
+                return lang.startsWith('en') && (lang.includes('en-in') || name.includes('india') || name.includes('rishi'));
+            }) || voices.find(v => v.lang.toLowerCase().startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural')));
         }
 
         if (voice) {
