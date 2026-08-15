@@ -64,7 +64,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. HEADER BRANDING & LOGO
+   2. OFFICIAL HEADER BRANDING & LOGO
    -------------------------------------------------------------------------- */
 .header-branding {
     display: flex;
@@ -74,7 +74,7 @@ section > *:first-child {
 }
 
 .header-logo-img {
-    height: 65px;
+    height: 72px;
     width: auto;
     object-fit: contain;
 }
@@ -105,7 +105,7 @@ section > *:first-child {
         justify-content: center;
     }
     .header-logo-img {
-        height: 50px;
+        height: 54px;
     }
     .header-title-center {
         font-size: 19px;
@@ -113,7 +113,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. MODERN 2-COLUMN HERO SECTION (Featuring Smiling Gurudev Avatar)
+   3. MODERN 2-COLUMN HERO SECTION
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
