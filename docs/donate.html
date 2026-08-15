@@ -244,11 +244,19 @@
 
 					</div>
 
-					<!-- Official Embedded Donation Iframe Container -->
-					<div class="material-card p-4 mb-5" id="donate-now">
-						<h2 class="h4 mb-3 text-center" style="color: var(--primary-maroon); font-weight: 700;">💳 Online Donation &amp; Sponsorship Form</h2>
-						<div class="embed-responsive shadow-sm rounded" style="min-height: 850px; overflow: hidden; background: #ffffff;">
-							<iframe id="eventForm" src="https://dev1.chinmayaramalaya.org/index.php?view=article&amp;id=31" width="100%" height="850px" style="border:0; width: 100%; min-height: 850px;" loading="lazy"></iframe>
+					<!-- Official Embedded PayPal Donation Portal Container -->
+					<div class="material-card p-4 mb-5 text-center" id="donate-now">
+						<h2 class="h4 mb-2" style="color: var(--primary-maroon); font-weight: 700;">💳 Online Donation via PayPal</h2>
+						<p class="text-muted mb-4" style="font-size: 14.5px;">Click below to open the official Chinmaya Ramalaya PayPal donation portal or use the embedded payment screen below.</p>
+
+						<div class="mb-4">
+							<a href="https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-lg shadow-sm" style="font-size: 1.15rem; padding: 14px 32px;">
+								💳 Open Official PayPal Donation Portal
+							</a>
+						</div>
+
+						<div class="embed-responsive shadow-sm rounded" style="min-height: 800px; overflow: hidden; background: #ffffff; border: 1px solid var(--border-accent);">
+							<iframe id="paypalForm" src="https://www.paypal.com/donate/?hosted_button_id=DZUWMENUM8BJY" width="100%" height="800px" style="border:0; width: 100%; min-height: 800px;" loading="lazy"></iframe>
 						</div>
 					</div>
 
