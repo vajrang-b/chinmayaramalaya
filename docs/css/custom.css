@@ -834,3 +834,50 @@ button[type="submit"]:hover,
         color: var(--primary-maroon) !important;
     }
 }
+
+/* --------------------------------------------------------------------------
+   11. EVENT HIGHLIGHT CHIPS & CALLOUT BOXES
+   -------------------------------------------------------------------------- */
+.picnic-highlights-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.picnic-chip {
+    background: var(--saffron-light-bg);
+    border: 1px solid var(--border-accent);
+    color: var(--primary-maroon);
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.picnic-chip:hover {
+    transform: translateY(-2px);
+    background: #fcefdc;
+}
+
+.event-callout-box {
+    background: #fffcf7;
+    border-left: 4px solid var(--saffron-gold);
+    border-radius: 8px;
+    padding: 16px 20px;
+    font-size: 14.5px;
+    color: var(--text-dark);
+}
+
+.event-poster-wrapper {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.event-poster-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
