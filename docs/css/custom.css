@@ -23,127 +23,42 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. PROPER RESPONSIVE HERO SECTION DESIGN
+   1. RECREATED ALTAR SHRINE HERO BANNER (Pujya Swami Chinmayananda & Altar Shrine)
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
-    background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
-    border-bottom: 2px solid #f0e6d6;
-    padding: 30px 0 !important;
-    position: relative;
-}
-
-.hero-identity-card {
-    display: inline-flex;
-    align-items: center;
-    gap: 15px;
-    background: #ffffff;
-    padding: 10px 22px;
-    border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-    border: 1px solid #ecd8b8;
-}
-
-.guru-avatar-img {
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #c89b3c;
-    box-shadow: 0 2px 8px rgba(139, 0, 0, 0.2);
-}
-
-.guru-meta {
-    text-align: left;
-}
-
-.guru-meta .badge-tag {
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #8b0000;
-    display: block;
-}
-
-.guru-meta .guru-title {
-    font-size: 22px;
-    font-weight: 700;
-    color: #222222;
-    margin: 0;
-    line-height: 1.2;
-}
-
-.hero-subtitle {
-    font-size: 15px;
-    color: #555555;
-    margin-bottom: 12px;
-    font-weight: 500;
-}
-
-.hero-location {
-    font-size: 14px;
-    color: #8b0000;
-    font-weight: 600;
-}
-
-.hero-cta-buttons {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.hero-cta-buttons .btn-primary-custom {
-    background: #8b0000;
-    color: #ffffff !important;
-    border-radius: 6px;
-    font-weight: 600;
-    padding: 10px 20px;
-    border: none;
-    transition: all 0.25s ease;
-    text-decoration: none;
-}
-
-.hero-cta-buttons .btn-primary-custom:hover {
-    background: #c89b3c;
-    color: #ffffff !important;
-    transform: translateY(-2px);
-}
-
-.hero-cta-buttons .btn-secondary-custom {
-    background: #ffffff;
-    color: #333333 !important;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
-    font-weight: 600;
-    padding: 10px 20px;
-    transition: all 0.25s ease;
-    text-decoration: none;
-}
-
-.hero-cta-buttons .btn-secondary-custom:hover {
-    background: #f5f5f5;
-    color: #111111 !important;
-    transform: translateY(-2px);
-}
-
-.hero-temple-main-img {
     width: 100%;
-    max-width: 750px;
     height: auto;
-    max-height: 420px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-    border: 3px solid #ffffff;
+    min-height: auto !important;
+    background: #1a1714;
+    text-align: center;
+    padding: 12px 0 !important;
+    margin: 0 !important;
 }
 
-@media (max-width: 991px) {
-    .hero-identity-card {
-        padding: 8px 16px;
+.hero-img {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    max-height: 550px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain !important;
+    object-position: center center !important;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 767px) {
+    .crowdfund-hero {
+        padding: 5px 0 !important;
     }
-    
-    .hero-cta-buttons {
-        justify-content: center;
+
+    .hero-img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 340px !important;
+        object-fit: contain !important;
+        object-position: center center !important;
     }
 }
 
