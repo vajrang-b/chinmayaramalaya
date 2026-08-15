@@ -113,7 +113,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. MODERN 2-COLUMN HERO SECTION
+   3. MODERN 2-COLUMN HERO SECTION (Featuring Smiling Gurudev Avatar)
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
@@ -125,21 +125,22 @@ section > *:first-child {
 .hero-identity-card {
     display: inline-flex;
     align-items: center;
-    gap: 14px;
+    gap: 15px;
     background: #ffffff;
-    padding: 10px 20px;
+    padding: 10px 22px;
     border-radius: 50px;
     box-shadow: 0 4px 15px rgba(139, 0, 0, 0.08);
     border: 1px solid #ecd8b8;
 }
 
 .guru-avatar-img {
-    width: 65px;
-    height: 65px;
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center top;
     border: 2px solid #c89b3c;
-    box-shadow: 0 2px 8px rgba(139, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(139, 0, 0, 0.25);
 }
 
 .guru-meta {
@@ -156,7 +157,7 @@ section > *:first-child {
 }
 
 .guru-meta .guru-title {
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 700;
     color: #222222;
     margin: 0;
