@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Parent Flex Layout for el1 (#header > .container) & el2 (#header-wrap)
+   Chinmaya Ramalaya - Single Container 2-Column Grid Header Customizations
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -51,8 +51,38 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. BRANDING STYLES
+   1. SINGLE CONTAINER 2-COLUMN GRID HEADER (Column 1 Logo, Column 2 Menu)
    -------------------------------------------------------------------------- */
+#header {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    z-index: 100;
+    overflow: visible !important;
+}
+
+#header-wrap {
+    position: relative;
+    background: #ffffff !important;
+    padding: 10px 0;
+    overflow: visible !important;
+}
+
+#header-wrap .container {
+    max-width: 1320px !important;
+    overflow: visible !important;
+}
+
+#header-wrap .row {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* PREVENT WRAPPING */
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    margin: 0 !important;
+    overflow: visible !important;
+}
+
 .header-branding {
     display: flex;
     align-items: center;
@@ -61,7 +91,7 @@ section > *:first-child {
 }
 
 .header-logo-img {
-    height: 60px;
+    height: 65px;
     width: auto;
     object-fit: contain;
 }
@@ -87,90 +117,28 @@ section > *:first-child {
     font-family: 'Poppins', 'Inter', sans-serif;
 }
 
-/* --------------------------------------------------------------------------
-   2. DESKTOP SINGLE ROW HEADER (Parent #header flex layout for el1 & el2)
-   -------------------------------------------------------------------------- */
+/* DESKTOP 2-COLUMN LAYOUT (>= 992px) */
 @media (min-width: 992px) {
-    /* Parent #header: Display flex row */
-    header#header {
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: center !important;
-        justify-content: space-between !important;
-        background: #ffffff !important;
-        border-bottom: 1px solid #e5e5e5 !important;
-        padding: 6px 30px !important;
-        position: relative !important;
-        z-index: 100 !important;
-        overflow: visible !important;
-    }
-
-    /* el1 (#header > .container holding #logo) */
-    header#header > .container {
-        width: auto !important;
-        flex: 0 0 auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow: visible !important;
-    }
-
-    header#header > .container .header-row {
-        width: auto !important;
-        margin: 0 !important;
-        overflow: visible !important;
-    }
-
-    #logo {
-        margin: 0 !important;
-        float: none !important;
-    }
-
-    /* el2 (#header-wrap holding navigation) */
-    #header-wrap {
-        width: auto !important;
-        flex: 1 1 auto !important;
-        background: transparent !important;
-        border-top: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        display: flex !important;
-        justify-content: flex-end !important;
-        align-items: center !important;
-        overflow: visible !important;
-    }
-
-    #header-wrap > .container {
-        width: 100% !important;
-        max-width: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow: visible !important;
-    }
-
-    #header-wrap .header-row {
-        display: flex !important;
-        justify-content: flex-end !important;
-        align-items: center !important;
-        width: 100% !important;
-        margin: 0 !important;
-        overflow: visible !important;
-    }
-
     #primary-menu-trigger {
         display: none !important;
     }
 
     nav.primary-menu {
         display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
         align-items: center !important;
         justify-content: flex-end !important;
-        margin-left: auto !important;
+        width: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
         overflow: visible !important;
     }
 
     nav.primary-menu ul.menu-container {
         display: flex !important;
         flex-direction: row !important;
+        flex-wrap: nowrap !important;
         align-items: center !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -181,12 +149,14 @@ section > *:first-child {
 
     nav.primary-menu li.menu-item {
         position: relative !important;
-        margin: 0 2px !important;
+        display: inline-block !important;
+        margin: 0 1px !important;
         border-bottom: none !important;
         white-space: nowrap !important;
     }
 
     nav.primary-menu a.menu-link {
+        display: inline-block !important;
         padding: 8px 10px !important;
         font-size: 13.5px !important;
         font-weight: 600 !important;
@@ -200,7 +170,7 @@ section > *:first-child {
         background: transparent !important;
     }
 
-    /* Desktop Hover Submenu Container */
+    /* DESKTOP HOVER DROPDOWN SUBMENU CONTAINER */
     nav.primary-menu .sub-menu-container {
         display: none !important;
         position: absolute !important;
@@ -229,6 +199,7 @@ section > *:first-child {
     nav.primary-menu .sub-menu-container li.menu-item {
         width: 100% !important;
         margin: 0 !important;
+        display: block !important;
     }
 
     nav.primary-menu .sub-menu-container a.menu-link {
@@ -249,9 +220,7 @@ section > *:first-child {
     }
 }
 
-/* --------------------------------------------------------------------------
-   3. MOBILE NAVIGATION (< 992px)
-   -------------------------------------------------------------------------- */
+/* MOBILE NAVIGATION (< 992px) */
 @media (max-width: 991px) {
     .header-logo-img {
         height: 48px;
@@ -341,7 +310,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   4. MODERN 2-COLUMN HERO SECTION
+   2. MODERN 2-COLUMN HERO SECTION
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
@@ -462,7 +431,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   5. BACK TO TOP BUTTON (Perfect Center Alignment)
+   3. BACK TO TOP BUTTON (Perfect Center Alignment)
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -509,7 +478,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   6. FACEBOOK BRAND BUTTON
+   4. FACEBOOK BRAND BUTTON
    -------------------------------------------------------------------------- */
 .facebook-brand-btn {
     display: inline-flex;
@@ -533,7 +502,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   7. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
+   5. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
    -------------------------------------------------------------------------- */
 .announcements-box {
     background: #ffffff;
@@ -598,7 +567,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   8. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   6. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
