@@ -11,6 +11,7 @@ class RamalayaAudioAgent {
         this.isListening = false;
         this.isSpeaking = false;
         this.animFrameId = null;
+        this.voices = [];
         
         // DOM Elements
         this.micBtn = document.getElementById('micBtn');
@@ -20,6 +21,7 @@ class RamalayaAudioAgent {
         this.agentResponseEl = document.getElementById('agentResponse');
         this.textInput = document.getElementById('textInput');
         this.sendBtn = document.getElementById('sendBtn');
+        this.voiceSelect = document.getElementById('voiceSelect');
         this.canvas = document.getElementById('visualizerCanvas');
         this.ctx = this.canvas ? this.canvas.getContext('2d') : null;
 
@@ -29,6 +31,7 @@ class RamalayaAudioAgent {
     async init() {
         await this.loadKnowledgeBase();
         this.setupSpeechRecognition();
+        this.setupVoices();
         this.setupEventListeners();
         this.initVisualizer();
     }
@@ -40,6 +43,48 @@ class RamalayaAudioAgent {
             console.log('✅ Audio Agent Knowledge Base Loaded:', this.knowledgeBase);
         } catch (err) {
             console.error('❌ Failed to load knowledge base:', err);
+        }
+    }
+
+    setupVoices() {
+        if (!this.synth) return;
+
+        const populate = () => {
+            this.voices = this.synth.getVoices();
+            if (!this.voiceSelect || this.voices.length === 0) return;
+
+            this.voiceSelect.innerHTML = '';
+            
+            // Sort & filter English voices, prioritizing Google / Natural / Apple / Microsoft voices
+            const sortedVoices = [...this.voices].sort((a, b) => {
+                const aQuality = (a.name.includes('Google') || a.name.includes('Natural') || a.name.includes('Premium')) ? 2 : 1;
+                const bQuality = (b.name.includes('Google') || b.name.includes('Natural') || b.name.includes('Premium')) ? 2 : 1;
+                return bQuality - aQuality;
+            });
+
+            let defaultIdx = 0;
+            sortedVoices.forEach((voice, index) => {
+                if (voice.lang.startsWith('en')) {
+                    const option = document.createElement('option');
+                    option.value = voice.name;
+                    option.textContent = `${voice.name} (${voice.lang})`;
+                    
+                    // Auto-select best voice
+                    if (voice.name.includes('Google US English') || voice.name.includes('Google UK English') || voice.name.includes('Natural') || voice.lang === 'en-IN') {
+                        defaultIdx = index;
+                    }
+                    this.voiceSelect.appendChild(option);
+                }
+            });
+
+            if (this.voiceSelect.options.length > 0) {
+                this.voiceSelect.selectedIndex = defaultIdx;
+            }
+        };
+
+        populate();
+        if (typeof this.synth.onvoiceschanged !== 'undefined') {
+            this.synth.onvoiceschanged = populate;
         }
     }
 
@@ -150,7 +195,7 @@ class RamalayaAudioAgent {
         if (this.isListening) {
             this.stopListening();
         } else {
-            if (this.synth.speaking) {
+            if (this.synth && this.synth.speaking) {
                 this.synth.cancel();
             }
             try {
@@ -202,7 +247,7 @@ class RamalayaAudioAgent {
         if (maxScore > 0 && bestMatch) {
             responseText = bestMatch.answer;
         } else {
-            responseText = "Hari Om! I am the Chinmaya Ramalaya Voice Guide. You can ask me about Sunday Bala Vihar class timings, temple location in Harleysville, Yoga registration, or how to donate.";
+            responseText = "I am the Chinmaya Ramalaya Voice Guide. You can ask me about Sunday Bala Vihar class timings, temple location in Harleysville, Yoga registration, or how to donate.";
         }
 
         if (this.agentResponseEl) {
@@ -219,15 +264,30 @@ class RamalayaAudioAgent {
             this.synth.cancel();
         }
 
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = 0.95; // Slightly slower, peaceful devotional pace
-        utterance.pitch = 1.0;
+        // Clean speech text for natural human cadence
+        let spokenText = text
+            .replace(/Hari Om!\s*/gi, '') // Remove repetitive Hari Om
+            .replace(/9:00 AM/g, '9 AM')
+            .replace(/10:30 AM/g, '10 30 AM')
+            .replace(/11:00 AM/g, '11 AM')
+            .replace(/12:30 PM/g, '12 30 PM')
+            .replace(/\bPA\b/g, 'Pennsylvania');
 
-        // Select suitable voice (English Indian accent or clear natural voice if available)
+        const utterance = new SpeechSynthesisUtterance(spokenText);
+        utterance.rate = 1.0; // Natural conversational tempo
+        utterance.pitch = 1.0; // Natural voice pitch
+
+        // Select chosen or best voice
+        const selectedVoiceName = this.voiceSelect ? this.voiceSelect.value : '';
         const voices = this.synth.getVoices();
-        const preferredVoice = voices.find(v => v.lang.includes('en-IN') || v.name.includes('India') || v.lang.includes('en-US'));
-        if (preferredVoice) {
-            utterance.voice = preferredVoice;
+        
+        let voice = voices.find(v => v.name === selectedVoiceName);
+        if (!voice) {
+            voice = voices.find(v => v.name.includes('Google US English') || v.name.includes('Google UK English') || v.name.includes('Natural') || v.lang.includes('en-IN') || v.lang.includes('en-US'));
+        }
+
+        if (voice) {
+            utterance.voice = voice;
         }
 
         utterance.onstart = () => {

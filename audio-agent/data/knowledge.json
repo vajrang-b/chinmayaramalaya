@@ -16,17 +16,17 @@
     {
       "keywords": ["timing", "schedule", "open", "time", "sunday", "session", "hours", "when"],
       "question": "What are the temple timings and Sunday session schedules?",
-      "answer": "Hari Om! Chinmaya Ramalaya conducts Sunday sessions in two timings: Session 1 from 9:00 AM to 10:30 AM, and Session 2 from 11:00 AM to 12:30 PM. Each session includes Bala Vihar classes for children and Adult Vedanta Satsang."
+      "answer": "Chinmaya Ramalaya conducts Sunday sessions in two timings: Session 1 from 9:00 AM to 10:30 AM, and Session 2 from 11:00 AM to 12:30 PM. Each session includes Bala Vihar classes for children and Adult Vedanta Satsang."
     },
     {
       "keywords": ["location", "address", "where", "map", "direction", "harleysville"],
       "question": "Where is Chinmaya Ramalaya located?",
-      "answer": "Chinmaya Ramalaya is located at 991 Lucon Road, Harleysville, PA 19438. We welcome all devotees and families to visit our sanctuary."
+      "answer": "Chinmaya Ramalaya is located at 991 Lucon Road, Harleysville, Pennsylvania 19438. We welcome all devotees and families to visit."
     },
     {
       "keywords": ["balavihar", "bala vihar", "children", "kids", "classes", "shishuvihar", "curriculum", "registration"],
       "question": "Tell me about Bala Vihar programs and registration.",
-      "answer": "Bala Vihar offers spiritual, cultural, and moral education for children from Pre-K (Shishu Vihar) through High School (CHYK Youth). Classes take place on Sundays during Session 1 (9:00 AM) and Session 2 (11:00 AM). You can register directly on our Registration page."
+      "answer": "Bala Vihar offers spiritual, cultural, and moral education for children from Pre-K through High School. Classes take place on Sundays during Session 1 at 9:00 AM and Session 2 at 11:00 AM. You can register directly on our website."
     },
     {
       "keywords": ["yoga", "stretch", "wellness", "health", "exercise"],
@@ -41,29 +41,29 @@
     {
       "keywords": ["picnic", "summer", "event", "july", "2026", "activity"],
       "question": "What upcoming special events are planned?",
-      "answer": "We have exciting community events planned including the Chinmaya Ramalaya Summer Picnic 2026 and special cultural celebrations in July 2026! Check our Events section for details and registration."
+      "answer": "We have exciting community events planned including the Chinmaya Ramalaya Summer Picnic 2026 and special cultural celebrations in July 2026. Check our Events section for details."
     },
     {
       "keywords": ["contact", "email", "phone", "reach", "question"],
       "question": "How can I contact the temple administration?",
-      "answer": "You can email our team at bvadmin@chinmayaramalaya.org or fill out the contact form on our Contact Us page. We are happy to assist you!"
+      "answer": "You can email our team at bvadmin@chinmayaramalaya.org or fill out the contact form on our Contact Us page. We are happy to assist you."
     },
     {
       "keywords": ["guru", "stotram", "stotra", "chant", "sloka", "shloka", "prayer", "swami", "chinmayananda"],
       "question": "Can you recite the Guru Stotram or Gita Slokas?",
-      "answer": "Hari Om! 'Gurur Brahma Gurur Vishnu, Gurudevo Maheshvarah | Guruh Sakshat Para Brahma, Tasmai Shri Gurave Namah.' Our Guru Stotram honors Pujya Gurudev Swami Chinmayananda and the sacred Vedantic lineage."
+      "answer": "Gurur Brahma Gurur Vishnu, Gurudevo Maheshvarah. Guruh Sakshat Para Brahma, Tasmai Shri Gurave Namah. Our Guru Stotram honors Pujya Gurudev Swami Chinmayananda and the sacred Vedantic lineage."
     }
   ],
   "stothras": [
     {
       "title": "Guru Stotram",
       "sanskrit": "Gurur Brahmā Gurur Viṣṇur Gururdevo Maheśvaraḥ |\nGuruḥ Sākṣāt Paraṁ Brahma Tasmai Śrī Gurave Namaḥ ||",
-      "translation": "The Guru is Brahma, the Guru is Vishnu, the Guru is Lord Shiva. The Guru is verily the supreme Brahman. Salutations to that revered Guru."
+      "translation": "The Guru is Brahma, the Guru is Vishnu, the Guru is Lord Shiva. The Guru is Supreme Consciousness. Salutations to that revered Guru."
     },
     {
       "title": "Peace Prayer (Shanti Mantra)",
       "sanskrit": "Oṁ Saha Nāva Vatu | Saha Nau Bhunaktu |\nSaha Vīryaṁ Karavāvahai |\nTejasvi Nāvadhītamastu Mā Vidviṣāvahai ||\nOṁ Śāntiḥ Śāntiḥ Śāntiḥ ||",
-      "translation": "May He protect us both together; may He nourish us both together; may we work together with great energy; may our study be enlightening; may no animosity arise between us. Om Peace, Peace, Peace."
+      "translation": "May Supreme Consciousness protect us both; may He nourish us both; may we study with great vigor and enlightenment. Om Peace, Peace, Peace."
     }
   ]
 }
