@@ -64,41 +64,28 @@
 
 		<!-- Header
 		============================================= -->
-		
-			<div class="container">
-				<div class="header-row">
+		<header id="header" class="navbar-header">
+			<div class="nav-container">
+				<!-- 1. Logo (Left) -->
+				<a href="index.html" class="logo header-branding">
+					<img src="images/logo.png" alt="Chinmaya Mission Logo" class="header-logo-img">
+					<div class="header-title-text">
+						<span class="header-title-org">Chinmaya Mission</span>
+						<span class="header-title-center">Ramalaya</span>
+					</div>
+				</a>
+				<h1 class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;">Chinmaya Ramalaya - Harleysville, PA</h1>
 
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-	<a href="index.html" class="header-branding">
-		<img src="images/logo.png" alt="Chinmaya Mission Logo" class="header-logo-img">
-		<div class="header-title-text">
-			<span class="header-title-org">Chinmaya Mission</span>
-			<span class="header-title-center">Ramalaya</span>
-		</div>
-	</a>
-</div><h1 class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;">Summer Picnic 2026</h1><!-- #logo end -->
-				</div>
-			</div>
+				<!-- 2. Mobile Menu Toggle Button (Right on Mobile) -->
+				<button class="menu-toggle" id="mobile-menu" aria-label="Toggle Navigation">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
 
-			<div class="border-top border-f5" id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-center">
-						<div class="header-misc">
-						</div>
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu">
-				<!--<div id="logo" class="mx-auto">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Ramalaya Logo"></a>
-					</div>-->
-							
-							<ul class="menu-container">
+				<!-- 3. Navigation Menu (Right on Desktop) -->
+				<nav class="nav-menu primary-menu">
+					<ul class="nav-list menu-container">
 								<li class="menu-item">
 									<a class="menu-link" href="index.html"><div>Home</div></a>
 								</li>
@@ -115,73 +102,8 @@
 											<a class="menu-link" href="yoga-registration.html"><div>Yoga Registration</div></a>
 										</li>											
 									</ul>
-								</li>	
-								<li class="menu-item">
-									<a class="menu-link"><div>Events<span class="mobile-submenu-arrow"> ▾</span></div></a>
-									<ul class="sub-menu-container">
-										<!--<li class="menu-item">
-											<a class="menu-link" href="calendar.html"><div>Calendar</div></a>
-										</li>-->
-										<li class="menu-item">
-											<a class="menu-link" href="summerpicnic2026.html"><div>Summer Picnic</div></a>
-										</li>
-									</ul>
-								</li>																
-								<li class="menu-item current">
-									<a class="menu-link"><div>Activities<span class="mobile-submenu-arrow"> ▾</span></div></a>
-									<ul class="sub-menu-container">
-										<!--<li class="menu-item">
-											<a class="menu-link" href="calendar.html"><div>Calendar</div></a>
-										</li>-->
-										<li class="menu-item">
-											<a class="menu-link" href="youth-activities.html"><div>Youth Activities</div></a>
-										</li>
-									</ul>
-								</li>								
-								<li class="menu-item">
-									<a class="menu-link" href="gallery.html"><div>Gallery</div></a>
-								</li>								
-								<li class="menu-item">
-									<a class="menu-link"><div>Resources<span class="mobile-submenu-arrow"> ▾</span></div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="downloads.html"><div>Downloads</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="Sthothraanjali.html"><div>Sthothraanjali Audio Files</div></a>
-										</li>
-									</ul>
-								</li>
-								<li class="menu-item">
-									<a class="menu-link"><div>Donations<span class="mobile-submenu-arrow"> ▾</span></div></a>
-									<ul class="sub-menu-container">
-										<!--<li class="menu-item">
-											<a class="menu-link" href="calendar.html"><div>Calendar</div></a>
-										</li>-->
-										<li class="menu-item">
-											<a class="menu-link" href="crowdfund.html"><div>Temple Construction Fund</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="donate.html"><div>Guru Dhakshina</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="donate.html"><div>General Donation</div></a>
-										</li>	
-										<li class="menu-item">
-											<a class="menu-link" href="donate.html"><div>Puja Services</div></a>
-										</li>										
-									</ul>
-								</li>	
-								<li class="menu-item">
-									<a class="menu-link" href="contactus.html"><div>Contact Us</div></a>
-								</li>
-							</ul>		
-						</nav><!-- #primary-menu end -->
-					</div>
-
-				</div>
+				</nav>
 			</div>
-			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
 		<!-- Content
