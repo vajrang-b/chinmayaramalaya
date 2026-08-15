@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Single Line Navigation & Logo Alignment
+   Chinmaya Ramalaya - Mobile Navigation (Logo Left + Auto Height, Hamburger Right)
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -111,7 +111,6 @@ section > *:first-child {
         overflow: visible !important;
     }
 
-    /* Prevent the container from wrapping its children */
     #header-wrap .header-row {
         display: flex !important;
         flex-direction: row !important;
@@ -123,7 +122,6 @@ section > *:first-child {
         overflow: visible !important;
     }
 
-    /* Adjust the logo to allow shared space */
     #logo {
         flex: 0 0 auto !important;
         margin: 0 !important;
@@ -134,7 +132,6 @@ section > *:first-child {
         display: none !important;
     }
 
-    /* Ensure the navigation does not take up 100% width */
     #header-wrap .primary-menu,
     nav.primary-menu {
         display: flex !important;
@@ -237,7 +234,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. MOBILE DRIBBBLE DRAWER MENU (< 992px)
+   3. MOBILE NAVIGATION (Logo Left + Auto Height, Hamburger Symbol Right) (< 992px)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     header#header {
@@ -247,14 +244,40 @@ section > *:first-child {
         padding: 8px 15px !important;
     }
 
+    #header-wrap .row {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    /* Logo Image Auto Height & Left Aligned */
+    .header-branding {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 10px !important;
+    }
+
     .header-logo-img {
-        height: 48px;
+        height: auto !important;
+        max-height: 52px !important;
+        width: auto !important;
+        object-fit: contain;
+    }
+
+    .header-title-org {
+        font-size: 10px !important;
     }
 
     .header-title-center {
-        font-size: 18px;
+        font-size: 17px !important;
     }
 
+    /* Mobile Hamburger Trigger Symbol Pushed to Right */
     #primary-menu-trigger {
         display: flex !important;
         align-items: center;
@@ -266,7 +289,8 @@ section > *:first-child {
         width: 42px;
         height: 42px;
         padding: 8px;
-        margin: 0 !important;
+        margin-left: auto !important; /* PUSHES HAMBURGER TO THE RIGHT */
+        margin-right: 0 !important;
         cursor: pointer;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         transition: all 0.2s ease;
@@ -277,7 +301,7 @@ section > *:first-child {
         border-color: #bbbbbb !important;
     }
 
-    /* Dribbble Slide-over Floating Card Drawer */
+    /* Mobile Slide-over Card Drawer Overlay */
     nav.primary-menu {
         display: none;
         position: absolute;
@@ -329,7 +353,7 @@ section > *:first-child {
         background: #fdf6ea !important;
     }
 
-    /* Accordion Card Container inside Mobile Drawer */
+    /* Accordion Submenu Card inside Mobile Drawer */
     nav.primary-menu .sub-menu-container {
         display: none;
         background: #fcf9f2 !important;
