@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Traditional Warm Temple Redesign Theme
+   Chinmaya Ramalaya - Custom Fixes & Refinements
    ========================================================================== */
 
 /* Stop margin collapse */
@@ -23,48 +23,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. TOP UTILITY BAR (Address, Email, Website)
-   -------------------------------------------------------------------------- */
-.top-utility-bar {
-    background: #8b0000;
-    color: #ffffff;
-    font-size: 13px;
-    padding: 8px 0;
-    border-bottom: 2px solid #c89b3c;
-}
-
-.top-utility-bar a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.top-utility-bar a:hover {
-    color: #fce4ec;
-    text-decoration: underline;
-}
-
-.top-utility-info span {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    margin-right: 20px;
-}
-
-@media (max-width: 767px) {
-    .top-utility-bar {
-        text-align: center;
-        font-size: 12px;
-        padding: 6px 0;
-    }
-    .top-utility-info span {
-        display: block;
-        margin: 2px 0;
-    }
-}
-
-/* --------------------------------------------------------------------------
-   2. OFFICIAL HEADER BRANDING & LOGO
+   1. OFFICIAL HEADER BRANDING & LOGO
    -------------------------------------------------------------------------- */
 .header-branding {
     display: flex;
@@ -113,7 +72,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. MODERN 2-COLUMN HERO SECTION
+   2. MODERN 2-COLUMN HERO SECTION
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
@@ -167,19 +126,8 @@ section > *:first-child {
 .hero-subtitle {
     font-size: 15px;
     color: #555555;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     font-weight: 500;
-}
-
-.hero-quote {
-    font-size: 14px;
-    font-style: italic;
-    color: #8b0000;
-    background: rgba(139, 0, 0, 0.04);
-    padding: 10px 16px;
-    border-left: 3px solid #c89b3c;
-    border-radius: 4px;
-    margin-bottom: 16px;
 }
 
 .hero-cta-buttons {
@@ -245,7 +193,78 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   4. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   3. BACK TO TOP BUTTON (Perfect Center Alignment)
+   -------------------------------------------------------------------------- */
+#gotoTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #8b0000;
+    color: #ffffff;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    border: 2px solid #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+#gotoTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#gotoTop:hover {
+    background-color: #c89b3c;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+#gotoTop svg,
+#gotoTop i {
+    margin: 0 auto !important;
+    display: block !important;
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   4. FACEBOOK BRAND BUTTON
+   -------------------------------------------------------------------------- */
+.facebook-brand-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f0f2f5;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.facebook-brand-btn:hover {
+    background: #1877f2;
+    transform: translateY(-2px);
+}
+
+.facebook-brand-btn:hover svg {
+    fill: #ffffff !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
@@ -270,47 +289,6 @@ section > *:first-child {
         transform: rotate(180deg) !important;
         color: #8b0000 !important;
     }
-}
-
-/* --------------------------------------------------------------------------
-   5. GO TO TOP BUTTON
-   -------------------------------------------------------------------------- */
-#gotoTop {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 9999;
-    width: 44px;
-    height: 44px;
-    border-radius: 6px;
-    background-color: #333333;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    border: 1px solid #ffffff;
-}
-
-#gotoTop.show {
-    opacity: 1;
-    visibility: visible;
-}
-
-#gotoTop:hover {
-    background-color: #666666;
-    color: #ffffff;
-    transform: translateY(-3px);
-}
-
-#gotoTop svg {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
 }
 
 /* --------------------------------------------------------------------------
