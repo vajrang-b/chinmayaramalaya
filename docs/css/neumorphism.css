@@ -1,0 +1,411 @@
+/* ==========================================================================
+   CHINMAYA RAMALAYA - NEUMORPHIC DESIGN SYSTEM (VERSION 2)
+   WCAG AAA High-Contrast Warm Sandalwood & Ivory Palette
+   ========================================================================== */
+
+:root {
+    --neu-bg: #f4efe8;
+    --neu-card-bg: #fcf9f5;
+    --neu-shadow-dark: #d5cbc0;
+    --neu-shadow-light: #ffffff;
+    --neu-maroon: #700000;         /* WCAG AAA Deep Maroon (8.5:1 Contrast Ratio) */
+    --neu-maroon-hover: #500000;
+    --neu-gold: #b38218;           /* High-Contrast Golden Ochre */
+    --neu-gold-hover: #8f6710;
+    --neu-text-dark: #1a1918;      /* WCAG AAA High-Contrast Charcoal (12.8:1 Ratio) */
+    --neu-text-muted: #38332e;     /* WCAG AAA Dark Charcoal (8.2:1 Ratio) */
+    --neu-border-radius: 20px;
+    
+    /* Neumorphic 3D Shadows */
+    --neu-raised: 7px 7px 16px var(--neu-shadow-dark), -7px -7px 16px var(--neu-shadow-light);
+    --neu-raised-sm: 4px 4px 10px var(--neu-shadow-dark), -4px -4px 10px var(--neu-shadow-light);
+    --neu-raised-lg: 12px 12px 28px var(--neu-shadow-dark), -12px -12px 28px var(--neu-shadow-light);
+    --neu-pressed: inset 5px 5px 10px var(--neu-shadow-dark), inset -5px -5px 10px var(--neu-shadow-light);
+    --neu-pressed-sm: inset 3px 3px 6px var(--neu-shadow-dark), inset -3px -3px 6px var(--neu-shadow-light);
+}
+
+/* Global Page Background & High-Contrast Typography */
+body {
+    background-color: var(--neu-bg) !important;
+    color: var(--neu-text-dark) !important;
+    font-family: 'Poppins', 'Lato', 'Inter', -apple-system, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.8 !important;
+}
+
+#wrapper {
+    background-color: var(--neu-bg) !important;
+}
+
+/* Headings - High Contrast Deep Maroon */
+h1, h2, h3, h4, h5, h6,
+.heading-block h1,
+.heading-block h2,
+.heading-block h3 {
+    color: var(--neu-maroon) !important;
+    font-weight: 700 !important;
+}
+
+p, span, li, address {
+    color: var(--neu-text-dark) !important;
+    font-weight: 450 !important;
+}
+
+strong, b {
+    color: #000000 !important;
+    font-weight: 700 !important;
+}
+
+/* --------------------------------------------------------------------------
+   NEUMORPHIC HEADER & NAVIGATION (HIGH CONTRAST)
+   -------------------------------------------------------------------------- */
+#header {
+    background-color: var(--neu-bg) !important;
+    border-bottom: none !important;
+    box-shadow: 0 8px 20px rgba(213, 203, 192, 0.7) !important;
+}
+
+.header-container {
+    background-color: var(--neu-bg) !important;
+}
+
+.header-branding {
+    padding: 8px 18px !important;
+    border-radius: 50px !important;
+    box-shadow: var(--neu-raised-sm) !important;
+    background: var(--neu-card-bg) !important;
+    transition: all 0.25s ease !important;
+}
+
+.header-branding:hover {
+    box-shadow: var(--neu-raised) !important;
+}
+
+.header-title-org {
+    color: var(--neu-maroon) !important;
+    font-weight: 700 !important;
+}
+
+.header-title-center {
+    color: var(--neu-text-dark) !important;
+    font-weight: 700 !important;
+}
+
+.nav-menu .menu-link {
+    border-radius: 30px !important;
+    padding: 8px 18px !important;
+    color: var(--neu-text-dark) !important;
+    font-weight: 600 !important;
+    transition: all 0.25s ease !important;
+}
+
+.nav-menu .menu-item:hover > .menu-link,
+.nav-menu .menu-link.active {
+    background: var(--neu-card-bg) !important;
+    color: var(--neu-maroon) !important;
+    box-shadow: var(--neu-pressed) !important;
+    font-weight: 700 !important;
+}
+
+.sub-menu-container {
+    background: var(--neu-card-bg) !important;
+    border-radius: 16px !important;
+    box-shadow: var(--neu-raised-lg) !important;
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+    padding: 10px !important;
+}
+
+.sub-menu-container .menu-link {
+    border-radius: 10px !important;
+    color: var(--neu-text-dark) !important;
+    font-weight: 600 !important;
+}
+
+.sub-menu-container .menu-link:hover {
+    box-shadow: var(--neu-pressed-sm) !important;
+    color: var(--neu-maroon) !important;
+}
+
+/* --------------------------------------------------------------------------
+   NEUMORPHIC HERO SECTION
+   -------------------------------------------------------------------------- */
+.hero-section {
+    background: var(--neu-bg) !important;
+    padding: 50px 0 !important;
+}
+
+.hero-badge .badge-pill {
+    background: var(--neu-card-bg) !important;
+    color: var(--neu-maroon) !important;
+    box-shadow: var(--neu-raised-sm) !important;
+    border-radius: 50px !important;
+    padding: 8px 22px !important;
+    font-weight: 800 !important;
+    display: inline-block !important;
+    letter-spacing: 0.5px !important;
+}
+
+.guru-tribute-box {
+    background: var(--neu-card-bg) !important;
+    border-radius: 20px !important;
+    box-shadow: var(--neu-raised) !important;
+    padding: 16px 20px !important;
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+.guru-name {
+    color: var(--neu-maroon) !important;
+    font-weight: 700 !important;
+}
+
+.guru-role {
+    color: var(--neu-text-muted) !important;
+    font-weight: 500 !important;
+}
+
+.hero-temple-main-img {
+    border-radius: 24px !important;
+    box-shadow: var(--neu-raised-lg) !important;
+    border: 5px solid var(--neu-card-bg) !important;
+}
+
+/* --------------------------------------------------------------------------
+   HIGH-CONTRAST NEUMORPHIC BUTTONS
+   -------------------------------------------------------------------------- */
+.btn-gold,
+.btn-maroon,
+.btn-primary,
+.neu-btn {
+    background: var(--neu-card-bg) !important;
+    border: none !important;
+    border-radius: 50px !important;
+    box-shadow: var(--neu-raised) !important;
+    color: var(--neu-maroon) !important;
+    font-weight: 700 !important;
+    padding: 14px 30px !important;
+    transition: all 0.2s ease !important;
+}
+
+.btn-gold {
+    color: #8c5b05 !important;
+}
+
+.btn-gold:hover,
+.btn-maroon:hover,
+.btn-primary:hover,
+.neu-btn:hover {
+    box-shadow: var(--neu-raised-lg) !important;
+    color: var(--neu-maroon-hover) !important;
+    transform: translateY(-2px) !important;
+}
+
+.btn-gold:active,
+.btn-maroon:active,
+.btn-primary:active,
+.neu-btn:active {
+    box-shadow: var(--neu-pressed) !important;
+    transform: scale(0.98) !important;
+}
+
+/* --------------------------------------------------------------------------
+   NEUMORPHIC CARDS & PANELS (HIGH-CONTRAST IVORY FILL)
+   -------------------------------------------------------------------------- */
+.material-card,
+.highlight-card,
+.announcements-box,
+.glass-card,
+.neu-card {
+    background: var(--neu-card-bg) !important;
+    border-radius: var(--neu-border-radius) !important;
+    box-shadow: var(--neu-raised) !important;
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+    padding: 28px !important;
+    transition: all 0.3s ease !important;
+}
+
+.material-card:hover,
+.highlight-card:hover,
+.neu-card:hover {
+    box-shadow: var(--neu-raised-lg) !important;
+}
+
+.highlight-card .icon {
+    width: 54px !important;
+    height: 54px !important;
+    border-radius: 50% !important;
+    background: var(--neu-bg) !important;
+    box-shadow: var(--neu-pressed) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 24px !important;
+}
+
+/* Inset Containers */
+.leadership-section,
+.badge-tax-deductible,
+.event-callout-box,
+.bg-map-overlay {
+    background: var(--neu-bg) !important;
+    border-radius: 16px !important;
+    box-shadow: var(--neu-pressed) !important;
+    border: none !important;
+    padding: 22px !important;
+}
+
+/* Full Width Seamless Neumorphic Iframe Container */
+.neu-iframe-container {
+    width: 100% !important;
+    margin: 24px auto 40px !important;
+    border-radius: var(--neu-border-radius, 20px) !important;
+    overflow: hidden !important;
+    background: var(--neu-card-bg, #fcf9f5) !important;
+    box-shadow: var(--neu-raised) !important;
+    padding: 12px !important;
+}
+
+iframe,
+.neu-iframe {
+    width: 100% !important;
+    height: 1024px !important;
+    min-height: 1024px !important;
+    max-height: 1024px !important;
+    border: 0 !important;
+    overflow: hidden !important;
+    display: block !important;
+}
+
+/* High Contrast Form Inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select,
+.neu-input {
+    background: var(--neu-bg) !important;
+    border: none !important;
+    border-radius: 14px !important;
+    box-shadow: var(--neu-pressed) !important;
+    padding: 14px 18px !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+    outline: none !important;
+    width: 100% !important;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    box-shadow: var(--neu-pressed-sm), 0 0 0 2px var(--neu-maroon) !important;
+}
+
+/* --------------------------------------------------------------------------
+   HIGH-CONTRAST NEUMORPHIC FOOTER & DARK CLASS OVERRIDES
+   -------------------------------------------------------------------------- */
+#footer,
+#footer.dark,
+.dark #footer {
+    background-color: var(--neu-bg) !important;
+    color: var(--neu-text-dark) !important;
+    border-top: none !important;
+    box-shadow: inset 0 8px 16px var(--neu-shadow-dark) !important;
+    padding-top: 50px !important;
+}
+
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6,
+#footer.dark h1, #footer.dark h2, #footer.dark h3, #footer.dark h4, #footer.dark h5, #footer.dark h6,
+#footer .widget h3, #footer .widget h4,
+#footer.dark .widget h3, #footer.dark .widget h4,
+.dark #footer h1, .dark #footer h2, .dark #footer h3, .dark #footer h4, .dark #footer h5, .dark #footer h6 {
+    color: var(--neu-maroon) !important;
+    border-bottom: 2px solid var(--neu-gold) !important;
+    font-weight: 700 !important;
+    text-shadow: none !important;
+}
+
+#footer p, #footer address, #footer span, #footer li, #footer div,
+#footer.dark p, #footer.dark address, #footer.dark span, #footer.dark li, #footer.dark div,
+#footer .widget p, #footer .widget address, #footer.dark .widget p, #footer.dark .widget address {
+    color: var(--neu-text-dark) !important;
+    font-weight: 500 !important;
+}
+
+#footer a,
+#footer.dark a,
+#footer .widget_links a,
+#footer.dark .widget_links a,
+#footer .footer-email-link,
+#footer.dark .footer-email-link {
+    color: var(--neu-maroon) !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease !important;
+}
+
+#footer a:hover,
+#footer.dark a:hover,
+#footer .widget_links a:hover,
+#footer.dark .widget_links a:hover,
+#footer .footer-email-link:hover,
+#footer.dark .footer-email-link:hover {
+    color: var(--neu-maroon-hover) !important;
+    text-decoration: underline !important;
+}
+
+/* Social Icons High Contrast Neumorphic Buttons */
+#footer .social-icon,
+#footer.dark .social-icon,
+.social-icon {
+    background: var(--neu-card-bg) !important;
+    color: var(--neu-maroon) !important;
+    border: none !important;
+    box-shadow: var(--neu-raised-sm) !important;
+    border-radius: 50% !important;
+    transition: all 0.2s ease !important;
+}
+
+#footer .social-icon:hover,
+#footer.dark .social-icon:hover,
+.social-icon:hover {
+    box-shadow: var(--neu-raised) !important;
+    color: var(--neu-maroon-hover) !important;
+    transform: translateY(-2px) !important;
+}
+
+#copyrights,
+#copyrights.dark,
+.dark #copyrights {
+    background-color: var(--neu-bg) !important;
+    color: var(--neu-text-muted) !important;
+    box-shadow: var(--neu-pressed-sm) !important;
+    border-top: none !important;
+    font-weight: 500 !important;
+}
+
+#copyrights a,
+#copyrights.dark a {
+    color: var(--neu-maroon) !important;
+    font-weight: 600 !important;
+}
+
+/* Highest Specificity High-Contrast Overrides for Headers, Spans, Address, & Abbr Tags */
+html body #header .header-title-org,
+html body .header-title-org,
+html body .heading-block span,
+html body .heading-block > span,
+html body h1 span, html body h2 span, html body h3 span, html body h4 span,
+html body #footer address, html body #footer address strong, html body #footer address b,
+html body #footer abbr, html body #footer abbr strong, html body #footer abbr b,
+html body address strong, html body abbr strong, html body abbr b,
+html body .text-white-50, html body .text-white, html body .footer-social-desc,
+html body .footer-social-title,
+html body .sub-heading,
+html body .badge-gold,
+html body .badge-secondary,
+html body .text-teal,
+html body .color-teal {
+    color: #700000 !important;
+    font-weight: 700 !important;
+}

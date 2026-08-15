@@ -129,7 +129,7 @@ header.navbar-header,
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    color: var(--primary-maroon);
+    color: #700000 !important;
 }
 
 .header-title-center {
@@ -1397,4 +1397,46 @@ footer.dark,
 
 .footer-email-link:hover {
     color: #f7ca65 !important;
+}
+
+iframe {
+    width: 100%;
+    height: 1024px;
+    border: 0 !important;
+    overflow: hidden !important;
+}
+
+.text-white-50,
+.text-white,
+.footer-social-desc,
+.footer-social-title,
+strong.text-white,
+span.text-white-50,
+div.text-white {
+    color: #700000 !important;
+    font-weight: 700 !important;
+}
+
+html body #footer a,
+html body #footer a *,
+html body #footer strong,
+html body #footer span,
+html body #footer p,
+html body #footer div,
+html body #footer address,
+html body #footer address * {
+    color: #1a1918 !important;
+}
+
+html body #footer h1, html body #footer h2, html body #footer h3, html body #footer h4, html body #footer h5, html body #footer h6,
+html body #footer a.footer-email-link, html body #footer address strong, html body #footer abbr strong,
+html body .header-branding,
+html body .header-branding *,
+html body a.logo.header-branding,
+html body #header .header-title-org,
+html body .header-title-org,
+html body .donate-gold-title,
+.donate-gold-title {
+    color: #700000 !important;
+    font-weight: 700 !important;
 }

@@ -94,4 +94,14 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+    // ----------------------------------------------------------------------
+    // 3. OPEN ALL DONATION LINKS & TABS IN NEW TAB (target="_blank")
+    // ----------------------------------------------------------------------
+    const donationSelector = 'a[href*="donate"], a[href*="crowdfund"], a[href*="paypal.com"]';
+    const donationLinks = document.querySelectorAll(donationSelector);
+    donationLinks.forEach(link => {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+    });
 });
