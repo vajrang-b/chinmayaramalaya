@@ -23,7 +23,44 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   1. HERO BUILDING LAYOUT IMAGE (High-Res 3D Architectural Rendering Fit)
+   -------------------------------------------------------------------------- */
+.crowdfund-hero {
+    width: 100%;
+    height: auto;
+    min-height: auto !important;
+    background: #fff8ef;
+    text-align: center;
+    padding: 20px 0 !important;
+    margin: 0 !important;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    max-height: 540px;
+    object-fit: contain;
+    object-position: center center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 767px) {
+    .crowdfund-hero {
+        padding: 10px 0 !important;
+    }
+
+    .hero-img {
+        max-height: 320px !important;
+        border-radius: 8px;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   2. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
@@ -51,7 +88,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. GO TO TOP BUTTON
+   3. GO TO TOP BUTTON
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -92,15 +129,13 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
+   4. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
-    /* Hide secondary extra trigger if present */
     .mobile-nav-toggle {
         display: none !important;
     }
 
-    /* Style primary-menu-trigger in clean neutral theme */
     #primary-menu-trigger {
         display: flex !important;
         align-items: center;
@@ -129,7 +164,6 @@ section > *:first-child {
         fill: #333333 !important;
     }
 
-    /* Mobile Drawer in Original Neutral White Theme */
     nav.primary-menu {
         display: none;
         width: 100%;
@@ -176,7 +210,6 @@ section > *:first-child {
         background: #f9f9f9 !important;
     }
 
-    /* Submenu Accordion on Mobile (Clean neutral palette) */
     nav.primary-menu .sub-menu-container {
         display: none;
         background: #fafafa;
@@ -200,28 +233,5 @@ section > *:first-child {
     nav.primary-menu .sub-menu-container a.menu-link:hover {
         color: #111111 !important;
         background: #f0f0f0 !important;
-    }
-}
-
-/* --------------------------------------------------------------------------
-   4. HERO BUILDING LAYOUT IMAGE MOBILE FIT (max-width: 767px)
-   -------------------------------------------------------------------------- */
-@media (max-width: 767px) {
-    .crowdfund-hero {
-        min-height: auto !important;
-        height: auto !important;
-        background: #fff8ef !important;
-        padding: 10px 0 !important;
-        margin-bottom: 0 !important;
-    }
-
-    .hero-img {
-        width: 100% !important;
-        height: auto !important;
-        max-height: 280px !important;
-        object-fit: contain !important;
-        object-position: center center !important;
-        display: block !important;
-        border-radius: 8px;
     }
 }
