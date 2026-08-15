@@ -23,7 +23,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. ORIGINAL BUILDING LAYOUT HERO IMAGE FIT (Desktop & Mobile)
+   1. AUTHENTIC HERO BANNER FIT (Preserves Pujya Swami Chinmayananda on Left)
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     width: 100%;
@@ -31,22 +31,25 @@ section > *:first-child {
     min-height: auto !important;
     background: #fff8ef;
     text-align: center;
-    padding: 0 !important;
+    padding: 10px 0 !important;
     margin: 0 !important;
 }
 
 .hero-img {
     width: 100%;
+    max-width: 1100px;
     height: auto;
+    max-height: 520px;
     display: block;
     margin: 0 auto;
-    object-fit: cover;
-    object-position: center top;
+    object-fit: contain !important; /* Contain ensures Swami Chinmayananda on left is 100% visible */
+    object-position: center center !important;
+    border-radius: 8px;
 }
 
 @media (max-width: 767px) {
     .crowdfund-hero {
-        padding: 0 !important;
+        padding: 5px 0 !important;
     }
 
     .hero-img {
@@ -54,7 +57,7 @@ section > *:first-child {
         height: auto !important;
         max-height: 280px !important;
         object-fit: contain !important;
-        object-position: center top !important;
+        object-position: center center !important;
     }
 }
 
