@@ -292,7 +292,72 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   5. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   5. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
+   -------------------------------------------------------------------------- */
+.announcements-box {
+    background: #ffffff;
+    border: 1px solid #e8dfd1;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.announcements-box h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #8b0000;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #f0e6d6;
+    padding-bottom: 10px;
+}
+
+.announcements-box h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #c89b3c;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.announcements-box ul {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 15px !important;
+}
+
+.announcements-box li {
+    position: relative;
+    padding-left: 22px !important;
+    margin-bottom: 10px !important;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.announcements-box li::before {
+    content: "🔸";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    font-size: 12px;
+}
+
+.announcements-box a {
+    color: #8b0000 !important;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.announcements-box a:hover {
+    color: #c89b3c !important;
+    text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   6. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
@@ -320,7 +385,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   6. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
+   7. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     .mobile-nav-toggle {
