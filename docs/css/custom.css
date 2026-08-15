@@ -23,7 +23,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. HERO BUILDING LAYOUT IMAGE (High-Res 3D Architectural Rendering Fit)
+   1. ORIGINAL BUILDING LAYOUT HERO IMAGE FIT (Desktop & Mobile)
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     width: 100%;
@@ -31,31 +31,30 @@ section > *:first-child {
     min-height: auto !important;
     background: #fff8ef;
     text-align: center;
-    padding: 20px 0 !important;
+    padding: 0 !important;
     margin: 0 !important;
 }
 
 .hero-img {
     width: 100%;
-    max-width: 1100px;
     height: auto;
-    max-height: 540px;
-    object-fit: contain;
-    object-position: center center;
     display: block;
     margin: 0 auto;
-    border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+    object-position: center top;
 }
 
 @media (max-width: 767px) {
     .crowdfund-hero {
-        padding: 10px 0 !important;
+        padding: 0 !important;
     }
 
     .hero-img {
-        max-height: 320px !important;
-        border-radius: 8px;
+        width: 100% !important;
+        height: auto !important;
+        max-height: 280px !important;
+        object-fit: contain !important;
+        object-position: center top !important;
     }
 }
 
