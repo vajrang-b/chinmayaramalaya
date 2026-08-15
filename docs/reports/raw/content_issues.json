@@ -1,0 +1,454 @@
+[
+  {
+    "url": "https://www.chinmayaramalaya.org/",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 81
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/aboutus.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "Light content (196 words). Consider adding more substantive content (300+ words recommended)."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 79
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/registration.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Very thin content (3 words). Pages with less than 300 words may rank poorly in search engines."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 76
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Very thin content (24 words). Pages with less than 300 words may rank poorly in search engines."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 76
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 81
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/donate.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Very thin content (2 words). Pages with less than 300 words may rank poorly in search engines."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 86
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Very thin content (2 words). Pages with less than 300 words may rank poorly in search engines."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 76
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/contactus.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Very thin content (16 words). Pages with less than 300 words may rank poorly in search engines."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 76
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "Light content (132 words). Consider adding more substantive content (300+ words recommended)."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 79
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/gallery.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "Light content (152 words). Consider adding more substantive content (300+ words recommended)."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      }
+    ],
+    "score": 81
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/downloads.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Very thin content (33 words). Pages with less than 300 words may rank poorly in search engines."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 76
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/index.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 81
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 91
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/activities.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "Light content (112 words). Consider adding more substantive content (300+ words recommended)."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 79
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/specialeventjuly2026.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "warning",
+        "message": "Outdated copyright year: 2020. Update to 2026 or use dynamic year."
+      },
+      {
+        "severity": "info",
+        "message": "Light content (169 words). Consider adding more substantive content (300+ words recommended)."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 79
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/balavihar.html",
+    "category": "content",
+    "issues": [
+      {
+        "severity": "warning",
+        "message": "Spelling errors found: 'actvities' \u2192 'activities' (1x)"
+      },
+      {
+        "severity": "warning",
+        "message": "Very thin content (18 words). Pages with less than 300 words may rank poorly in search engines."
+      },
+      {
+        "severity": "info",
+        "message": "No CSS media queries detected in inline styles. Ensure your external CSS includes responsive breakpoints."
+      },
+      {
+        "severity": "info",
+        "message": "No social media links found. Adding social media links improves discoverability and engagement."
+      }
+    ],
+    "score": 86
+  }
+]

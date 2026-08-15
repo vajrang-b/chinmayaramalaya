@@ -1,0 +1,20 @@
+{
+  "url": "https://www.chinmayaramalaya.org/",
+  "scan_date": "2026-08-15T02:06:06.988936",
+  "pages_scanned": 16,
+  "overall_score": 37,
+  "category_scores": {
+    "html": 0,
+    "seo": 31,
+    "accessibility": 48,
+    "performance": 51,
+    "security": 51,
+    "content": 80,
+    "links": 0
+  },
+  "total_issues": {
+    "critical": 156,
+    "warning": 709,
+    "info": 304
+  }
+}

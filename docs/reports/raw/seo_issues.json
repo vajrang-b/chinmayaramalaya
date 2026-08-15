@@ -1,0 +1,686 @@
+[
+  {
+    "url": "https://www.chinmayaramalaya.org/",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Duplicate title found on another page (https://www.chinmayaramalaya.org/aboutus.html). Each page should have a unique title. Current: \"Chinmaya Ramalaya - Harleysville, PA\""
+      },
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "critical",
+        "message": "No <h1> tag found. Every page should have exactly one <h1>."
+      },
+      {
+        "severity": "critical",
+        "message": "3 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      },
+      {
+        "severity": "critical",
+        "message": "robots.txt not found (HTTP 404). Create a robots.txt file to guide search engine crawlers."
+      },
+      {
+        "severity": "critical",
+        "message": "sitemap.xml not found (HTTP 404). Create a sitemap.xml to help search engines discover all your pages."
+      }
+    ],
+    "score": 21
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/aboutus.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 36
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/registration.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "critical",
+        "message": "No <h1> tag found. Every page should have exactly one <h1>."
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 31
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/Sthothraanjali.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      },
+      {
+        "severity": "info",
+        "message": "URL contains uppercase characters: /Sthothraanjali.html. Lowercase URLs are preferred for consistency."
+      }
+    ],
+    "score": 34
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/youth-activities.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h3>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h3>Spirit of CHYK.</h3>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 36
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/donate.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "critical",
+        "message": "No <h1> tag found. Every page should have exactly one <h1>."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h2> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 26
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/yoga-registration.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 36
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/contactus.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "critical",
+        "message": "No <h1> tag found. Every page should have exactly one <h1>."
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 31
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/summerpicnic2026.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "critical",
+        "message": "No <h1> tag found. Every page should have exactly one <h1>."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h2> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 26
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/gallery.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h2> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 36
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/downloads.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 36
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/index.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "critical",
+        "message": "No <h1> tag found. Every page should have exactly one <h1>."
+      },
+      {
+        "severity": "critical",
+        "message": "3 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 31
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/crowdfund.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h3>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h3>Phase 1: Temple Construction Fund Goal</h3>"
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h2> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "2 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 31
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/activities.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h3>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h3>Spiritual Classes/Discourses/Puja</h3>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 36
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/specialeventjuly2026.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "critical",
+        "message": "No <h1> tag found. Every page should have exactly one <h1>."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h2> to <h4>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h4>Chinmaya Links</h4>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      }
+    ],
+    "score": 26
+  },
+  {
+    "url": "https://www.chinmayaramalaya.org/balavihar.html",
+    "category": "seo",
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Missing meta description. Add <meta name='description' content='...'> for better search engine snippets."
+      },
+      {
+        "severity": "warning",
+        "message": "Heading level skipped: <h1> to <h3>. Don't skip heading levels (e.g., h2 \u2192 h4).",
+        "element": "<h3>Bala Vihar Flyer</h3>"
+      },
+      {
+        "severity": "critical",
+        "message": "1 image(s) missing 'alt' attribute. All images must have alt text for SEO and accessibility."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing canonical URL tag. Add <link rel='canonical' href='...'> to prevent duplicate content issues."
+      },
+      {
+        "severity": "warning",
+        "message": "Missing Open Graph tags: og:title, og:description, og:image, og:url, og:type. These improve how your pages appear when shared on social media."
+      },
+      {
+        "severity": "info",
+        "message": "Missing Twitter Card meta tags. Add <meta name='twitter:card' content='summary_large_image'> for better Twitter/X sharing."
+      },
+      {
+        "severity": "info",
+        "message": "No structured data (schema.org) found. Adding JSON-LD structured data can improve search result appearance (rich snippets)."
+      },
+      {
+        "severity": "warning",
+        "message": "No favicon declared. Add <link rel='icon' href='favicon.ico'> for brand recognition in browser tabs and bookmarks."
+      },
+      {
+        "severity": "info",
+        "message": "Generic link text 'click here' found. Use descriptive anchor text for better SEO.",
+        "element": "<a href=\"pdfs/BV-Trifold-information-2025.pdf\">Click Here</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Generic link text 'click here' found. Use descriptive anchor text for better SEO.",
+        "element": "<a href=\"pdfs/BV-Curriculum.pdf\">Click Here</a>"
+      },
+      {
+        "severity": "info",
+        "message": "Generic link text 'click here' found. Use descriptive anchor text for better SEO.",
+        "element": "<a href=\"https://photos.app.goo.gl/zEQ8gzCBDxBcF2wL6\"><b>Click Here</b></a>"
+      }
+    ],
+    "score": 30
+  }
+]
