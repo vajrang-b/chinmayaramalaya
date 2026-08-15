@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Single Container 2-Column Grid Header Customizations
+   Chinmaya Ramalaya - Modern Dribbble Flow UI Header & Navigation
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -51,11 +51,11 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. SINGLE CONTAINER 2-COLUMN GRID HEADER (Column 1 Logo, Column 2 Menu)
+   1. DRIBBBLE FLOW UI HEADER (Logo Left, Menu Right)
    -------------------------------------------------------------------------- */
 #header {
     background: #ffffff !important;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #eaeaea;
     position: relative;
     z-index: 100;
     overflow: visible !important;
@@ -64,7 +64,7 @@ section > *:first-child {
 #header-wrap {
     position: relative;
     background: #ffffff !important;
-    padding: 10px 0;
+    padding: 12px 0;
     overflow: visible !important;
 }
 
@@ -75,7 +75,7 @@ section > *:first-child {
 
 #header-wrap .row {
     display: flex !important;
-    flex-wrap: nowrap !important; /* PREVENT WRAPPING */
+    flex-wrap: nowrap !important;
     align-items: center !important;
     justify-content: space-between !important;
     width: 100% !important;
@@ -86,12 +86,12 @@ section > *:first-child {
 .header-branding {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
     text-decoration: none !important;
 }
 
 .header-logo-img {
-    height: 65px;
+    height: 60px;
     width: auto;
     object-fit: contain;
 }
@@ -105,19 +105,21 @@ section > *:first-child {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
     color: #8b0000;
 }
 
 .header-title-center {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 800;
     color: #111111;
     line-height: 1.1;
     font-family: 'Poppins', 'Inter', sans-serif;
 }
 
-/* DESKTOP 2-COLUMN LAYOUT (>= 992px) */
+/* --------------------------------------------------------------------------
+   2. DESKTOP DRIBBBLE-STYLE NAVIGATION & SUBMENUS (>= 992px)
+   -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     #primary-menu-trigger {
         display: none !important;
@@ -144,70 +146,77 @@ section > *:first-child {
         padding: 0 !important;
         list-style: none !important;
         border: none !important;
+        gap: 4px;
         overflow: visible !important;
     }
 
     nav.primary-menu li.menu-item {
         position: relative !important;
         display: inline-block !important;
-        margin: 0 1px !important;
+        margin: 0 !important;
         border-bottom: none !important;
         white-space: nowrap !important;
     }
 
     nav.primary-menu a.menu-link {
-        display: inline-block !important;
-        padding: 8px 10px !important;
-        font-size: 13.5px !important;
+        display: inline-flex !important;
+        align-items: center;
+        gap: 5px;
+        padding: 8px 14px !important;
+        font-size: 14px !important;
         font-weight: 600 !important;
-        color: #333333 !important;
+        color: #222222 !important;
+        border-radius: 8px;
         white-space: nowrap !important;
+        transition: all 0.2s ease !important;
     }
 
     nav.primary-menu a.menu-link:hover,
     nav.primary-menu li.menu-item.current > a.menu-link {
         color: #8b0000 !important;
-        background: transparent !important;
+        background: #fdf6ea !important;
     }
 
-    /* DESKTOP HOVER DROPDOWN SUBMENU CONTAINER */
+    /* Dribbble Floating Dropdown Card Submenu */
     nav.primary-menu .sub-menu-container {
         display: none !important;
         position: absolute !important;
-        top: 100% !important;
+        top: calc(100% + 6px) !important;
         left: 0 !important;
-        min-width: 220px !important;
+        min-width: 240px !important;
         background: #ffffff !important;
-        border: 1px solid #e0e0e0 !important;
-        border-radius: 8px !important;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
-        padding: 8px 0 !important;
+        border: 1px solid #eef0f3 !important;
+        border-radius: 14px !important;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1) !important;
+        padding: 10px !important;
         margin: 0 !important;
         list-style: none !important;
         z-index: 9999 !important;
         opacity: 0;
         visibility: hidden;
-        transition: opacity 0.2s ease, visibility 0.2s ease;
+        transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     nav.primary-menu li.menu-item:hover > .sub-menu-container {
         display: block !important;
         opacity: 1 !important;
         visibility: visible !important;
+        transform: translateY(0) !important;
     }
 
     nav.primary-menu .sub-menu-container li.menu-item {
         width: 100% !important;
-        margin: 0 !important;
+        margin: 2px 0 !important;
         display: block !important;
     }
 
     nav.primary-menu .sub-menu-container a.menu-link {
         display: block !important;
-        padding: 9px 18px !important;
-        font-size: 13.5px !important;
+        padding: 10px 16px !important;
+        font-size: 14px !important;
         font-weight: 500 !important;
-        color: #444444 !important;
+        color: #333333 !important;
+        border-radius: 8px !important;
         text-align: left !important;
         white-space: nowrap !important;
         transition: all 0.2s ease !important;
@@ -215,12 +224,14 @@ section > *:first-child {
 
     nav.primary-menu .sub-menu-container a.menu-link:hover {
         color: #8b0000 !important;
-        background: #fdf6ea !important;
-        padding-left: 22px !important;
+        background: #f8f9fa !important;
+        padding-left: 20px !important;
     }
 }
 
-/* MOBILE NAVIGATION (< 992px) */
+/* --------------------------------------------------------------------------
+   3. MOBILE DRIBBBLE FLOW UI CARD DRAWER (< 992px)
+   -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     .header-logo-img {
         height: 48px;
@@ -235,30 +246,37 @@ section > *:first-child {
         align-items: center;
         justify-content: center;
         background: #ffffff !important;
-        color: #333333 !important;
-        border: 1px solid #dddddd !important;
-        border-radius: 6px;
+        color: #222222 !important;
+        border: 1px solid #e0e0e0 !important;
+        border-radius: 10px;
         width: 42px;
         height: 42px;
         padding: 8px;
         margin: 0 !important;
         cursor: pointer;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
         transition: all 0.2s ease;
     }
 
+    #primary-menu-trigger:hover {
+        background: #f8f9fa !important;
+        border-color: #cccccc !important;
+    }
+
+    /* Dribbble Card Drawer Overlay */
     nav.primary-menu {
         display: none;
         position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
+        top: calc(100% + 8px);
+        right: 15px;
+        left: 15px;
+        width: calc(100% - 30px);
         background: #ffffff !important;
-        border-top: 2px solid #e5e5e5 !important;
-        border-bottom: 1px solid #e5e5e5 !important;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-        padding: 8px 0;
-        z-index: 1000;
+        border: 1px solid #eef0f3 !important;
+        border-radius: 16px !important;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
+        padding: 16px !important;
+        z-index: 9999;
     }
 
     nav.primary-menu.active {
@@ -271,30 +289,41 @@ section > *:first-child {
         margin: 0 !important;
         padding: 0 !important;
         list-style: none !important;
+        gap: 4px;
     }
 
     nav.primary-menu li.menu-item {
         margin: 0 !important;
-        border-bottom: 1px solid #f0f0f0;
+        border: none !important;
     }
 
     nav.primary-menu a.menu-link {
         display: flex !important;
         align-items: center;
         justify-content: space-between;
-        padding: 12px 20px !important;
-        color: #333333 !important;
+        padding: 12px 16px !important;
+        color: #222222 !important;
         font-size: 15px !important;
         font-weight: 600 !important;
+        border-radius: 10px !important;
+        transition: background 0.2s ease, color 0.2s ease !important;
     }
 
+    nav.primary-menu li.menu-item.current > a.menu-link,
+    nav.primary-menu a.menu-link:hover {
+        color: #111111 !important;
+        background: #f8f9fa !important;
+    }
+
+    /* Dribbble Submenu Card Accordion Box */
     nav.primary-menu .sub-menu-container {
         display: none;
-        background: #fafafa;
-        padding: 4px 0;
-        margin: 0;
+        background: #f8f9fa !important;
+        border-radius: 12px !important;
+        padding: 8px !important;
+        margin: 6px 0 10px 0 !important;
         list-style: none;
-        border-left: 3px solid #dddddd;
+        border: 1px solid #eceeed;
     }
 
     nav.primary-menu .sub-menu-container.open {
@@ -302,15 +331,21 @@ section > *:first-child {
     }
 
     nav.primary-menu .sub-menu-container a.menu-link {
-        padding: 10px 20px 10px 35px !important;
+        padding: 10px 16px !important;
         font-size: 14px !important;
-        color: #555555 !important;
+        color: #444444 !important;
         font-weight: 500 !important;
+        border-radius: 8px !important;
+    }
+
+    nav.primary-menu .sub-menu-container a.menu-link:hover {
+        color: #8b0000 !important;
+        background: #ffffff !important;
     }
 }
 
 /* --------------------------------------------------------------------------
-   2. MODERN 2-COLUMN HERO SECTION
+   4. MODERN 2-COLUMN HERO SECTION
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
@@ -431,7 +466,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. BACK TO TOP BUTTON (Perfect Center Alignment)
+   5. BACK TO TOP BUTTON (Perfect Center Alignment)
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -478,7 +513,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   4. FACEBOOK BRAND BUTTON
+   6. FACEBOOK BRAND BUTTON
    -------------------------------------------------------------------------- */
 .facebook-brand-btn {
     display: inline-flex;
@@ -502,7 +537,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   5. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
+   7. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
    -------------------------------------------------------------------------- */
 .announcements-box {
     background: #ffffff;
@@ -567,7 +602,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   6. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   8. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
