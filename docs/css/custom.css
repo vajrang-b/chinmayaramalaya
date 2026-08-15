@@ -1,10 +1,17 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Single-Line Logo & Desktop Hover Submenus
+   Chinmaya Ramalaya - Comprehensive Page Content & Layout Formatting
    ========================================================================== */
 
 /* Reset & Box Sizing */
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Lato', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    color: #333333;
+    line-height: 1.7;
+    background-color: #faf7f2;
 }
 
 /* Stop margin collapse & fix section padding */
@@ -28,35 +35,174 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   REDUCE EXCESSIVE EMPTY SPACE BEFORE FOOTER & AFTER PDF/PAGE CONTENT
+   1. PAGE HEADINGS & HEADING BLOCKS
    -------------------------------------------------------------------------- */
-#content,
-.content-wrap {
-    padding-top: 25px !important;
-    padding-bottom: 25px !important;
-}
-
-#quote-container {
-    margin-top: 15px !important;
-    margin-bottom: 15px !important;
-    min-height: auto !important;
-}
-
 .heading-block {
-    margin-bottom: 20px !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #eae2d6;
 }
 
-#footer {
-    margin-top: 0 !important;
+.heading-block.center,
+.heading-block.text-center {
+    text-align: center !important;
 }
 
-.footer-widgets-wrap {
-    padding-top: 40px !important;
-    padding-bottom: 30px !important;
+.heading-block h1,
+.heading-block h2 {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    color: #8b0000 !important;
+    margin-bottom: 10px !important;
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+}
+
+.heading-block h3,
+.heading-block h4,
+.fancy-title h3 {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #c89b3c !important;
+    margin-bottom: 15px !important;
+}
+
+.heading-block span {
+    font-size: 1rem !important;
+    color: #666666 !important;
+    font-weight: 500 !important;
 }
 
 /* --------------------------------------------------------------------------
-   1. SINGLE LINE LOGO & HEADER-WRAP ALIGNMENT
+   2. CONTENT CONTAINER & PARAGRAPH FORMATTING
+   -------------------------------------------------------------------------- */
+#content,
+.content-wrap {
+    padding-top: 35px !important;
+    padding-bottom: 45px !important;
+}
+
+#content p,
+.entry-content p,
+.content-wrap p {
+    font-size: 15.5px !important;
+    line-height: 1.8 !important;
+    color: #333333 !important;
+    margin-bottom: 20px !important;
+}
+
+#content p:last-child,
+.entry-content p:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. ENTRY CARDS & ARTICLE BOXES
+   -------------------------------------------------------------------------- */
+.entry,
+.grid-inner,
+.form-widget,
+.announcements-box,
+.donation-card,
+.highlight-card {
+    background: #ffffff !important;
+    border: 1px solid #eae2d6 !important;
+    border-radius: 16px !important;
+    padding: 28px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.entry:hover,
+.grid-inner:hover,
+.donation-card:hover,
+.highlight-card:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 8px 30px rgba(139, 0, 0, 0.08) !important;
+}
+
+.entry-image {
+    margin-bottom: 22px !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+}
+
+.entry-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 12px !important;
+
+}
+
+/* --------------------------------------------------------------------------
+   4. FORM CONTROLS & INPUT FORMATTING
+   -------------------------------------------------------------------------- */
+.form-group {
+    margin-bottom: 20px !important;
+}
+
+.form-group label {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #222222 !important;
+    margin-bottom: 6px !important;
+    display: block !important;
+}
+
+.sm-form-control,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+textarea,
+select {
+    width: 100% !important;
+    border-radius: 8px !important;
+    border: 1px solid #cccccc !important;
+    padding: 10px 14px !important;
+    font-size: 14.5px !important;
+    color: #222222 !important;
+    background-color: #ffffff !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.sm-form-control:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #8b0000 !important;
+    box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.12) !important;
+    outline: none !important;
+}
+
+button[type="submit"],
+.button,
+.btn-submit {
+    background-color: #8b0000 !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    padding: 12px 26px !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: all 0.25s ease !important;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.25) !important;
+}
+
+button[type="submit"]:hover,
+.button:hover,
+.btn-submit:hover {
+    background-color: #6d0000 !important;
+    transform: translateY(-2px) !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. NAVBAR-HEADER CONSTRAINED FLEX CONTAINER
    -------------------------------------------------------------------------- */
 header.navbar-header,
 #header {
