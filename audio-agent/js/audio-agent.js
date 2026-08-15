@@ -49,32 +49,38 @@ class RamalayaAudioAgent {
     setupVoices() {
         if (!this.synth) return;
 
+        const isIndianVoice = (v) => {
+            const lang = (v.lang || '').toLowerCase();
+            const name = (v.name || '').toLowerCase();
+            return lang.includes('en-in') || lang.includes('hi-in') || lang.includes('ta-in') || lang.includes('te-in') || 
+                   name.includes('india') || name.includes('indian') || name.includes('rishi') || name.includes('heera') || 
+                   name.includes('prabhat') || name.includes('neerja') || name.includes('veena') || name.includes('kavya');
+        };
+
         const populate = () => {
             this.voices = this.synth.getVoices();
             if (!this.voiceSelect || this.voices.length === 0) return;
 
             this.voiceSelect.innerHTML = '';
-            
-            // Sort & filter English voices, prioritizing Google / Natural / Apple / Microsoft voices
+
+            // Sort voices: Indian accent voices first, then high-quality natural voices, then standard English
             const sortedVoices = [...this.voices].sort((a, b) => {
-                const aQuality = (a.name.includes('Google') || a.name.includes('Natural') || a.name.includes('Premium')) ? 2 : 1;
-                const bQuality = (b.name.includes('Google') || b.name.includes('Natural') || b.name.includes('Premium')) ? 2 : 1;
-                return bQuality - aQuality;
+                let scoreA = isIndianVoice(a) ? 100 : ((a.name.includes('Google') || a.name.includes('Natural')) ? 50 : 10);
+                let scoreB = isIndianVoice(b) ? 100 : ((b.name.includes('Google') || b.name.includes('Natural')) ? 50 : 10);
+                return scoreB - scoreA;
             });
 
             let defaultIdx = 0;
             sortedVoices.forEach((voice, index) => {
-                if (voice.lang.startsWith('en')) {
-                    const option = document.createElement('option');
-                    option.value = voice.name;
-                    option.textContent = `${voice.name} (${voice.lang})`;
-                    
-                    // Auto-select best voice
-                    if (voice.name.includes('Google US English') || voice.name.includes('Google UK English') || voice.name.includes('Natural') || voice.lang === 'en-IN') {
-                        defaultIdx = index;
-                    }
-                    this.voiceSelect.appendChild(option);
+                const option = document.createElement('option');
+                option.value = voice.name;
+                const isIndian = isIndianVoice(voice);
+                option.textContent = `${isIndian ? '🇮🇳 ' : ''}${voice.name} (${voice.lang})`;
+
+                if (isIndian && defaultIdx === 0) {
+                    defaultIdx = index;
                 }
+                this.voiceSelect.appendChild(option);
             });
 
             if (this.voiceSelect.options.length > 0) {
@@ -277,13 +283,17 @@ class RamalayaAudioAgent {
         utterance.rate = 1.0; // Natural conversational tempo
         utterance.pitch = 1.0; // Natural voice pitch
 
-        // Select chosen or best voice
+        // Select chosen voice or fallback to Indian accent voice first
         const selectedVoiceName = this.voiceSelect ? this.voiceSelect.value : '';
         const voices = this.synth.getVoices();
         
         let voice = voices.find(v => v.name === selectedVoiceName);
         if (!voice) {
-            voice = voices.find(v => v.name.includes('Google US English') || v.name.includes('Google UK English') || v.name.includes('Natural') || v.lang.includes('en-IN') || v.lang.includes('en-US'));
+            voice = voices.find(v => {
+                const lang = (v.lang || '').toLowerCase();
+                const name = (v.name || '').toLowerCase();
+                return lang.includes('en-in') || lang.includes('hi-in') || name.includes('india') || name.includes('rishi');
+            }) || voices.find(v => v.name.includes('Google') || v.name.includes('Natural'));
         }
 
         if (voice) {
