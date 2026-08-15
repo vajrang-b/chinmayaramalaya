@@ -47,23 +47,6 @@
       "keywords": ["contact", "email", "phone", "reach", "question"],
       "question": "How can I contact the temple administration?",
       "answer": "You can email our team at bvadmin@chinmayaramalaya.org or fill out the contact form on our Contact Us page. We are happy to assist you."
-    },
-    {
-      "keywords": ["guru", "stotram", "stotra", "chant", "sloka", "shloka", "prayer", "swami", "chinmayananda"],
-      "question": "Can you recite the Guru Stotram or Gita Slokas?",
-      "answer": "Gurur Brahma Gurur Vishnu, Gurudevo Maheshvarah. Guruh Sakshat Para Brahma, Tasmai Shri Gurave Namah. Our Guru Stotram honors Pujya Gurudev Swami Chinmayananda and the sacred Vedantic lineage."
-    }
-  ],
-  "stothras": [
-    {
-      "title": "Guru Stotram",
-      "sanskrit": "Gurur Brahmā Gurur Viṣṇur Gururdevo Maheśvaraḥ |\nGuruḥ Sākṣāt Paraṁ Brahma Tasmai Śrī Gurave Namaḥ ||",
-      "translation": "The Guru is Brahma, the Guru is Vishnu, the Guru is Lord Shiva. The Guru is Supreme Consciousness. Salutations to that revered Guru."
-    },
-    {
-      "title": "Peace Prayer (Shanti Mantra)",
-      "sanskrit": "Oṁ Saha Nāva Vatu | Saha Nau Bhunaktu |\nSaha Vīryaṁ Karavāvahai |\nTejasvi Nāvadhītamastu Mā Vidviṣāvahai ||\nOṁ Śāntiḥ Śāntiḥ Śāntiḥ ||",
-      "translation": "May Supreme Consciousness protect us both; may He nourish us both; may we study with great vigor and enlightenment. Om Peace, Peace, Peace."
     }
   ]
 }
