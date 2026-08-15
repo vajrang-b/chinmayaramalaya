@@ -154,6 +154,18 @@ class RamalayaAudioAgent {
             this.micBtn.addEventListener('click', () => this.toggleListening());
         }
 
+        const replayBtn = document.getElementById('replayBtn');
+        if (replayBtn) {
+            replayBtn.addEventListener('click', () => {
+                if (this.agentResponseEl) {
+                    const responseText = this.agentResponseEl.textContent;
+                    if (responseText) {
+                        this.speakResponse(responseText);
+                    }
+                }
+            });
+        }
+
         if (this.sendBtn && this.textInput) {
             this.sendBtn.addEventListener('click', () => {
                 const text = this.textInput.value.trim();
@@ -267,9 +279,11 @@ class RamalayaAudioAgent {
     speakResponse(text) {
         if (!this.synth) return;
 
-        if (this.synth.speaking) {
-            this.synth.cancel();
+        // Chrome speech synthesis resume fix
+        if (this.synth.paused) {
+            this.synth.resume();
         }
+        this.synth.cancel();
 
         // Clean speech text for natural human cadence
         let spokenText = text
@@ -281,11 +295,10 @@ class RamalayaAudioAgent {
             .replace(/\bPA\b/g, 'Pennsylvania');
 
         const utterance = new SpeechSynthesisUtterance(spokenText);
-        utterance.lang = 'en-IN'; // Force Indian English accent
-        utterance.rate = 1.0; // Natural conversational tempo
-        utterance.pitch = 1.0; // Natural voice pitch
+        utterance.rate = 1.0;
+        utterance.pitch = 1.0;
 
-        // Select chosen voice or fallback to Indian accent voice first
+        // Select chosen voice or fallback to Indian accent voice
         const selectedVoiceName = this.voiceSelect ? this.voiceSelect.value : '';
         const voices = this.synth.getVoices();
         
@@ -295,12 +308,14 @@ class RamalayaAudioAgent {
                 const lang = (v.lang || '').toLowerCase();
                 const name = (v.name || '').toLowerCase();
                 return lang.includes('en-in') || name.includes('india') || name.includes('rishi') || name.includes('veena') || name.includes('heera');
-            }) || voices.find(v => v.lang.toLowerCase().startsWith('en'));
+            }) || voices.find(v => (v.lang || '').toLowerCase().startsWith('en'));
         }
 
         if (voice) {
             utterance.voice = voice;
-            if (voice.lang) utterance.lang = voice.lang;
+            utterance.lang = voice.lang || 'en-IN';
+        } else {
+            utterance.lang = 'en-IN';
         }
 
         utterance.onstart = () => {
@@ -316,10 +331,14 @@ class RamalayaAudioAgent {
         utterance.onerror = (e) => {
             console.error('Speech Synthesis error:', e);
             this.isSpeaking = false;
-            this.updateStatus('Ready.', false);
+            this.updateStatus('Tap microphone to speak or type a question below.', false);
         };
 
-        this.synth.speak(utterance);
+        // Small 50ms delay to prevent Chrome from immediately cancelling speech after synth.cancel()
+        setTimeout(() => {
+            if (this.synth.paused) this.synth.resume();
+            this.synth.speak(utterance);
+        }, 50);
     }
 
     /* ----------------------------------------------------------------------
