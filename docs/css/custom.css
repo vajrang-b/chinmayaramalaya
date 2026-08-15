@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Modern Dribbble Mobile Drawer & Desktop Header UI
+   Chinmaya Ramalaya - Single Line Navigation & Logo Alignment
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -88,79 +88,62 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. DESKTOP SINGLE ROW HEADER (Parent #header flex layout for el1 & el2)
+   2. DESKTOP SINGLE ROW NAVIGATION & LOGO ALIGNMENT (>= 992px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     header#header {
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: center !important;
-        justify-content: space-between !important;
+        position: relative;
         background: #ffffff !important;
-        border-bottom: 1px solid #e5e5e5 !important;
-        padding: 6px 30px !important;
-        position: relative !important;
-        z-index: 100 !important;
+        border-bottom: 1px solid #e5e5e5;
+        z-index: 100;
         overflow: visible !important;
-    }
-
-    header#header > .container {
-        width: auto !important;
-        flex: 0 0 auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow: visible !important;
-    }
-
-    header#header > .container .header-row {
-        width: auto !important;
-        margin: 0 !important;
-        overflow: visible !important;
-    }
-
-    #logo {
-        margin: 0 !important;
-        float: none !important;
     }
 
     #header-wrap {
-        width: auto !important;
-        flex: 1 1 auto !important;
-        background: transparent !important;
-        border-top: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        display: flex !important;
-        justify-content: flex-end !important;
-        align-items: center !important;
+        position: relative;
+        background: #ffffff !important;
+        padding: 10px 0;
         overflow: visible !important;
     }
 
-    #header-wrap > .container {
-        width: 100% !important;
-        max-width: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
+    #header-wrap .container {
+        max-width: 1320px !important;
         overflow: visible !important;
     }
 
+    /* Prevent the container from wrapping its children */
     #header-wrap .header-row {
         display: flex !important;
-        justify-content: flex-end !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
         align-items: center !important;
         width: 100% !important;
         margin: 0 !important;
         overflow: visible !important;
+    }
+
+    /* Adjust the logo to allow shared space */
+    #logo {
+        flex: 0 0 auto !important;
+        margin: 0 !important;
+        float: none !important;
     }
 
     #primary-menu-trigger {
         display: none !important;
     }
 
+    /* Ensure the navigation does not take up 100% width */
+    #header-wrap .primary-menu,
     nav.primary-menu {
         display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
         align-items: center !important;
         justify-content: flex-end !important;
+        flex: 0 1 auto !important;
+        width: auto !important;
         margin-left: auto !important;
         overflow: visible !important;
     }
@@ -168,12 +151,13 @@ section > *:first-child {
     nav.primary-menu ul.menu-container {
         display: flex !important;
         flex-direction: row !important;
+        flex-wrap: nowrap !important;
         align-items: center !important;
         margin: 0 !important;
         padding: 0 !important;
         list-style: none !important;
         border: none !important;
-        gap: 4px;
+        gap: 2px !important;
         overflow: visible !important;
     }
 
@@ -187,12 +171,11 @@ section > *:first-child {
     nav.primary-menu a.menu-link {
         display: inline-flex !important;
         align-items: center;
-        gap: 5px;
-        padding: 8px 12px !important;
+        padding: 8px 10px !important;
         font-size: 13.5px !important;
         font-weight: 600 !important;
         color: #222222 !important;
-        border-radius: 8px;
+        border-radius: 8px !important;
         white-space: nowrap !important;
         transition: all 0.2s ease !important;
     }
@@ -203,7 +186,7 @@ section > *:first-child {
         background: #fdf6ea !important;
     }
 
-    /* Desktop Submenu Dropdown Container */
+    /* Desktop Hover Dropdown Submenu Container */
     nav.primary-menu .sub-menu-container {
         display: none !important;
         position: absolute !important;
