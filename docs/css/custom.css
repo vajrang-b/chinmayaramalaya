@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Guaranteed Single Line Header Layout
+   Chinmaya Ramalaya - Parent Flex Layout for el1 (#header > .container) & el2 (#header-wrap)
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -51,28 +51,8 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. 2-COLUMN CONTAINER GRID HEADER (Guaranteed 100% Single Row on Desktop)
+   1. BRANDING STYLES
    -------------------------------------------------------------------------- */
-#header {
-    background: #ffffff !important;
-    border-bottom: 1px solid #e5e5e5;
-    position: relative;
-    z-index: 100;
-    overflow: visible !important;
-}
-
-#header-wrap {
-    position: relative;
-    background: #ffffff !important;
-    padding: 8px 0;
-    overflow: visible !important;
-}
-
-#header-wrap .container {
-    max-width: 1320px !important;
-    overflow: visible !important;
-}
-
 .header-branding {
     display: flex;
     align-items: center;
@@ -107,25 +87,73 @@ section > *:first-child {
     font-family: 'Poppins', 'Inter', sans-serif;
 }
 
-/* DESKTOP SINGLE ROW FLEX LAYOUT (>= 992px) */
+/* --------------------------------------------------------------------------
+   2. DESKTOP SINGLE ROW HEADER (Parent #header flex layout for el1 & el2)
+   -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
-    #header-wrap .row {
+    /* Parent #header: Display flex row */
+    header#header {
         display: flex !important;
         flex-direction: row !important;
-        flex-wrap: nowrap !important; /* PREVENT WRAPPING TO NEXT ROW */
         align-items: center !important;
         justify-content: space-between !important;
-        width: 100% !important;
+        background: #ffffff !important;
+        border-bottom: 1px solid #e5e5e5 !important;
+        padding: 6px 30px !important;
+        position: relative !important;
+        z-index: 100 !important;
+        overflow: visible !important;
+    }
+
+    /* el1 (#header > .container holding #logo) */
+    header#header > .container {
+        width: auto !important;
+        flex: 0 0 auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    header#header > .container .header-row {
+        width: auto !important;
         margin: 0 !important;
         overflow: visible !important;
     }
 
-    #header-wrap .col-auto {
-        flex: 0 0 auto !important;
+    #logo {
+        margin: 0 !important;
+        float: none !important;
+    }
+
+    /* el2 (#header-wrap holding navigation) */
+    #header-wrap {
         width: auto !important;
+        flex: 1 1 auto !important;
+        background: transparent !important;
+        border-top: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        overflow: visible !important;
+    }
+
+    #header-wrap > .container {
+        width: 100% !important;
         max-width: none !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    #header-wrap .header-row {
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin: 0 !important;
+        overflow: visible !important;
     }
 
     #primary-menu-trigger {
@@ -134,24 +162,16 @@ section > *:first-child {
 
     nav.primary-menu {
         display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
         align-items: center !important;
         justify-content: flex-end !important;
-        width: auto !important;
-        float: none !important;
-        clear: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
+        margin-left: auto !important;
         overflow: visible !important;
     }
 
     nav.primary-menu ul.menu-container {
         display: flex !important;
         flex-direction: row !important;
-        flex-wrap: nowrap !important;
         align-items: center !important;
-        width: auto !important;
         margin: 0 !important;
         padding: 0 !important;
         list-style: none !important;
@@ -161,21 +181,17 @@ section > *:first-child {
 
     nav.primary-menu li.menu-item {
         position: relative !important;
-        display: inline-block !important;
-        float: none !important;
-        margin: 0 1px !important;
+        margin: 0 2px !important;
         border-bottom: none !important;
         white-space: nowrap !important;
     }
 
     nav.primary-menu a.menu-link {
-        display: inline-block !important;
         padding: 8px 10px !important;
         font-size: 13.5px !important;
         font-weight: 600 !important;
         color: #333333 !important;
         white-space: nowrap !important;
-        text-transform: capitalize !important;
     }
 
     nav.primary-menu a.menu-link:hover,
@@ -184,7 +200,7 @@ section > *:first-child {
         background: transparent !important;
     }
 
-    /* DESKTOP HOVER DROPDOWN SUBMENU CONTAINER */
+    /* Desktop Hover Submenu Container */
     nav.primary-menu .sub-menu-container {
         display: none !important;
         position: absolute !important;
@@ -213,7 +229,6 @@ section > *:first-child {
     nav.primary-menu .sub-menu-container li.menu-item {
         width: 100% !important;
         margin: 0 !important;
-        display: block !important;
     }
 
     nav.primary-menu .sub-menu-container a.menu-link {
@@ -234,7 +249,9 @@ section > *:first-child {
     }
 }
 
-/* MOBILE NAVIGATION (< 992px) */
+/* --------------------------------------------------------------------------
+   3. MOBILE NAVIGATION (< 992px)
+   -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     .header-logo-img {
         height: 48px;
@@ -324,7 +341,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. MODERN 2-COLUMN HERO SECTION
+   4. MODERN 2-COLUMN HERO SECTION
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
@@ -445,7 +462,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. BACK TO TOP BUTTON (Perfect Center Alignment)
+   5. BACK TO TOP BUTTON (Perfect Center Alignment)
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -492,7 +509,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   4. FACEBOOK BRAND BUTTON
+   6. FACEBOOK BRAND BUTTON
    -------------------------------------------------------------------------- */
 .facebook-brand-btn {
     display: inline-flex;
@@ -516,7 +533,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   5. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
+   7. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
    -------------------------------------------------------------------------- */
 .announcements-box {
     background: #ffffff;
@@ -581,7 +598,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   6. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   8. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
