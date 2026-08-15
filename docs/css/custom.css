@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Modern Dribbble Flow UI Header & Navigation
+   Chinmaya Ramalaya - Modern Dribbble Mobile Drawer & Desktop Header UI
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -51,42 +51,12 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. DRIBBBLE FLOW UI HEADER (Logo Left, Menu Right)
+   1. BRANDING STYLES
    -------------------------------------------------------------------------- */
-#header {
-    background: #ffffff !important;
-    border-bottom: 1px solid #eaeaea;
-    position: relative;
-    z-index: 100;
-    overflow: visible !important;
-}
-
-#header-wrap {
-    position: relative;
-    background: #ffffff !important;
-    padding: 12px 0;
-    overflow: visible !important;
-}
-
-#header-wrap .container {
-    max-width: 1320px !important;
-    overflow: visible !important;
-}
-
-#header-wrap .row {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    width: 100% !important;
-    margin: 0 !important;
-    overflow: visible !important;
-}
-
 .header-branding {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
     text-decoration: none !important;
 }
 
@@ -105,12 +75,12 @@ section > *:first-child {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
     color: #8b0000;
 }
 
 .header-title-center {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 800;
     color: #111111;
     line-height: 1.1;
@@ -118,29 +88,86 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. DESKTOP DRIBBBLE-STYLE NAVIGATION & SUBMENUS (>= 992px)
+   2. DESKTOP SINGLE ROW HEADER (Parent #header flex layout for el1 & el2)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
+    header#header {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        background: #ffffff !important;
+        border-bottom: 1px solid #e5e5e5 !important;
+        padding: 6px 30px !important;
+        position: relative !important;
+        z-index: 100 !important;
+        overflow: visible !important;
+    }
+
+    header#header > .container {
+        width: auto !important;
+        flex: 0 0 auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    header#header > .container .header-row {
+        width: auto !important;
+        margin: 0 !important;
+        overflow: visible !important;
+    }
+
+    #logo {
+        margin: 0 !important;
+        float: none !important;
+    }
+
+    #header-wrap {
+        width: auto !important;
+        flex: 1 1 auto !important;
+        background: transparent !important;
+        border-top: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        overflow: visible !important;
+    }
+
+    #header-wrap > .container {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    #header-wrap .header-row {
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin: 0 !important;
+        overflow: visible !important;
+    }
+
     #primary-menu-trigger {
         display: none !important;
     }
 
     nav.primary-menu {
         display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
         align-items: center !important;
         justify-content: flex-end !important;
-        width: auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
+        margin-left: auto !important;
         overflow: visible !important;
     }
 
     nav.primary-menu ul.menu-container {
         display: flex !important;
         flex-direction: row !important;
-        flex-wrap: nowrap !important;
         align-items: center !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -152,7 +179,6 @@ section > *:first-child {
 
     nav.primary-menu li.menu-item {
         position: relative !important;
-        display: inline-block !important;
         margin: 0 !important;
         border-bottom: none !important;
         white-space: nowrap !important;
@@ -162,8 +188,8 @@ section > *:first-child {
         display: inline-flex !important;
         align-items: center;
         gap: 5px;
-        padding: 8px 14px !important;
-        font-size: 14px !important;
+        padding: 8px 12px !important;
+        font-size: 13.5px !important;
         font-weight: 600 !important;
         color: #222222 !important;
         border-radius: 8px;
@@ -177,45 +203,43 @@ section > *:first-child {
         background: #fdf6ea !important;
     }
 
-    /* Dribbble Floating Dropdown Card Submenu */
+    /* Desktop Submenu Dropdown Container */
     nav.primary-menu .sub-menu-container {
         display: none !important;
         position: absolute !important;
-        top: calc(100% + 6px) !important;
+        top: calc(100% + 4px) !important;
         left: 0 !important;
-        min-width: 240px !important;
+        min-width: 230px !important;
         background: #ffffff !important;
-        border: 1px solid #eef0f3 !important;
-        border-radius: 14px !important;
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1) !important;
-        padding: 10px !important;
+        border: 1px solid #e0e0e0 !important;
+        border-radius: 12px !important;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
+        padding: 8px !important;
         margin: 0 !important;
         list-style: none !important;
         z-index: 9999 !important;
         opacity: 0;
         visibility: hidden;
-        transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+        transition: all 0.2s ease;
     }
 
     nav.primary-menu li.menu-item:hover > .sub-menu-container {
         display: block !important;
         opacity: 1 !important;
         visibility: visible !important;
-        transform: translateY(0) !important;
     }
 
     nav.primary-menu .sub-menu-container li.menu-item {
         width: 100% !important;
         margin: 2px 0 !important;
-        display: block !important;
     }
 
     nav.primary-menu .sub-menu-container a.menu-link {
         display: block !important;
-        padding: 10px 16px !important;
-        font-size: 14px !important;
+        padding: 9px 16px !important;
+        font-size: 13.5px !important;
         font-weight: 500 !important;
-        color: #333333 !important;
+        color: #444444 !important;
         border-radius: 8px !important;
         text-align: left !important;
         white-space: nowrap !important;
@@ -224,15 +248,22 @@ section > *:first-child {
 
     nav.primary-menu .sub-menu-container a.menu-link:hover {
         color: #8b0000 !important;
-        background: #f8f9fa !important;
+        background: #fdf6ea !important;
         padding-left: 20px !important;
     }
 }
 
 /* --------------------------------------------------------------------------
-   3. MOBILE DRIBBBLE FLOW UI CARD DRAWER (< 992px)
+   3. MOBILE DRIBBBLE DRAWER MENU (< 992px)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
+    header#header {
+        position: relative;
+        background: #ffffff !important;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 8px 15px !important;
+    }
+
     .header-logo-img {
         height: 48px;
     }
@@ -247,35 +278,35 @@ section > *:first-child {
         justify-content: center;
         background: #ffffff !important;
         color: #222222 !important;
-        border: 1px solid #e0e0e0 !important;
+        border: 1px solid #d0d0d0 !important;
         border-radius: 10px;
         width: 42px;
         height: 42px;
         padding: 8px;
         margin: 0 !important;
         cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         transition: all 0.2s ease;
     }
 
     #primary-menu-trigger:hover {
         background: #f8f9fa !important;
-        border-color: #cccccc !important;
+        border-color: #bbbbbb !important;
     }
 
-    /* Dribbble Card Drawer Overlay */
+    /* Dribbble Slide-over Floating Card Drawer */
     nav.primary-menu {
         display: none;
         position: absolute;
         top: calc(100% + 8px);
-        right: 15px;
-        left: 15px;
-        width: calc(100% - 30px);
+        left: 12px;
+        right: 12px;
+        width: calc(100% - 24px);
         background: #ffffff !important;
-        border: 1px solid #eef0f3 !important;
-        border-radius: 16px !important;
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
-        padding: 16px !important;
+        border: 1px solid #e0e0e0 !important;
+        border-radius: 18px !important;
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15) !important;
+        padding: 18px !important;
         z-index: 9999;
     }
 
@@ -301,29 +332,29 @@ section > *:first-child {
         display: flex !important;
         align-items: center;
         justify-content: space-between;
-        padding: 12px 16px !important;
+        padding: 12px 18px !important;
         color: #222222 !important;
         font-size: 15px !important;
         font-weight: 600 !important;
-        border-radius: 10px !important;
+        border-radius: 12px !important;
         transition: background 0.2s ease, color 0.2s ease !important;
     }
 
     nav.primary-menu li.menu-item.current > a.menu-link,
     nav.primary-menu a.menu-link:hover {
-        color: #111111 !important;
-        background: #f8f9fa !important;
+        color: #8b0000 !important;
+        background: #fdf6ea !important;
     }
 
-    /* Dribbble Submenu Card Accordion Box */
+    /* Accordion Card Container inside Mobile Drawer */
     nav.primary-menu .sub-menu-container {
         display: none;
-        background: #f8f9fa !important;
+        background: #fcf9f2 !important;
         border-radius: 12px !important;
         padding: 8px !important;
         margin: 6px 0 10px 0 !important;
         list-style: none;
-        border: 1px solid #eceeed;
+        border: 1px solid #f0e6d6;
     }
 
     nav.primary-menu .sub-menu-container.open {
