@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Slide-In Mobile Navigation (User's Exact Pattern)
+   Chinmaya Ramalaya - Centered Constrained Container Navbar-Header
    ========================================================================== */
 
 /* Reset & Box Sizing */
@@ -56,9 +56,10 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. NAVBAR-HEADER FLEX CONTAINER
+   1. NAVBAR-HEADER CONSTRAINED CONTAINER (Centered 1200px Max-Width)
    -------------------------------------------------------------------------- */
-header.navbar-header {
+header.navbar-header,
+#header {
     background-color: #ffffff !important;
     color: #222222;
     position: relative;
@@ -68,13 +69,25 @@ header.navbar-header {
     border-bottom: 1px solid #e5e5e5;
 }
 
-.nav-container {
+.nav-container,
+#header > .container,
+#header-wrap > .container {
+    max-width: 1200px !important; /* CONSTRAINS HEADER TO 1200px */
+    width: 100% !important;
+    margin: 0 auto !important; /* CENTERS HEADER ON PAGE */
+    padding: 10px 20px !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 10px 20px !important;
-    max-width: 1320px;
-    margin: 0 auto;
+}
+
+.header-row {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
 }
 
 /* Logo */
