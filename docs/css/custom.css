@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Custom Fixes & Mobile Menu Positioning
+   Chinmaya Ramalaya - Custom Fixes & Desktop/Mobile Layout
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -61,7 +61,7 @@ section > *:first-child {
 }
 
 .header-logo-img {
-    height: 72px;
+    height: 68px;
     width: auto;
     object-fit: contain;
 }
@@ -72,7 +72,7 @@ section > *:first-child {
 }
 
 .header-title-org {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -80,7 +80,7 @@ section > *:first-child {
 }
 
 .header-title-center {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 800;
     color: #111111;
     line-height: 1.1;
@@ -92,15 +92,96 @@ section > *:first-child {
         justify-content: center;
     }
     .header-logo-img {
-        height: 54px;
+        height: 50px;
     }
     .header-title-center {
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 
 /* --------------------------------------------------------------------------
-   2. MODERN 2-COLUMN HERO SECTION
+   2. DESKTOP SINGLE-ROW HEADER (Logo Left, Menu Right on Same Line >= 992px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+    header#header {
+        position: relative;
+        background: #ffffff;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    header#header > .container {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        max-width: 1280px !important;
+    }
+
+    #header .header-row {
+        width: auto !important;
+        margin: 0 !important;
+    }
+
+    #logo {
+        margin: 0 !important;
+        float: left;
+    }
+
+    #header-wrap {
+        border-top: none !important;
+        background: transparent !important;
+        position: static !important;
+        float: right;
+        margin-left: auto;
+    }
+
+    #header-wrap > .container {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: auto !important;
+    }
+
+    #header-wrap .header-row {
+        justify-content: flex-end !important;
+    }
+
+    nav.primary-menu {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+    }
+
+    nav.primary-menu ul.menu-container {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    nav.primary-menu li.menu-item {
+        margin: 0 2px !important;
+        border-bottom: none !important;
+    }
+
+    nav.primary-menu a.menu-link {
+        padding: 10px 12px !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #333333 !important;
+        white-space: nowrap !important;
+    }
+
+    nav.primary-menu a.menu-link:hover {
+        color: #8b0000 !important;
+        background: transparent !important;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   3. MODERN 2-COLUMN HERO SECTION
    -------------------------------------------------------------------------- */
 .crowdfund-hero {
     background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
@@ -221,7 +302,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. BACK TO TOP BUTTON (Perfect Center Alignment)
+   4. BACK TO TOP BUTTON (Perfect Center Alignment)
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -268,7 +349,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   4. FACEBOOK BRAND BUTTON
+   5. FACEBOOK BRAND BUTTON
    -------------------------------------------------------------------------- */
 .facebook-brand-btn {
     display: inline-flex;
@@ -292,7 +373,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   5. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
+   6. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
    -------------------------------------------------------------------------- */
 .announcements-box {
     background: #ffffff;
@@ -357,7 +438,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   6. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   7. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
@@ -385,7 +466,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   7. CLEAN MOBILE NAVIGATION (Menu Trigger Positioned Top-Left)
+   8. CLEAN MOBILE NAVIGATION (Menu Trigger Positioned Top-Left)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     .mobile-nav-toggle {
