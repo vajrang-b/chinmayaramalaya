@@ -23,24 +23,28 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. INLINE DROPDOWN CHEVRON ARROWS (Side-by-side with text, zero wrapping)
+   1. DROPDOWN CHEVRON ARROWS - MOBILE ONLY (<= 991px), HIDDEN ON DESKTOP
    -------------------------------------------------------------------------- */
-nav.primary-menu a.menu-link > div {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    white-space: nowrap !important;
+@media (min-width: 992px) {
+    /* Hide menu arrows on Desktop mode */
+    nav.primary-menu a.menu-link i.icon-angle-down {
+        display: none !important;
+    }
 }
 
-nav.primary-menu a.menu-link i.icon-angle-down {
-    margin-left: 5px !important;
-    font-size: 11px !important;
-    display: inline-block !important;
-    transition: transform 0.25s ease !important;
-}
+@media (max-width: 991px) {
+    /* Show menu arrows ONLY on Mobile mode */
+    nav.primary-menu a.menu-link i.icon-angle-down {
+        display: inline-block !important;
+        margin-left: 6px !important;
+        font-size: 11px !important;
+        transition: transform 0.25s ease !important;
+    }
 
-nav.primary-menu li.menu-item:hover > a.menu-link i.icon-angle-down {
-    transform: rotate(180deg) !important;
+    nav.primary-menu li.menu-item.open > a.menu-link i.icon-angle-down,
+    nav.primary-menu .sub-menu-container.open ~ a.menu-link i.icon-angle-down {
+        transform: rotate(180deg) !important;
+    }
 }
 
 /* --------------------------------------------------------------------------
