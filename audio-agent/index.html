@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmaya Ramalaya - Devotional Audio AI Agent</title>
+    <meta name="description" content="Interactive Voice Guide and Audio Assistant for Chinmaya Ramalaya Harleysville PA. Ask questions, hear Bala Vihar timings, stothras, and temple information.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Neumorphic Stylesheet -->
+    <link rel="stylesheet" href="css/audio-agent.css">
+</head>
+<body class="audio-agent-body">
+
+    <div class="audio-agent-container">
+        
+        <!-- Header -->
+        <header class="audio-agent-header">
+            <div style="margin-bottom: 12px;">
+                <a href="../docs/index.html" style="text-decoration: none;">
+                    <img src="../docs/images/chinmaya-mission-logo.png" alt="Chinmaya Mission Logo" style="height: 65px;">
+                </a>
+            </div>
+            <h1>Chinmaya Ramalaya Audio Agent</h1>
+            <p>Your interactive devotional voice guide for temple timings, Bala Vihar, puja services, Gita slokas, and community announcements.</p>
+        </header>
+
+        <!-- Main Audio Card -->
+        <main class="audio-agent-card">
+            
+            <!-- Status Badge -->
+            <div class="status-badge">
+                <span class="status-dot" id="statusDot"></span>
+                <span id="statusText">Tap microphone to speak or type a question below.</span>
+            </div>
+
+            <!-- Mic Control Button -->
+            <div class="mic-wrapper">
+                <button id="micBtn" class="mic-btn" title="Tap to start voice interaction" aria-label="Microphone Button">
+                    <svg class="mic-icon" viewBox="0 0 24 24">
+                        <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/>
+                        <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/>
+                    </svg>
+                </button>
+                <div class="pulse-ring"></div>
+            </div>
+
+            <!-- Audio Waveform Visualizer -->
+            <canvas id="visualizerCanvas" class="visualizer-canvas"></canvas>
+
+            <!-- Live Transcript Box -->
+            <div class="transcript-box">
+                <span class="transcript-label">🎤 Your Question:</span>
+                <p id="userQuery" class="transcript-text">"Hari Om! What time are Sunday classes?"</p>
+                
+                <span class="transcript-label" style="margin-top: 15px;">🔊 Ramalaya Voice Response:</span>
+                <p id="agentResponse" class="response-text">Hari Om! Chinmaya Ramalaya conducts Sunday sessions in two timings: Session 1 from 9:00 AM to 10:30 AM, and Session 2 from 11:00 AM to 12:30 PM. Each session includes Bala Vihar classes for children and Adult Vedanta Satsang.</p>
+            </div>
+
+            <!-- Quick Questions Prompt Chips -->
+            <div class="quick-prompts-title">💡 Quick Voice Prompts:</div>
+            <div class="prompt-chips">
+                <button class="chip-btn" data-query="What are the Sunday session timings?">⏰ Sunday Timings</button>
+                <button class="chip-btn" data-query="Tell me about Bala Vihar registration">📚 Bala Vihar Classes</button>
+                <button class="chip-btn" data-query="Where is Chinmaya Ramalaya located?">📍 Temple Address</button>
+                <button class="chip-btn" data-query="How can I make a donation?">🙏 Make a Donation</button>
+                <button class="chip-btn" data-query="Recite the Guru Stotram sloka">🕉️ Guru Stotram</button>
+            </div>
+
+            <!-- Text Input Fallback -->
+            <div class="controls-row">
+                <input type="text" id="textInput" class="input-text-neu" placeholder="Or type your question here (e.g. Yoga registration, Puja services)...">
+                <button id="sendBtn" class="btn-neu-send">Ask Assistant</button>
+            </div>
+
+        </main>
+
+        <!-- Stothras & Slokas Section -->
+        <section class="stothras-section">
+            <div class="stothras-card">
+                <h3>🕉️ Recite Daily Stothras &amp; Prayers</h3>
+                
+                <div class="stothra-item">
+                    <div class="stothra-title">
+                        <span>Guru Stotram</span>
+                        <button class="btn-listen-sloka" data-sloka="Gurur Brahma Gurur Vishnu, Gurudevo Maheshvarah. Guruh Sakshat Para Brahma, Tasmai Shri Gurave Namah.">🔊 Listen Recitation</button>
+                    </div>
+                    <div class="stothra-sanskrit">
+Gurur Brahmā Gurur Viṣṇur Gururdevo Maheśvaraḥ |
+Guruḥ Sākṣāt Paraṁ Brahma Tasmai Śrī Gurave Namaḥ ||
+                    </div>
+                    <div class="stothra-translation">
+                        "The Guru is Brahma, the Guru is Vishnu, the Guru is Lord Shiva. The Guru is Supreme Consciousness. Salutations to that revered Guru."
+                    </div>
+                </div>
+
+                <div class="stothra-item">
+                    <div class="stothra-title">
+                        <span>Peace Prayer (Shanti Mantra)</span>
+                        <button class="btn-listen-sloka" data-sloka="Om Saha Naavavatu, Saha Nau Bhunaktu, Saha Veeryam Karavaavahai, Tejasvi Naavadheetamastu Maa Vidvishaavahai. Om Shaantih Shaantih Shaantih.">🔊 Listen Recitation</button>
+                    </div>
+                    <div class="stothra-sanskrit">
+Oṁ Saha Nāva Vatu | Saha Nau Bhunaktu |
+Saha Vīryaṁ Karavāvahai |
+Tejasvi Nāvadhītamastu Mā Vidviṣāvahai ||
+Oṁ Śāntiḥ Śāntiḥ Śāntiḥ ||
+                    </div>
+                    <div class="stothra-translation">
+                        "May Supreme Consciousness protect us both; may He nourish us both; may we study with great vigor and enlightenment. Om Peace, Peace, Peace."
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer link back -->
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="../docs/index.html" style="color: #700000; font-weight: 600; text-decoration: none;">
+                « Return to Main Chinmaya Ramalaya Website
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Core Script -->
+    <script src="js/audio-agent.js"></script>
+</body>
+</html>
