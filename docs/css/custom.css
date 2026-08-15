@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Single-Line Header & Submenu Dropdown Customizations
+   Chinmaya Ramalaya - 2-Column Container Grid Header & Layout Customizations
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -51,7 +51,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. SINGLE-LINE HEADER (Logo Left, Navigation Right on Same Line)
+   1. 2-COLUMN CONTAINER GRID HEADER (Logo Column 1, Navigation Column 2)
    -------------------------------------------------------------------------- */
 #header {
     background: #ffffff !important;
@@ -73,10 +73,8 @@ section > *:first-child {
     overflow: visible !important;
 }
 
-#header-wrap .header-row {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
+#header-wrap .row {
+    margin: 0 !important;
     overflow: visible !important;
 }
 
@@ -114,9 +112,7 @@ section > *:first-child {
     font-family: 'Poppins', 'Inter', sans-serif;
 }
 
-/* --------------------------------------------------------------------------
-   DESKTOP NAVIGATION & DROPDOWN SUBMENUS (>= 992px)
-   -------------------------------------------------------------------------- */
+/* DESKTOP NAVIGATION & DROPDOWN SUBMENUS (>= 992px) */
 @media (min-width: 992px) {
     #primary-menu-trigger {
         display: none !important;
@@ -126,7 +122,6 @@ section > *:first-child {
         display: flex !important;
         align-items: center !important;
         justify-content: flex-end !important;
-        margin-left: auto !important;
         overflow: visible !important;
     }
 
@@ -161,7 +156,6 @@ section > *:first-child {
         background: transparent !important;
     }
 
-    /* Desktop Dropdown Submenu Container */
     nav.primary-menu .sub-menu-container {
         display: none !important;
         position: absolute !important;
@@ -210,9 +204,7 @@ section > *:first-child {
     }
 }
 
-/* --------------------------------------------------------------------------
-   MOBILE NAVIGATION (< 992px)
-   -------------------------------------------------------------------------- */
+/* MOBILE NAVIGATION (< 992px) */
 @media (max-width: 991px) {
     .header-logo-img {
         height: 48px;
@@ -233,7 +225,7 @@ section > *:first-child {
         width: 42px;
         height: 42px;
         padding: 8px;
-        margin: 0 0 0 10px !important;
+        margin: 0 !important;
         cursor: pointer;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
         transition: all 0.2s ease;
