@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Comprehensive Page Content & Layout Formatting
+   Chinmaya Ramalaya - State-of-the-Art Hero Section & Page Formatting
    ========================================================================== */
 
 /* Reset & Box Sizing */
@@ -35,7 +35,127 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. PAGE HEADINGS & HEADING BLOCKS
+   1. HERO SECTION DESIGN (Replacing Button-Pill Layout)
+   -------------------------------------------------------------------------- */
+.hero-section {
+    background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 50%, #f7eae0 100%) !important;
+    border-bottom: 2px solid #ecd8b8;
+    padding: 50px 0 !important;
+    position: relative;
+}
+
+.hero-badge .badge-pill {
+    display: inline-block;
+    background: #fdf2e2;
+    color: #8b0000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 30px;
+    border: 1px solid #eccf9e;
+}
+
+.hero-main-title {
+    font-size: 3.4rem !important;
+    font-weight: 800 !important;
+    color: #111111;
+    line-height: 1.1;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    letter-spacing: -1px;
+}
+
+.hero-main-title .text-gradient {
+    background: linear-gradient(135deg, #8b0000 0%, #c89b3c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-subtitle {
+    font-size: 16px !important;
+    color: #555555 !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+.guru-tribute-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 14px;
+    border: 1px solid #e8dfd1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.guru-portrait-img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 2px solid #c89b3c;
+    box-shadow: 0 2px 8px rgba(139, 0, 0, 0.2);
+}
+
+.guru-tribute-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.guru-tribute-text .guru-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #222222;
+    line-height: 1.2;
+}
+
+.guru-tribute-text .guru-role {
+    font-size: 12px;
+    color: #777777;
+    font-weight: 500;
+}
+
+.hero-cta-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hero-image-wrapper {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.14);
+    border: 4px solid #ffffff;
+}
+
+.hero-temple-main-img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.hero-image-wrapper:hover .hero-temple-main-img {
+    transform: scale(1.02);
+}
+
+@media (max-width: 991px) {
+    .hero-main-title {
+        font-size: 2.4rem !important;
+    }
+    .hero-cta-buttons {
+        justify-content: center;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   2. PAGE HEADINGS & HEADING BLOCKS
    -------------------------------------------------------------------------- */
 .heading-block {
     margin-bottom: 30px !important;
@@ -74,7 +194,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   2. CONTENT CONTAINER & PARAGRAPH FORMATTING
+   3. CONTENT CONTAINER & PARAGRAPH FORMATTING
    -------------------------------------------------------------------------- */
 #content,
 .content-wrap {
@@ -97,7 +217,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   3. ENTRY CARDS & ARTICLE BOXES
+   4. ENTRY CARDS & ARTICLE BOXES
    -------------------------------------------------------------------------- */
 .entry,
 .grid-inner,
@@ -137,7 +257,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   4. FORM CONTROLS & INPUT FORMATTING
+   5. FORM CONTROLS & INPUT FORMATTING
    -------------------------------------------------------------------------- */
 .form-group {
     margin-bottom: 20px !important;
@@ -200,8 +320,45 @@ button[type="submit"]:hover,
     transform: translateY(-2px) !important;
 }
 
+/* Button CTA Colors */
+.btn-gold {
+    background: #c89b3c !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    padding: 12px 24px !important;
+    border: none !important;
+    transition: all 0.25s ease !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 12px rgba(200, 155, 60, 0.3) !important;
+}
+
+.btn-gold:hover {
+    background: #b0852e !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+}
+
+.btn-maroon {
+    background: #8b0000 !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    padding: 12px 24px !important;
+    border: none !important;
+    transition: all 0.25s ease !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.3) !important;
+}
+
+.btn-maroon:hover {
+    background: #6d0000 !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+}
+
 /* --------------------------------------------------------------------------
-   5. NAVBAR-HEADER CONSTRAINED FLEX CONTAINER
+   6. NAVBAR-HEADER CONSTRAINED FLEX CONTAINER
    -------------------------------------------------------------------------- */
 header.navbar-header,
 #header {
@@ -516,128 +673,7 @@ header.navbar-header,
 }
 
 /* --------------------------------------------------------------------------
-   5. MODERN 2-COLUMN HERO SECTION
-   -------------------------------------------------------------------------- */
-.crowdfund-hero {
-    background: linear-gradient(135deg, #fffcf7 0%, #fdf6ea 100%);
-    border-bottom: 2px solid #f0e6d6;
-    padding: 30px 0 !important;
-    position: relative;
-}
-
-.hero-identity-card {
-    display: inline-flex;
-    align-items: center;
-    gap: 15px;
-    background: #ffffff;
-    padding: 10px 22px;
-    border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.08);
-    border: 1px solid #ecd8b8;
-}
-
-.guru-avatar-img {
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center top;
-    border: 2px solid #c89b3c;
-    box-shadow: 0 2px 10px rgba(139, 0, 0, 0.25);
-}
-
-.guru-meta {
-    text-align: left;
-}
-
-.guru-meta .badge-tag {
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #8b0000;
-    display: block;
-}
-
-.guru-meta .guru-title {
-    font-size: 22px;
-    font-weight: 700;
-    color: #222222;
-    margin: 0;
-    line-height: 1.2;
-}
-
-.hero-subtitle {
-    font-size: 15px;
-    color: #555555;
-    margin-bottom: 18px;
-    font-weight: 500;
-}
-
-.hero-cta-buttons {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.btn-gold {
-    background: #c89b3c;
-    color: #ffffff !important;
-    border-radius: 6px;
-    font-weight: 700;
-    padding: 11px 22px;
-    border: none;
-    transition: all 0.25s ease;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(200, 155, 60, 0.3);
-}
-
-.btn-gold:hover {
-    background: #b0852e;
-    color: #ffffff !important;
-    transform: translateY(-2px);
-}
-
-.btn-maroon {
-    background: #8b0000;
-    color: #ffffff !important;
-    border-radius: 6px;
-    font-weight: 700;
-    padding: 11px 22px;
-    border: none;
-    transition: all 0.25s ease;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.3);
-}
-
-.btn-maroon:hover {
-    background: #6d0000;
-    color: #ffffff !important;
-    transform: translateY(-2px);
-}
-
-.hero-temple-main-img {
-    width: 100%;
-    max-width: 750px;
-    height: auto;
-    max-height: 440px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    border: 3px solid #ffffff;
-}
-
-@media (max-width: 991px) {
-    .hero-identity-card {
-        padding: 8px 16px;
-    }
-    .hero-cta-buttons {
-        justify-content: center;
-    }
-}
-
-/* --------------------------------------------------------------------------
-   6. BACK TO TOP BUTTON (Perfect Center Alignment & SVG Icon Fix)
+   7. BACK TO TOP BUTTON (Perfect Center Alignment & SVG Icon Fix)
    -------------------------------------------------------------------------- */
 #gotoTop {
     position: fixed;
@@ -697,7 +733,7 @@ header.navbar-header,
 }
 
 /* --------------------------------------------------------------------------
-   7. FACEBOOK BRAND BUTTON
+   8. FACEBOOK BRAND BUTTON
    -------------------------------------------------------------------------- */
 .facebook-brand-btn {
     display: inline-flex;
@@ -721,7 +757,7 @@ header.navbar-header,
 }
 
 /* --------------------------------------------------------------------------
-   8. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
+   9. COMMUNITY UPDATES & ANNOUNCEMENTS BOX LIST STYLING
    -------------------------------------------------------------------------- */
 .announcements-box {
     background: #ffffff;
@@ -786,7 +822,7 @@ header.navbar-header,
 }
 
 /* --------------------------------------------------------------------------
-   9. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
+   10. MOBILE SUBMENU INDICATOR ARROW (Hidden on Desktop >= 992px, Visible on Mobile <= 991px)
    -------------------------------------------------------------------------- */
 @media (min-width: 992px) {
     .mobile-submenu-arrow {
