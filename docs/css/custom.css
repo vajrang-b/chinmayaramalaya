@@ -966,3 +966,73 @@ footer.dark,
     color: #ffffff !important;
     text-decoration: underline !important;
 }
+
+/* --------------------------------------------------------------------------
+   13. HIGHLIGHTS GRID ALIGNMENT & LEADERSHIP BOX
+   -------------------------------------------------------------------------- */
+.highlights-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+    gap: 20px !important;
+    margin: 25px 0 !important;
+}
+
+.highlight-card {
+    background: #ffffff !important;
+    border: 1px solid var(--border-accent) !important;
+    border-radius: 14px !important;
+    padding: 22px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.highlight-card:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 25px rgba(139, 0, 0, 0.08) !important;
+}
+
+.highlight-card .icon {
+    font-size: 32px !important;
+    margin-bottom: 12px !important;
+    line-height: 1 !important;
+}
+
+.highlight-card h3 {
+    font-size: 1.15rem !important;
+    font-weight: 700 !important;
+    color: var(--primary-maroon) !important;
+    margin-bottom: 10px !important;
+}
+
+.highlight-card p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: var(--text-dark) !important;
+    margin-bottom: 0 !important;
+}
+
+.leadership-section {
+    background: var(--saffron-light-bg) !important;
+    border: 1px solid var(--border-accent) !important;
+    border-radius: 14px !important;
+    padding: 24px !important;
+    margin-top: 25px !important;
+}
+
+.leadership-section h3 {
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    color: var(--primary-maroon) !important;
+    margin-bottom: 10px !important;
+}
+
+.leadership-section p {
+    font-size: 14.5px !important;
+    line-height: 1.7 !important;
+    color: var(--text-dark) !important;
+    margin-bottom: 0 !important;
+}
