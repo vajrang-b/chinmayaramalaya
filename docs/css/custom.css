@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Custom Fixes & Spacing Adjustments
+   Chinmaya Ramalaya - Custom Fixes & Mobile Menu Positioning
    ========================================================================== */
 
 /* Stop margin collapse & fix section padding */
@@ -385,11 +385,18 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   7. CLEAN MOBILE NAVIGATION (Original Theme Neutral Colors - Zero Red)
+   7. CLEAN MOBILE NAVIGATION (Menu Trigger Positioned Top-Left)
    -------------------------------------------------------------------------- */
 @media (max-width: 991px) {
     .mobile-nav-toggle {
         display: none !important;
+    }
+
+    #header-wrap .header-row {
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        padding-left: 10px !important;
     }
 
     #primary-menu-trigger {
@@ -403,10 +410,11 @@ section > *:first-child {
         width: 42px;
         height: 42px;
         padding: 8px;
-        margin: 5px auto;
+        margin: 5px 0 5px 10px !important;
         cursor: pointer;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
         transition: all 0.2s ease;
+        float: left !important;
     }
 
     #primary-menu-trigger:hover {
