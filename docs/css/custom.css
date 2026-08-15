@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chinmaya Ramalaya - Centered Constrained Container Navbar-Header
+   Chinmaya Ramalaya - Single-Line Logo & Header-Wrap Alignment
    ========================================================================== */
 
 /* Reset & Box Sizing */
@@ -56,7 +56,7 @@ section > *:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   1. NAVBAR-HEADER CONSTRAINED CONTAINER (Centered 1200px Max-Width)
+   1. SINGLE LINE LOGO & HEADER-WRAP ALIGNMENT
    -------------------------------------------------------------------------- */
 header.navbar-header,
 #header {
@@ -69,25 +69,45 @@ header.navbar-header,
     border-bottom: 1px solid #e5e5e5;
 }
 
-.nav-container,
-#header > .container,
-#header-wrap > .container {
-    max-width: 1200px !important; /* CONSTRAINS HEADER TO 1200px */
+.nav-container {
+    max-width: 1280px !important;
     width: 100% !important;
-    margin: 0 auto !important; /* CENTERS HEADER ON PAGE */
+    margin: 0 auto !important;
     padding: 10px 20px !important;
     display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
     justify-content: space-between !important;
+}
+
+/* Override .header-row 100% width so #header-wrap can sit right next to logo */
+.header-row {
+    width: auto !important;
+    max-width: none !important;
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+    display: flex !important;
     align-items: center !important;
 }
 
-.header-row {
-    width: 100% !important;
-    max-width: 1200px !important;
-    margin: 0 auto !important;
+#logo {
+    width: auto !important;
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+    float: none !important;
+}
+
+#header-wrap {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    margin: 0 0 0 auto !important; /* PUSHES NAV MENU TO RIGHT OF LOGO ON SAME LINE */
     display: flex !important;
-    justify-content: space-between !important;
     align-items: center !important;
+    justify-content: flex-end !important;
+    background: transparent !important;
+    border-top: none !important;
+    padding: 0 !important;
 }
 
 /* Logo */
@@ -249,7 +269,7 @@ header.navbar-header,
     }
 }
 
-/* 4. MOBILE STYLING (< 992px) - User's Exact Slide-in Drawer Pattern */
+/* 4. MOBILE STYLING (< 992px) */
 @media (max-width: 991px) {
     .menu-toggle {
         display: flex !important;
